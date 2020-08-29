@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -fPIC   -fPIC -std=c++14
 
-CXX_DEFINES = -DHAVE_CONFIG_H -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DSYNERGY_BUILD_DATE=\"20200827\" -DSYNERGY_BUILD_NUMBER=1 -DSYNERGY_REVISION=\"0badc0de\" -DSYNERGY_VERSION=\"1.12.0\" -DSYNERGY_VERSION_STAGE=\"stable\" -DSYNERGY_VERSION_STRING=\"1.12.0-stable\" -DSYSAPI_UNIX=1 -DWINAPI_XWINDOWS=1
+CXX_DEFINES = -DHAVE_CONFIG_H -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DSYNERGY_BUILD_DATE=\"20200829\" -DSYNERGY_BUILD_NUMBER=1 -DSYNERGY_REVISION=\"0badc0de\" -DSYNERGY_VERSION=\"1.12.0\" -DSYNERGY_VERSION_STAGE=\"stable\" -DSYNERGY_VERSION_STRING=\"1.12.0-stable\" -DSYSAPI_UNIX=1 -DWINAPI_XWINDOWS=1
 
 CXX_INCLUDES = -I/home/lucero/code/synergy-core/build/src/gui -I/home/lucero/code/synergy-core/src/gui -I/home/lucero/code/synergy-core/build/src/gui/synergy_autogen/include -I/home/lucero/code/synergy-core/src/./lib -I/home/lucero/code/synergy-core/build/src/lib -I/home/lucero/code/synergy-core/src/gui/./src -isystem /home/lucero/code/synergy-core/ext/googletest/googletest/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork 
 

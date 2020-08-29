@@ -16,8 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#define TRAY_RETRY_COUNT 10
-#define TRAY_RETRY_WAIT 2000
+#define TRAY_RETRY_COUNT 2
+#define TRAY_RETRY_WAIT 100
 
 #include "QSynergyApplication.h"
 #include "LicenseManager.h"
@@ -134,12 +134,8 @@ int waitForTray()
 
         if (++trayAttempts > TRAY_RETRY_COUNT)
         {
-            QMessageBox::critical(NULL, "Synergy",
-                QObject::tr("System tray is unavailable, don't close your window."));
             return true;
         }
-
-        QThreadImpl::msleep(TRAY_RETRY_WAIT);
     }
     return true;
 }
