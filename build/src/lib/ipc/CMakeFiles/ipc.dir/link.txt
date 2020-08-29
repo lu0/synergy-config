@@ -1,0 +1,2 @@
+/usr/bin/ar qc libipc.a  CMakeFiles/ipc.dir/Ipc.cpp.o CMakeFiles/ipc.dir/IpcClient.cpp.o CMakeFiles/ipc.dir/IpcClientProxy.cpp.o CMakeFiles/ipc.dir/IpcLogOutputter.cpp.o CMakeFiles/ipc.dir/IpcMessage.cpp.o CMakeFiles/ipc.dir/IpcServer.cpp.o CMakeFiles/ipc.dir/IpcServerProxy.cpp.o
+/usr/bin/ranlib libipc.a
