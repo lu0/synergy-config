@@ -10,25 +10,30 @@ Clone the repo into ~/code/
 cd ~/code/
 git clone https://github.com/lu0/synergy-core
 ```
+Add synergy to path
+```zsh
+cd synergy-core
+ln -srf build/bin/synergy* ~/.local/bin/
+```
 
 Run synergy GUI in both laptops, so you can see client's and server's name/ip.
 ```zsh
-~/code/synergy-core/build/bin/synergy
+synergy
 ```
 
 Modify ```~/code/synergy-core/synergy.conf``` for your needs. Then link it to your Home folder
 ```zsh
-ln -srf ~/code/synergy-core/synergy.conf ~/.synergy.conf
+ln -srf synergy.conf ~/.synergy.conf
 ```
 
 Run synergy as server
 ```zsh
-~/code/synergy-core/build/bin/synergys
+synergys                # add -f option for verbose
 ```
 
 Run synergy as client
 ```zsh
-~/code/synergy-core/build/bin/synergyc <serverIP>
+synergyc <serverIP>     # add -f option for verbose
 ```
 
 Remake if you need
