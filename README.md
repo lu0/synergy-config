@@ -13,7 +13,7 @@ git clone https://github.com/lu0/synergy-core
 Add synergy to path
 ```zsh
 cd synergy-core
-ln -srf build/bin/synergy* ~/.local/bin/
+sudo ln -srf build/bin/synergy* /usr/bin/
 ```
 
 Run synergy GUI in both laptops, so you can see client's and server's name/ip.
@@ -34,6 +34,17 @@ synergys                # add -f option for verbose
 Run synergy as client
 ```zsh
 synergyc <serverIP>     # add -f option for verbose
+```
+
+Make Synergy start before login (SDDM)
+```zsh
+sudo sh -c 'echo "" >> /usr/share/sddm/scripts/Xsetup' 
+sudo sh -c 'echo "/usr/bin/synergyc <serverIP>" >> /usr/share/sddm/scripts/Xsetup' 
+```
+Paste this in ```/usr/share/sddm/scripts/Xsetup``` to display the DM in external monitor
+```zsh
+HDMIPORT=$(xrandr | grep " connected " | grep "HDMI" | awk '{print $1}')
+[[ ! -z "$HDMIPORT" ]] && xrandr --output eDP-1 --off && xrandr --output HDMI-1 --mode 1920x1080
 ```
 
 Remake if you need
