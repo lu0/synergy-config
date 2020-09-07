@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,160 +58,160 @@ include src/lib/base/CMakeFiles/base.dir/progress.make
 include src/lib/base/CMakeFiles/base.dir/flags.make
 
 src/lib/base/CMakeFiles/base.dir/Event.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/Event.cpp.o: ../src/lib/base/Event.cpp
+src/lib/base/CMakeFiles/base.dir/Event.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/Event.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/base/CMakeFiles/base.dir/Event.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Event.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/Event.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Event.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/Event.cpp
 
 src/lib/base/CMakeFiles/base.dir/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Event.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/Event.cpp > CMakeFiles/base.dir/Event.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/Event.cpp > CMakeFiles/base.dir/Event.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Event.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/Event.cpp -o CMakeFiles/base.dir/Event.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/Event.cpp -o CMakeFiles/base.dir/Event.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/EventQueue.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/EventQueue.cpp.o: ../src/lib/base/EventQueue.cpp
+src/lib/base/CMakeFiles/base.dir/EventQueue.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/EventQueue.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/base/CMakeFiles/base.dir/EventQueue.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/EventQueue.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/EventQueue.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/EventQueue.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/EventQueue.cpp
 
 src/lib/base/CMakeFiles/base.dir/EventQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/EventQueue.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/EventQueue.cpp > CMakeFiles/base.dir/EventQueue.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/EventQueue.cpp > CMakeFiles/base.dir/EventQueue.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/EventQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/EventQueue.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/EventQueue.cpp -o CMakeFiles/base.dir/EventQueue.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/EventQueue.cpp -o CMakeFiles/base.dir/EventQueue.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/EventTypes.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/EventTypes.cpp.o: ../src/lib/base/EventTypes.cpp
+src/lib/base/CMakeFiles/base.dir/EventTypes.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/EventTypes.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/lib/base/CMakeFiles/base.dir/EventTypes.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/EventTypes.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/EventTypes.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/EventTypes.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/EventTypes.cpp
 
 src/lib/base/CMakeFiles/base.dir/EventTypes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/EventTypes.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/EventTypes.cpp > CMakeFiles/base.dir/EventTypes.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/EventTypes.cpp > CMakeFiles/base.dir/EventTypes.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/EventTypes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/EventTypes.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/EventTypes.cpp -o CMakeFiles/base.dir/EventTypes.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/EventTypes.cpp -o CMakeFiles/base.dir/EventTypes.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/FunctionEventJob.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/FunctionEventJob.cpp.o: ../src/lib/base/FunctionEventJob.cpp
+src/lib/base/CMakeFiles/base.dir/FunctionEventJob.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/FunctionEventJob.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/lib/base/CMakeFiles/base.dir/FunctionEventJob.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/FunctionEventJob.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/FunctionEventJob.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/FunctionEventJob.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/FunctionEventJob.cpp
 
 src/lib/base/CMakeFiles/base.dir/FunctionEventJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/FunctionEventJob.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/FunctionEventJob.cpp > CMakeFiles/base.dir/FunctionEventJob.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/FunctionEventJob.cpp > CMakeFiles/base.dir/FunctionEventJob.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/FunctionEventJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/FunctionEventJob.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/FunctionEventJob.cpp -o CMakeFiles/base.dir/FunctionEventJob.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/FunctionEventJob.cpp -o CMakeFiles/base.dir/FunctionEventJob.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/FunctionJob.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/FunctionJob.cpp.o: ../src/lib/base/FunctionJob.cpp
+src/lib/base/CMakeFiles/base.dir/FunctionJob.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/FunctionJob.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/lib/base/CMakeFiles/base.dir/FunctionJob.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/FunctionJob.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/FunctionJob.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/FunctionJob.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/FunctionJob.cpp
 
 src/lib/base/CMakeFiles/base.dir/FunctionJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/FunctionJob.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/FunctionJob.cpp > CMakeFiles/base.dir/FunctionJob.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/FunctionJob.cpp > CMakeFiles/base.dir/FunctionJob.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/FunctionJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/FunctionJob.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/FunctionJob.cpp -o CMakeFiles/base.dir/FunctionJob.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/FunctionJob.cpp -o CMakeFiles/base.dir/FunctionJob.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/Log.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/Log.cpp.o: ../src/lib/base/Log.cpp
+src/lib/base/CMakeFiles/base.dir/Log.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/Log.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/lib/base/CMakeFiles/base.dir/Log.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Log.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/Log.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Log.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/Log.cpp
 
 src/lib/base/CMakeFiles/base.dir/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Log.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/Log.cpp > CMakeFiles/base.dir/Log.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/Log.cpp > CMakeFiles/base.dir/Log.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Log.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/Log.cpp -o CMakeFiles/base.dir/Log.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/Log.cpp -o CMakeFiles/base.dir/Log.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.o: ../src/lib/base/SimpleEventQueueBuffer.cpp
+src/lib/base/CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/SimpleEventQueueBuffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/lib/base/CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/SimpleEventQueueBuffer.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/SimpleEventQueueBuffer.cpp
 
 src/lib/base/CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/SimpleEventQueueBuffer.cpp > CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/SimpleEventQueueBuffer.cpp > CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/SimpleEventQueueBuffer.cpp -o CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/SimpleEventQueueBuffer.cpp -o CMakeFiles/base.dir/SimpleEventQueueBuffer.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/Stopwatch.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/Stopwatch.cpp.o: ../src/lib/base/Stopwatch.cpp
+src/lib/base/CMakeFiles/base.dir/Stopwatch.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/Stopwatch.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/lib/base/CMakeFiles/base.dir/Stopwatch.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Stopwatch.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/Stopwatch.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Stopwatch.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/Stopwatch.cpp
 
 src/lib/base/CMakeFiles/base.dir/Stopwatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Stopwatch.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/Stopwatch.cpp > CMakeFiles/base.dir/Stopwatch.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/Stopwatch.cpp > CMakeFiles/base.dir/Stopwatch.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/Stopwatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Stopwatch.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/Stopwatch.cpp -o CMakeFiles/base.dir/Stopwatch.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/Stopwatch.cpp -o CMakeFiles/base.dir/Stopwatch.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/String.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/String.cpp.o: ../src/lib/base/String.cpp
+src/lib/base/CMakeFiles/base.dir/String.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/String.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/lib/base/CMakeFiles/base.dir/String.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/String.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/String.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/String.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/String.cpp
 
 src/lib/base/CMakeFiles/base.dir/String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/String.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/String.cpp > CMakeFiles/base.dir/String.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/String.cpp > CMakeFiles/base.dir/String.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/String.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/String.cpp -o CMakeFiles/base.dir/String.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/String.cpp -o CMakeFiles/base.dir/String.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/Unicode.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/Unicode.cpp.o: ../src/lib/base/Unicode.cpp
+src/lib/base/CMakeFiles/base.dir/Unicode.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/Unicode.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/lib/base/CMakeFiles/base.dir/Unicode.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Unicode.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/Unicode.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Unicode.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/Unicode.cpp
 
 src/lib/base/CMakeFiles/base.dir/Unicode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Unicode.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/Unicode.cpp > CMakeFiles/base.dir/Unicode.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/Unicode.cpp > CMakeFiles/base.dir/Unicode.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/Unicode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Unicode.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/Unicode.cpp -o CMakeFiles/base.dir/Unicode.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/Unicode.cpp -o CMakeFiles/base.dir/Unicode.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/XBase.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/XBase.cpp.o: ../src/lib/base/XBase.cpp
+src/lib/base/CMakeFiles/base.dir/XBase.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/XBase.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/lib/base/CMakeFiles/base.dir/XBase.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/XBase.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/XBase.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/XBase.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/XBase.cpp
 
 src/lib/base/CMakeFiles/base.dir/XBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/XBase.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/XBase.cpp > CMakeFiles/base.dir/XBase.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/XBase.cpp > CMakeFiles/base.dir/XBase.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/XBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/XBase.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/XBase.cpp -o CMakeFiles/base.dir/XBase.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/XBase.cpp -o CMakeFiles/base.dir/XBase.cpp.s
 
 src/lib/base/CMakeFiles/base.dir/log_outputters.cpp.o: src/lib/base/CMakeFiles/base.dir/flags.make
-src/lib/base/CMakeFiles/base.dir/log_outputters.cpp.o: ../src/lib/base/log_outputters.cpp
+src/lib/base/CMakeFiles/base.dir/log_outputters.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/log_outputters.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/lib/base/CMakeFiles/base.dir/log_outputters.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/log_outputters.cpp.o -c /home/lucero/code/synergy-core/src/lib/base/log_outputters.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/log_outputters.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/base/log_outputters.cpp
 
 src/lib/base/CMakeFiles/base.dir/log_outputters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/log_outputters.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/base/log_outputters.cpp > CMakeFiles/base.dir/log_outputters.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/base/log_outputters.cpp > CMakeFiles/base.dir/log_outputters.cpp.i
 
 src/lib/base/CMakeFiles/base.dir/log_outputters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/log_outputters.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/base/log_outputters.cpp -o CMakeFiles/base.dir/log_outputters.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/base/log_outputters.cpp -o CMakeFiles/base.dir/log_outputters.cpp.s
 
 # Object files for target base
 base_OBJECTS = \
@@ -259,6 +259,6 @@ src/lib/base/CMakeFiles/base.dir/clean:
 .PHONY : src/lib/base/CMakeFiles/base.dir/clean
 
 src/lib/base/CMakeFiles/base.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/base /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/base /home/lucero/code/synergy-core/build/src/lib/base/CMakeFiles/base.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/base /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/base /home/lucero/code/synergy-core/build/src/lib/base/CMakeFiles/base.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/base/CMakeFiles/base.dir/depend
 

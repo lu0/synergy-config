@@ -1,4 +1,4 @@
-# Install script for directory: /home/lucero/code/synergy-core/src/cmd/synergyc
+# Install script for directory: /home/lucero/code/synergy-core/source-code-git/src/cmd/synergyc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

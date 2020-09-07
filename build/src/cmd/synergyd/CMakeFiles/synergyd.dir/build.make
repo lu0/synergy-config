@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,17 +58,17 @@ include src/cmd/synergyd/CMakeFiles/synergyd.dir/progress.make
 include src/cmd/synergyd/CMakeFiles/synergyd.dir/flags.make
 
 src/cmd/synergyd/CMakeFiles/synergyd.dir/synergyd.cpp.o: src/cmd/synergyd/CMakeFiles/synergyd.dir/flags.make
-src/cmd/synergyd/CMakeFiles/synergyd.dir/synergyd.cpp.o: ../src/cmd/synergyd/synergyd.cpp
+src/cmd/synergyd/CMakeFiles/synergyd.dir/synergyd.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/cmd/synergyd/synergyd.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/cmd/synergyd/CMakeFiles/synergyd.dir/synergyd.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergyd && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergyd.dir/synergyd.cpp.o -c /home/lucero/code/synergy-core/src/cmd/synergyd/synergyd.cpp
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergyd && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergyd.dir/synergyd.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/cmd/synergyd/synergyd.cpp
 
 src/cmd/synergyd/CMakeFiles/synergyd.dir/synergyd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergyd.dir/synergyd.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergyd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/cmd/synergyd/synergyd.cpp > CMakeFiles/synergyd.dir/synergyd.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergyd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/cmd/synergyd/synergyd.cpp > CMakeFiles/synergyd.dir/synergyd.cpp.i
 
 src/cmd/synergyd/CMakeFiles/synergyd.dir/synergyd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergyd.dir/synergyd.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergyd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/cmd/synergyd/synergyd.cpp -o CMakeFiles/synergyd.dir/synergyd.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergyd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/cmd/synergyd/synergyd.cpp -o CMakeFiles/synergyd.dir/synergyd.cpp.s
 
 # Object files for target synergyd
 synergyd_OBJECTS = \
@@ -117,6 +117,6 @@ src/cmd/synergyd/CMakeFiles/synergyd.dir/clean:
 .PHONY : src/cmd/synergyd/CMakeFiles/synergyd.dir/clean
 
 src/cmd/synergyd/CMakeFiles/synergyd.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/cmd/synergyd /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/cmd/synergyd /home/lucero/code/synergy-core/build/src/cmd/synergyd/CMakeFiles/synergyd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/cmd/synergyd /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/cmd/synergyd /home/lucero/code/synergy-core/build/src/cmd/synergyd/CMakeFiles/synergyd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/cmd/synergyd/CMakeFiles/synergyd.dir/depend
 

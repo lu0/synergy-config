@@ -2,8 +2,8 @@
 	"BUILD_DIR" : "/home/lucero/code/synergy-core/build/src/gui/synergy_autogen",
 	"CMAKE_BINARY_DIR" : "/home/lucero/code/synergy-core/build",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/lucero/code/synergy-core/build/src/gui",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lucero/code/synergy-core/src/gui",
-	"CMAKE_SOURCE_DIR" : "/home/lucero/code/synergy-core",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lucero/code/synergy-core/source-code-git/src/gui",
+	"CMAKE_SOURCE_DIR" : "/home/lucero/code/synergy-core/source-code-git",
 	"INCLUDE_DIR" : "/home/lucero/code/synergy-core/build/src/gui/synergy_autogen/include",
 	"INPUTS" : 
 	[

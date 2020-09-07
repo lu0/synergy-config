@@ -285,7 +285,7 @@ shared_LIB_DEPENDS:STATIC=general;arch;general;base;
 synergy-core_BINARY_DIR:STATIC=/home/lucero/code/synergy-core/build
 
 //Value Computed by CMake
-synergy-core_SOURCE_DIR:STATIC=/home/lucero/code/synergy-core
+synergy-core_SOURCE_DIR:STATIC=/home/lucero/code/synergy-core/source-code-git
 
 //Dependencies for the target
 synlib_LIB_DEPENDS:STATIC=general;arch;general;client;general;ipc;general;net;general;base;general;platform;general;mt;general;server;
@@ -375,7 +375,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/lucero/code/synergy-core
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/lucero/code/synergy-core/source-code-git
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

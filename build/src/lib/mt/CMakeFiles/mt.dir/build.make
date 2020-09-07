@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,69 +58,69 @@ include src/lib/mt/CMakeFiles/mt.dir/progress.make
 include src/lib/mt/CMakeFiles/mt.dir/flags.make
 
 src/lib/mt/CMakeFiles/mt.dir/CondVar.cpp.o: src/lib/mt/CMakeFiles/mt.dir/flags.make
-src/lib/mt/CMakeFiles/mt.dir/CondVar.cpp.o: ../src/lib/mt/CondVar.cpp
+src/lib/mt/CMakeFiles/mt.dir/CondVar.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/mt/CondVar.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/mt/CMakeFiles/mt.dir/CondVar.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/CondVar.cpp.o -c /home/lucero/code/synergy-core/src/lib/mt/CondVar.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/CondVar.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/mt/CondVar.cpp
 
 src/lib/mt/CMakeFiles/mt.dir/CondVar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mt.dir/CondVar.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/mt/CondVar.cpp > CMakeFiles/mt.dir/CondVar.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/mt/CondVar.cpp > CMakeFiles/mt.dir/CondVar.cpp.i
 
 src/lib/mt/CMakeFiles/mt.dir/CondVar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mt.dir/CondVar.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/mt/CondVar.cpp -o CMakeFiles/mt.dir/CondVar.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/mt/CondVar.cpp -o CMakeFiles/mt.dir/CondVar.cpp.s
 
 src/lib/mt/CMakeFiles/mt.dir/Lock.cpp.o: src/lib/mt/CMakeFiles/mt.dir/flags.make
-src/lib/mt/CMakeFiles/mt.dir/Lock.cpp.o: ../src/lib/mt/Lock.cpp
+src/lib/mt/CMakeFiles/mt.dir/Lock.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Lock.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/mt/CMakeFiles/mt.dir/Lock.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/Lock.cpp.o -c /home/lucero/code/synergy-core/src/lib/mt/Lock.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/Lock.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Lock.cpp
 
 src/lib/mt/CMakeFiles/mt.dir/Lock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mt.dir/Lock.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/mt/Lock.cpp > CMakeFiles/mt.dir/Lock.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Lock.cpp > CMakeFiles/mt.dir/Lock.cpp.i
 
 src/lib/mt/CMakeFiles/mt.dir/Lock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mt.dir/Lock.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/mt/Lock.cpp -o CMakeFiles/mt.dir/Lock.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Lock.cpp -o CMakeFiles/mt.dir/Lock.cpp.s
 
 src/lib/mt/CMakeFiles/mt.dir/Mutex.cpp.o: src/lib/mt/CMakeFiles/mt.dir/flags.make
-src/lib/mt/CMakeFiles/mt.dir/Mutex.cpp.o: ../src/lib/mt/Mutex.cpp
+src/lib/mt/CMakeFiles/mt.dir/Mutex.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Mutex.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/lib/mt/CMakeFiles/mt.dir/Mutex.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/Mutex.cpp.o -c /home/lucero/code/synergy-core/src/lib/mt/Mutex.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/Mutex.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Mutex.cpp
 
 src/lib/mt/CMakeFiles/mt.dir/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mt.dir/Mutex.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/mt/Mutex.cpp > CMakeFiles/mt.dir/Mutex.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Mutex.cpp > CMakeFiles/mt.dir/Mutex.cpp.i
 
 src/lib/mt/CMakeFiles/mt.dir/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mt.dir/Mutex.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/mt/Mutex.cpp -o CMakeFiles/mt.dir/Mutex.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Mutex.cpp -o CMakeFiles/mt.dir/Mutex.cpp.s
 
 src/lib/mt/CMakeFiles/mt.dir/Thread.cpp.o: src/lib/mt/CMakeFiles/mt.dir/flags.make
-src/lib/mt/CMakeFiles/mt.dir/Thread.cpp.o: ../src/lib/mt/Thread.cpp
+src/lib/mt/CMakeFiles/mt.dir/Thread.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Thread.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/lib/mt/CMakeFiles/mt.dir/Thread.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/Thread.cpp.o -c /home/lucero/code/synergy-core/src/lib/mt/Thread.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/Thread.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Thread.cpp
 
 src/lib/mt/CMakeFiles/mt.dir/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mt.dir/Thread.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/mt/Thread.cpp > CMakeFiles/mt.dir/Thread.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Thread.cpp > CMakeFiles/mt.dir/Thread.cpp.i
 
 src/lib/mt/CMakeFiles/mt.dir/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mt.dir/Thread.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/mt/Thread.cpp -o CMakeFiles/mt.dir/Thread.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/mt/Thread.cpp -o CMakeFiles/mt.dir/Thread.cpp.s
 
 src/lib/mt/CMakeFiles/mt.dir/XMT.cpp.o: src/lib/mt/CMakeFiles/mt.dir/flags.make
-src/lib/mt/CMakeFiles/mt.dir/XMT.cpp.o: ../src/lib/mt/XMT.cpp
+src/lib/mt/CMakeFiles/mt.dir/XMT.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/mt/XMT.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/lib/mt/CMakeFiles/mt.dir/XMT.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/XMT.cpp.o -c /home/lucero/code/synergy-core/src/lib/mt/XMT.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mt.dir/XMT.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/mt/XMT.cpp
 
 src/lib/mt/CMakeFiles/mt.dir/XMT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mt.dir/XMT.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/mt/XMT.cpp > CMakeFiles/mt.dir/XMT.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/mt/XMT.cpp > CMakeFiles/mt.dir/XMT.cpp.i
 
 src/lib/mt/CMakeFiles/mt.dir/XMT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mt.dir/XMT.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/mt/XMT.cpp -o CMakeFiles/mt.dir/XMT.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/mt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/mt/XMT.cpp -o CMakeFiles/mt.dir/XMT.cpp.s
 
 # Object files for target mt
 mt_OBJECTS = \
@@ -154,6 +154,6 @@ src/lib/mt/CMakeFiles/mt.dir/clean:
 .PHONY : src/lib/mt/CMakeFiles/mt.dir/clean
 
 src/lib/mt/CMakeFiles/mt.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/mt /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/mt /home/lucero/code/synergy-core/build/src/lib/mt/CMakeFiles/mt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/mt /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/mt /home/lucero/code/synergy-core/build/src/lib/mt/CMakeFiles/mt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/mt/CMakeFiles/mt.dir/depend
 

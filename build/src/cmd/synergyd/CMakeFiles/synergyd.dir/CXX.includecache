@@ -6,235 +6,243 @@
 
 #IncludeRegexTransform: 
 
-../src/lib/arch/Arch.h
+/home/lucero/code/synergy-core/source-code-git/src/cmd/synergyd/synergyd.cpp
+synergy/DaemonApp.h
+/home/lucero/code/synergy-core/source-code-git/src/cmd/synergyd/synergy/DaemonApp.h
+iostream
+-
+Windows.h
+-
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/Arch.h
 common/common.h
-../src/lib/arch/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/common.h
 arch/win32/ArchConsoleWindows.h
-../src/lib/arch/arch/win32/ArchConsoleWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchConsoleWindows.h
 arch/win32/ArchDaemonWindows.h
-../src/lib/arch/arch/win32/ArchDaemonWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchDaemonWindows.h
 arch/win32/ArchFileWindows.h
-../src/lib/arch/arch/win32/ArchFileWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchFileWindows.h
 arch/win32/ArchLogWindows.h
-../src/lib/arch/arch/win32/ArchLogWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchLogWindows.h
 arch/win32/ArchMiscWindows.h
-../src/lib/arch/arch/win32/ArchMiscWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchMiscWindows.h
 arch/win32/ArchMultithreadWindows.h
-../src/lib/arch/arch/win32/ArchMultithreadWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchMultithreadWindows.h
 arch/win32/ArchNetworkWinsock.h
-../src/lib/arch/arch/win32/ArchNetworkWinsock.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchNetworkWinsock.h
 arch/win32/ArchSleepWindows.h
-../src/lib/arch/arch/win32/ArchSleepWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchSleepWindows.h
 arch/win32/ArchStringWindows.h
-../src/lib/arch/arch/win32/ArchStringWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchStringWindows.h
 arch/win32/ArchSystemWindows.h
-../src/lib/arch/arch/win32/ArchSystemWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchSystemWindows.h
 arch/win32/ArchTaskBarWindows.h
-../src/lib/arch/arch/win32/ArchTaskBarWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchTaskBarWindows.h
 arch/win32/ArchTimeWindows.h
-../src/lib/arch/arch/win32/ArchTimeWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/win32/ArchTimeWindows.h
 arch/unix/ArchConsoleUnix.h
-../src/lib/arch/arch/unix/ArchConsoleUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchConsoleUnix.h
 arch/unix/ArchDaemonUnix.h
-../src/lib/arch/arch/unix/ArchDaemonUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchDaemonUnix.h
 arch/unix/ArchFileUnix.h
-../src/lib/arch/arch/unix/ArchFileUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchFileUnix.h
 arch/unix/ArchLogUnix.h
-../src/lib/arch/arch/unix/ArchLogUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchLogUnix.h
 arch/unix/ArchMultithreadPosix.h
-../src/lib/arch/arch/unix/ArchMultithreadPosix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchMultithreadPosix.h
 arch/unix/ArchNetworkBSD.h
-../src/lib/arch/arch/unix/ArchNetworkBSD.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchNetworkBSD.h
 arch/unix/ArchSleepUnix.h
-../src/lib/arch/arch/unix/ArchSleepUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchSleepUnix.h
 arch/unix/ArchStringUnix.h
-../src/lib/arch/arch/unix/ArchStringUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchStringUnix.h
 arch/unix/ArchSystemUnix.h
-../src/lib/arch/arch/unix/ArchSystemUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchSystemUnix.h
 arch/unix/ArchTaskBarXWindows.h
-../src/lib/arch/arch/unix/ArchTaskBarXWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchTaskBarXWindows.h
 arch/unix/ArchTimeUnix.h
-../src/lib/arch/arch/unix/ArchTimeUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/unix/ArchTimeUnix.h
 
-../src/lib/arch/ArchConsoleStd.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchConsoleStd.h
 arch/IArchConsole.h
-../src/lib/arch/arch/IArchConsole.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/IArchConsole.h
 
-../src/lib/arch/ArchDaemonNone.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchDaemonNone.h
 arch/IArchDaemon.h
-../src/lib/arch/arch/IArchDaemon.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/arch/IArchDaemon.h
 
-../src/lib/arch/IArchConsole.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchConsole.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 base/ELevel.h
-../src/lib/arch/base/ELevel.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/base/ELevel.h
 
-../src/lib/arch/IArchDaemon.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchDaemon.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 base/String.h
-../src/lib/arch/base/String.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/base/String.h
 
-../src/lib/arch/IArchFile.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchFile.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 common/stdstring.h
-../src/lib/arch/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/stdstring.h
 base/String.h
-../src/lib/arch/base/String.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/base/String.h
 
-../src/lib/arch/IArchLog.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchLog.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 base/ELevel.h
-../src/lib/arch/base/ELevel.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/base/ELevel.h
 
-../src/lib/arch/IArchMultithread.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchMultithread.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 
-../src/lib/arch/IArchNetwork.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchNetwork.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 common/stdstring.h
-../src/lib/arch/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/stdstring.h
 
-../src/lib/arch/IArchSleep.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchSleep.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 
-../src/lib/arch/IArchString.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchString.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 common/basic_types.h
-../src/lib/arch/common/basic_types.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/basic_types.h
 stdarg.h
 -
 
-../src/lib/arch/IArchSystem.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchSystem.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 common/stdstring.h
-../src/lib/arch/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/stdstring.h
 
-../src/lib/arch/IArchTaskBar.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchTaskBar.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 
-../src/lib/arch/IArchTime.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchTime.h
 common/IInterface.h
-../src/lib/arch/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/common/IInterface.h
 
-../src/lib/arch/unix/ArchConsoleUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchConsoleUnix.h
 arch/ArchConsoleStd.h
-../src/lib/arch/unix/arch/ArchConsoleStd.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/ArchConsoleStd.h
 
-../src/lib/arch/unix/ArchDaemonUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchDaemonUnix.h
 arch/ArchDaemonNone.h
-../src/lib/arch/unix/arch/ArchDaemonNone.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/ArchDaemonNone.h
 
-../src/lib/arch/unix/ArchFileUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchFileUnix.h
 arch/IArchFile.h
-../src/lib/arch/unix/arch/IArchFile.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchFile.h
 
-../src/lib/arch/unix/ArchLogUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchLogUnix.h
 arch/IArchLog.h
-../src/lib/arch/unix/arch/IArchLog.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchLog.h
 
-../src/lib/arch/unix/ArchMultithreadPosix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchMultithreadPosix.h
 arch/IArchMultithread.h
-../src/lib/arch/unix/arch/IArchMultithread.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchMultithread.h
 common/stdlist.h
-../src/lib/arch/unix/common/stdlist.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/common/stdlist.h
 pthread.h
 -
 
-../src/lib/arch/unix/ArchNetworkBSD.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchNetworkBSD.h
 arch/IArchNetwork.h
-../src/lib/arch/unix/arch/IArchNetwork.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchNetwork.h
 arch/IArchMultithread.h
-../src/lib/arch/unix/arch/IArchMultithread.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchMultithread.h
 sys/types.h
 -
 sys/socket.h
 -
 
-../src/lib/arch/unix/ArchSleepUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSleepUnix.h
 arch/IArchSleep.h
-../src/lib/arch/unix/arch/IArchSleep.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchSleep.h
 
-../src/lib/arch/unix/ArchStringUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchStringUnix.h
 arch/IArchString.h
-../src/lib/arch/unix/arch/IArchString.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchString.h
 
-../src/lib/arch/unix/ArchSystemUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSystemUnix.h
 arch/IArchSystem.h
-../src/lib/arch/unix/arch/IArchSystem.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchSystem.h
 
-../src/lib/arch/unix/ArchTaskBarXWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTaskBarXWindows.h
 arch/IArchTaskBar.h
-../src/lib/arch/unix/arch/IArchTaskBar.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchTaskBar.h
 
-../src/lib/arch/unix/ArchTimeUnix.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTimeUnix.h
 arch/IArchTime.h
-../src/lib/arch/unix/arch/IArchTime.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/arch/IArchTime.h
 
-../src/lib/arch/win32/ArchConsoleWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchConsoleWindows.h
 arch/ArchConsoleStd.h
-../src/lib/arch/win32/arch/ArchConsoleStd.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/ArchConsoleStd.h
 
-../src/lib/arch/win32/ArchDaemonWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchDaemonWindows.h
 arch/IArchDaemon.h
-../src/lib/arch/win32/arch/IArchDaemon.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchDaemon.h
 arch/IArchMultithread.h
-../src/lib/arch/win32/arch/IArchMultithread.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchMultithread.h
 common/stdstring.h
-../src/lib/arch/win32/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/common/stdstring.h
 Windows.h
 -
 tchar.h
 -
 
-../src/lib/arch/win32/ArchFileWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchFileWindows.h
 arch/IArchFile.h
-../src/lib/arch/win32/arch/IArchFile.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchFile.h
 
-../src/lib/arch/win32/ArchLogWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchLogWindows.h
 arch/IArchLog.h
-../src/lib/arch/win32/arch/IArchLog.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchLog.h
 Windows.h
 -
 
-../src/lib/arch/win32/ArchMiscWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchMiscWindows.h
 common/common.h
-../src/lib/arch/win32/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/common/common.h
 common/stdstring.h
-../src/lib/arch/win32/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/common/stdstring.h
 common/stdset.h
-../src/lib/arch/win32/common/stdset.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/common/stdset.h
 base/String.h
-../src/lib/arch/win32/base/String.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/base/String.h
 Windows.h
 -
 Tlhelp32.h
 -
 
-../src/lib/arch/win32/ArchMultithreadWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchMultithreadWindows.h
 arch/IArchMultithread.h
-../src/lib/arch/win32/arch/IArchMultithread.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchMultithread.h
 common/stdlist.h
-../src/lib/arch/win32/common/stdlist.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/common/stdlist.h
 Windows.h
 -
 
-../src/lib/arch/win32/ArchNetworkWinsock.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchNetworkWinsock.h
 ws2tcpip.h
 -
 arch/IArchNetwork.h
-../src/lib/arch/win32/arch/IArchNetwork.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchNetwork.h
 arch/IArchMultithread.h
-../src/lib/arch/win32/arch/IArchMultithread.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchMultithread.h
 WinSock2.h
 -
 Windows.h
@@ -242,71 +250,71 @@ Windows.h
 list
 -
 
-../src/lib/arch/win32/ArchSleepWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchSleepWindows.h
 arch/IArchSleep.h
-../src/lib/arch/win32/arch/IArchSleep.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchSleep.h
 
-../src/lib/arch/win32/ArchStringWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchStringWindows.h
 arch/IArchString.h
-../src/lib/arch/win32/arch/IArchString.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchString.h
 
-../src/lib/arch/win32/ArchSystemWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchSystemWindows.h
 arch/IArchSystem.h
-../src/lib/arch/win32/arch/IArchSystem.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchSystem.h
 
-../src/lib/arch/win32/ArchTaskBarWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchTaskBarWindows.h
 arch/IArchTaskBar.h
-../src/lib/arch/win32/arch/IArchTaskBar.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchTaskBar.h
 arch/IArchMultithread.h
-../src/lib/arch/win32/arch/IArchMultithread.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchMultithread.h
 common/stdmap.h
-../src/lib/arch/win32/common/stdmap.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/common/stdmap.h
 common/stdvector.h
-../src/lib/arch/win32/common/stdvector.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/common/stdvector.h
 Windows.h
 -
 
-../src/lib/arch/win32/ArchTimeWindows.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/ArchTimeWindows.h
 arch/IArchTime.h
-../src/lib/arch/win32/arch/IArchTime.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/arch/win32/arch/IArchTime.h
 
-../src/lib/base/ELevel.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/ELevel.h
 
-../src/lib/base/Event.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/Event.h
 common/basic_types.h
-../src/lib/base/common/basic_types.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/basic_types.h
 common/stdmap.h
-../src/lib/base/common/stdmap.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/stdmap.h
 
-../src/lib/base/EventTypes.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/EventTypes.h
 base/Event.h
-../src/lib/base/base/Event.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/base/Event.h
 
-../src/lib/base/String.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/String.h
 common/common.h
-../src/lib/base/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/common.h
 common/stdstring.h
-../src/lib/base/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/stdstring.h
 stdarg.h
 -
 vector
 -
 
-../src/lib/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/IInterface.h
 common/common.h
-../src/lib/common/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/common.h
 
-../src/lib/common/basic_types.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/basic_types.h
 common/common.h
-../src/lib/common/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/common.h
 wchar.h
 -
 CoreServices/CoreServices.h
 -
 
-../src/lib/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common.h
 config.h
-../src/lib/common/config.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/config.h
 stddef.h
 -
 assert.h
@@ -316,108 +324,100 @@ stdlib.h
 string.h
 -
 
-../src/lib/common/stdlist.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdlist.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 list
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/common/stdmap.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdmap.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 map
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdpost.h
 
-../src/lib/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdpre.h
 
-../src/lib/common/stdset.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdset.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 set
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdstring.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 string
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/common/stdvector.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdvector.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 vector
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/ipc/Ipc.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/ipc/Ipc.h
 
-../src/lib/ipc/IpcServer.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServer.h
 ipc/Ipc.h
-../src/lib/ipc/ipc/Ipc.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/ipc/ipc/Ipc.h
 net/TCPListenSocket.h
-../src/lib/ipc/net/TCPListenSocket.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/ipc/net/TCPListenSocket.h
 net/NetworkAddress.h
-../src/lib/ipc/net/NetworkAddress.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/ipc/net/NetworkAddress.h
 arch/Arch.h
-../src/lib/ipc/arch/Arch.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/ipc/arch/Arch.h
 base/EventTypes.h
-../src/lib/ipc/base/EventTypes.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/ipc/base/EventTypes.h
 list
 -
 
-../src/lib/net/IListenSocket.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/IListenSocket.h
 net/ISocket.h
-../src/lib/net/net/ISocket.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/net/ISocket.h
 base/EventTypes.h
-../src/lib/net/base/EventTypes.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/base/EventTypes.h
 
-../src/lib/net/ISocket.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/ISocket.h
 common/IInterface.h
-../src/lib/net/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/common/IInterface.h
 base/Event.h
-../src/lib/net/base/Event.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/base/Event.h
 base/EventTypes.h
-../src/lib/net/base/EventTypes.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/base/EventTypes.h
 
-../src/lib/net/NetworkAddress.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/NetworkAddress.h
 base/String.h
-../src/lib/net/base/String.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/base/String.h
 base/EventTypes.h
-../src/lib/net/base/EventTypes.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/base/EventTypes.h
 arch/IArchNetwork.h
-../src/lib/net/arch/IArchNetwork.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/arch/IArchNetwork.h
 
-../src/lib/net/TCPListenSocket.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/TCPListenSocket.h
 net/IListenSocket.h
-../src/lib/net/net/IListenSocket.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/net/IListenSocket.h
 arch/IArchNetwork.h
-../src/lib/net/arch/IArchNetwork.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/net/arch/IArchNetwork.h
 
-../src/lib/synergy/DaemonApp.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DaemonApp.h
 arch/Arch.h
-../src/lib/synergy/arch/Arch.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/synergy/arch/Arch.h
 ipc/IpcServer.h
-../src/lib/synergy/ipc/IpcServer.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ipc/IpcServer.h
 string
--
-
-/home/lucero/code/synergy-core/src/cmd/synergyd/synergyd.cpp
-synergy/DaemonApp.h
-/home/lucero/code/synergy-core/src/cmd/synergyd/synergy/DaemonApp.h
-iostream
--
-Windows.h
 -
 
 src/lib/config.h

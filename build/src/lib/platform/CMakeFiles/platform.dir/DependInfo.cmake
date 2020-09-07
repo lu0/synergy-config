@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsClipboard.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboard.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsClipboardAnyBitmapConverter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardAnyBitmapConverter.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsClipboardBMPConverter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardBMPConverter.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsClipboardHTMLConverter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardHTMLConverter.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsClipboardTextConverter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardTextConverter.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsClipboardUCS2Converter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardUCS2Converter.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsClipboardUTF8Converter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardUTF8Converter.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsEventQueueBuffer.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsEventQueueBuffer.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsKeyState.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsKeyState.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsScreen.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsScreen.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsScreenSaver.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsScreenSaver.cpp.o"
-  "/home/lucero/code/synergy-core/src/lib/platform/XWindowsUtil.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsUtil.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsClipboard.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboard.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsClipboardAnyBitmapConverter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardAnyBitmapConverter.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsClipboardBMPConverter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardBMPConverter.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsClipboardHTMLConverter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardHTMLConverter.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsClipboardTextConverter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardTextConverter.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsClipboardUCS2Converter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardUCS2Converter.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsClipboardUTF8Converter.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsClipboardUTF8Converter.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsEventQueueBuffer.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsEventQueueBuffer.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsKeyState.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsKeyState.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsScreen.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsScreen.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsScreenSaver.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsScreenSaver.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/lib/platform/XWindowsUtil.cpp" "/home/lucero/code/synergy-core/build/src/lib/platform/CMakeFiles/platform.dir/XWindowsUtil.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,7 +23,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "HAVE_CONFIG_H"
   "NDEBUG"
-  "SYNERGY_BUILD_DATE=\"20200829\""
+  "SYNERGY_BUILD_DATE=\"20200907\""
   "SYNERGY_BUILD_NUMBER=1"
   "SYNERGY_REVISION=\"0badc0de\""
   "SYNERGY_VERSION=\"1.12.0\""
@@ -34,9 +34,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src/./lib"
+  "/home/lucero/code/synergy-core/source-code-git/src/./lib"
   "src/lib"
-  "../ext/googletest/googletest/include"
+  "/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include"
   )
 
 # Targets to which this target links.

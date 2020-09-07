@@ -1,4 +1,4 @@
-# Install script for directory: /home/lucero/code/synergy-core/src/test/integtests
+# Install script for directory: /home/lucero/code/synergy-core/source-code-git/src/test/integtests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,17 +58,17 @@ include src/cmd/syntool/CMakeFiles/syntool.dir/progress.make
 include src/cmd/syntool/CMakeFiles/syntool.dir/flags.make
 
 src/cmd/syntool/CMakeFiles/syntool.dir/syntool.cpp.o: src/cmd/syntool/CMakeFiles/syntool.dir/flags.make
-src/cmd/syntool/CMakeFiles/syntool.dir/syntool.cpp.o: ../src/cmd/syntool/syntool.cpp
+src/cmd/syntool/CMakeFiles/syntool.dir/syntool.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/cmd/syntool/syntool.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/cmd/syntool/CMakeFiles/syntool.dir/syntool.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/cmd/syntool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/syntool.dir/syntool.cpp.o -c /home/lucero/code/synergy-core/src/cmd/syntool/syntool.cpp
+	cd /home/lucero/code/synergy-core/build/src/cmd/syntool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/syntool.dir/syntool.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/cmd/syntool/syntool.cpp
 
 src/cmd/syntool/CMakeFiles/syntool.dir/syntool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/syntool.dir/syntool.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/cmd/syntool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/cmd/syntool/syntool.cpp > CMakeFiles/syntool.dir/syntool.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/cmd/syntool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/cmd/syntool/syntool.cpp > CMakeFiles/syntool.dir/syntool.cpp.i
 
 src/cmd/syntool/CMakeFiles/syntool.dir/syntool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/syntool.dir/syntool.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/cmd/syntool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/cmd/syntool/syntool.cpp -o CMakeFiles/syntool.dir/syntool.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/cmd/syntool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/cmd/syntool/syntool.cpp -o CMakeFiles/syntool.dir/syntool.cpp.s
 
 # Object files for target syntool
 syntool_OBJECTS = \
@@ -116,6 +116,6 @@ src/cmd/syntool/CMakeFiles/syntool.dir/clean:
 .PHONY : src/cmd/syntool/CMakeFiles/syntool.dir/clean
 
 src/cmd/syntool/CMakeFiles/syntool.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/cmd/syntool /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/cmd/syntool /home/lucero/code/synergy-core/build/src/cmd/syntool/CMakeFiles/syntool.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/cmd/syntool /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/cmd/syntool /home/lucero/code/synergy-core/build/src/cmd/syntool/CMakeFiles/syntool.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/cmd/syntool/CMakeFiles/syntool.dir/depend
 

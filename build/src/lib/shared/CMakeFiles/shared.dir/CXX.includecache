@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../ext/googletest/googletest/include/gtest/gtest_prod.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest_prod.h
 
-/home/lucero/code/synergy-core/src/lib/shared/EditionType.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 
-/home/lucero/code/synergy-core/src/lib/shared/SerialKey.cpp
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.cpp
 SerialKey.h
-/home/lucero/code/synergy-core/src/lib/shared/SerialKey.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
 fstream
 -
 iostream
@@ -30,13 +30,13 @@ iomanip
 stdexcept
 -
 
-/home/lucero/code/synergy-core/src/lib/shared/SerialKey.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
 string
 -
 ctime
 -
 EditionType.h
-/home/lucero/code/synergy-core/src/lib/shared/EditionType.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 gtest/gtest_prod.h
 -
 

@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -98,177 +98,177 @@ src/gui/CMakeFiles/translations: src/gui/res/lang/gui_zh-CN.qm
 src/gui/CMakeFiles/translations: src/gui/res/lang/gui_zh-TW.qm
 
 
-src/gui/res/lang/gui_ar-SA.qm: ../src/gui/res/lang/gui_ar-SA.ts
+src/gui/res/lang/gui_ar-SA.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ar-SA.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating res/lang/gui_ar-SA.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ar-SA.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ar-SA.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ar-SA.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ar-SA.qm
 
-src/gui/res/lang/gui_bg-BG.qm: ../src/gui/res/lang/gui_bg-BG.ts
+src/gui/res/lang/gui_bg-BG.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_bg-BG.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating res/lang/gui_bg-BG.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_bg-BG.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_bg-BG.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_bg-BG.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_bg-BG.qm
 
-src/gui/res/lang/gui_ca-ES.qm: ../src/gui/res/lang/gui_ca-ES.ts
+src/gui/res/lang/gui_ca-ES.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ca-ES.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating res/lang/gui_ca-ES.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ca-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ca-ES.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ca-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ca-ES.qm
 
-src/gui/res/lang/gui_cs-CZ.qm: ../src/gui/res/lang/gui_cs-CZ.ts
+src/gui/res/lang/gui_cs-CZ.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_cs-CZ.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating res/lang/gui_cs-CZ.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_cs-CZ.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_cs-CZ.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_cs-CZ.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_cs-CZ.qm
 
-src/gui/res/lang/gui_cy-GB.qm: ../src/gui/res/lang/gui_cy-GB.ts
+src/gui/res/lang/gui_cy-GB.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_cy-GB.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating res/lang/gui_cy-GB.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_cy-GB.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_cy-GB.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_cy-GB.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_cy-GB.qm
 
-src/gui/res/lang/gui_da-DK.qm: ../src/gui/res/lang/gui_da-DK.ts
+src/gui/res/lang/gui_da-DK.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_da-DK.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating res/lang/gui_da-DK.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_da-DK.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_da-DK.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_da-DK.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_da-DK.qm
 
-src/gui/res/lang/gui_de-DE.qm: ../src/gui/res/lang/gui_de-DE.ts
+src/gui/res/lang/gui_de-DE.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_de-DE.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating res/lang/gui_de-DE.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_de-DE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_de-DE.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_de-DE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_de-DE.qm
 
-src/gui/res/lang/gui_el-GR.qm: ../src/gui/res/lang/gui_el-GR.ts
+src/gui/res/lang/gui_el-GR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_el-GR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating res/lang/gui_el-GR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_el-GR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_el-GR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_el-GR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_el-GR.qm
 
-src/gui/res/lang/gui_es-ES.qm: ../src/gui/res/lang/gui_es-ES.ts
+src/gui/res/lang/gui_es-ES.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_es-ES.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating res/lang/gui_es-ES.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_es-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_es-ES.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_es-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_es-ES.qm
 
-src/gui/res/lang/gui_et-EE.qm: ../src/gui/res/lang/gui_et-EE.ts
+src/gui/res/lang/gui_et-EE.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_et-EE.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating res/lang/gui_et-EE.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_et-EE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_et-EE.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_et-EE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_et-EE.qm
 
-src/gui/res/lang/gui_fa-IR.qm: ../src/gui/res/lang/gui_fa-IR.ts
+src/gui/res/lang/gui_fa-IR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fa-IR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating res/lang/gui_fa-IR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_fa-IR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fa-IR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fa-IR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fa-IR.qm
 
-src/gui/res/lang/gui_fi-FI.qm: ../src/gui/res/lang/gui_fi-FI.ts
+src/gui/res/lang/gui_fi-FI.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fi-FI.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating res/lang/gui_fi-FI.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_fi-FI.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fi-FI.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fi-FI.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fi-FI.qm
 
-src/gui/res/lang/gui_fr-FR.qm: ../src/gui/res/lang/gui_fr-FR.ts
+src/gui/res/lang/gui_fr-FR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fr-FR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating res/lang/gui_fr-FR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_fr-FR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fr-FR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fr-FR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fr-FR.qm
 
-src/gui/res/lang/gui_gl-ES.qm: ../src/gui/res/lang/gui_gl-ES.ts
+src/gui/res/lang/gui_gl-ES.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_gl-ES.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating res/lang/gui_gl-ES.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_gl-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_gl-ES.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_gl-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_gl-ES.qm
 
-src/gui/res/lang/gui_he-IL.qm: ../src/gui/res/lang/gui_he-IL.ts
+src/gui/res/lang/gui_he-IL.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_he-IL.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating res/lang/gui_he-IL.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_he-IL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_he-IL.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_he-IL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_he-IL.qm
 
-src/gui/res/lang/gui_hr-HR.qm: ../src/gui/res/lang/gui_hr-HR.ts
+src/gui/res/lang/gui_hr-HR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_hr-HR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating res/lang/gui_hr-HR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_hr-HR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_hr-HR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_hr-HR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_hr-HR.qm
 
-src/gui/res/lang/gui_hu-HU.qm: ../src/gui/res/lang/gui_hu-HU.ts
+src/gui/res/lang/gui_hu-HU.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_hu-HU.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating res/lang/gui_hu-HU.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_hu-HU.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_hu-HU.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_hu-HU.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_hu-HU.qm
 
-src/gui/res/lang/gui_id-ID.qm: ../src/gui/res/lang/gui_id-ID.ts
+src/gui/res/lang/gui_id-ID.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_id-ID.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating res/lang/gui_id-ID.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_id-ID.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_id-ID.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_id-ID.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_id-ID.qm
 
-src/gui/res/lang/gui_it-IT.qm: ../src/gui/res/lang/gui_it-IT.ts
+src/gui/res/lang/gui_it-IT.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_it-IT.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating res/lang/gui_it-IT.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_it-IT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_it-IT.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_it-IT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_it-IT.qm
 
-src/gui/res/lang/gui_ja-JP.qm: ../src/gui/res/lang/gui_ja-JP.ts
+src/gui/res/lang/gui_ja-JP.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ja-JP.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating res/lang/gui_ja-JP.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ja-JP.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ja-JP.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ja-JP.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ja-JP.qm
 
-src/gui/res/lang/gui_ko-KR.qm: ../src/gui/res/lang/gui_ko-KR.ts
+src/gui/res/lang/gui_ko-KR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ko-KR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating res/lang/gui_ko-KR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ko-KR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ko-KR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ko-KR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ko-KR.qm
 
-src/gui/res/lang/gui_lt-LT.qm: ../src/gui/res/lang/gui_lt-LT.ts
+src/gui/res/lang/gui_lt-LT.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_lt-LT.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating res/lang/gui_lt-LT.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_lt-LT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_lt-LT.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_lt-LT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_lt-LT.qm
 
-src/gui/res/lang/gui_lv-LV.qm: ../src/gui/res/lang/gui_lv-LV.ts
+src/gui/res/lang/gui_lv-LV.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_lv-LV.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating res/lang/gui_lv-LV.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_lv-LV.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_lv-LV.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_lv-LV.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_lv-LV.qm
 
-src/gui/res/lang/gui_mr-IN.qm: ../src/gui/res/lang/gui_mr-IN.ts
+src/gui/res/lang/gui_mr-IN.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_mr-IN.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating res/lang/gui_mr-IN.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_mr-IN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_mr-IN.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_mr-IN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_mr-IN.qm
 
-src/gui/res/lang/gui_nl-NL.qm: ../src/gui/res/lang/gui_nl-NL.ts
+src/gui/res/lang/gui_nl-NL.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_nl-NL.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating res/lang/gui_nl-NL.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_nl-NL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_nl-NL.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_nl-NL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_nl-NL.qm
 
-src/gui/res/lang/gui_no-NO.qm: ../src/gui/res/lang/gui_no-NO.ts
+src/gui/res/lang/gui_no-NO.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_no-NO.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating res/lang/gui_no-NO.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_no-NO.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_no-NO.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_no-NO.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_no-NO.qm
 
-src/gui/res/lang/gui_pl-PL.qm: ../src/gui/res/lang/gui_pl-PL.ts
+src/gui/res/lang/gui_pl-PL.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pl-PL.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating res/lang/gui_pl-PL.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_pl-PL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pl-PL.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pl-PL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pl-PL.qm
 
-src/gui/res/lang/gui_pt-BR.qm: ../src/gui/res/lang/gui_pt-BR.ts
+src/gui/res/lang/gui_pt-BR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pt-BR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating res/lang/gui_pt-BR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_pt-BR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pt-BR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pt-BR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pt-BR.qm
 
-src/gui/res/lang/gui_pt-PT.qm: ../src/gui/res/lang/gui_pt-PT.ts
+src/gui/res/lang/gui_pt-PT.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pt-PT.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating res/lang/gui_pt-PT.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_pt-PT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pt-PT.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pt-PT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pt-PT.qm
 
-src/gui/res/lang/gui_ro-RO.qm: ../src/gui/res/lang/gui_ro-RO.ts
+src/gui/res/lang/gui_ro-RO.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ro-RO.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating res/lang/gui_ro-RO.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ro-RO.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ro-RO.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ro-RO.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ro-RO.qm
 
-src/gui/res/lang/gui_ru-RU.qm: ../src/gui/res/lang/gui_ru-RU.ts
+src/gui/res/lang/gui_ru-RU.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ru-RU.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating res/lang/gui_ru-RU.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ru-RU.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ru-RU.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ru-RU.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ru-RU.qm
 
-src/gui/res/lang/gui_sk-SK.qm: ../src/gui/res/lang/gui_sk-SK.ts
+src/gui/res/lang/gui_sk-SK.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sk-SK.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating res/lang/gui_sk-SK.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sk-SK.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sk-SK.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sk-SK.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sk-SK.qm
 
-src/gui/res/lang/gui_sl-SI.qm: ../src/gui/res/lang/gui_sl-SI.ts
+src/gui/res/lang/gui_sl-SI.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sl-SI.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating res/lang/gui_sl-SI.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sl-SI.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sl-SI.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sl-SI.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sl-SI.qm
 
-src/gui/res/lang/gui_sq-AL.qm: ../src/gui/res/lang/gui_sq-AL.ts
+src/gui/res/lang/gui_sq-AL.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sq-AL.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating res/lang/gui_sq-AL.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sq-AL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sq-AL.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sq-AL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sq-AL.qm
 
-src/gui/res/lang/gui_sr-SP.qm: ../src/gui/res/lang/gui_sr-SP.ts
+src/gui/res/lang/gui_sr-SP.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sr-SP.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating res/lang/gui_sr-SP.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sr-SP.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sr-SP.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sr-SP.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sr-SP.qm
 
-src/gui/res/lang/gui_sv-SE.qm: ../src/gui/res/lang/gui_sv-SE.ts
+src/gui/res/lang/gui_sv-SE.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sv-SE.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating res/lang/gui_sv-SE.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sv-SE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sv-SE.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sv-SE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sv-SE.qm
 
-src/gui/res/lang/gui_th-TH.qm: ../src/gui/res/lang/gui_th-TH.ts
+src/gui/res/lang/gui_th-TH.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_th-TH.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating res/lang/gui_th-TH.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_th-TH.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_th-TH.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_th-TH.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_th-TH.qm
 
-src/gui/res/lang/gui_tr-TR.qm: ../src/gui/res/lang/gui_tr-TR.ts
+src/gui/res/lang/gui_tr-TR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_tr-TR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating res/lang/gui_tr-TR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_tr-TR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_tr-TR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_tr-TR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_tr-TR.qm
 
-src/gui/res/lang/gui_uk-UA.qm: ../src/gui/res/lang/gui_uk-UA.ts
+src/gui/res/lang/gui_uk-UA.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_uk-UA.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating res/lang/gui_uk-UA.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_uk-UA.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_uk-UA.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_uk-UA.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_uk-UA.qm
 
-src/gui/res/lang/gui_ur-IN.qm: ../src/gui/res/lang/gui_ur-IN.ts
+src/gui/res/lang/gui_ur-IN.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ur-IN.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating res/lang/gui_ur-IN.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ur-IN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ur-IN.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ur-IN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ur-IN.qm
 
-src/gui/res/lang/gui_vi-VN.qm: ../src/gui/res/lang/gui_vi-VN.ts
+src/gui/res/lang/gui_vi-VN.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_vi-VN.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating res/lang/gui_vi-VN.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_vi-VN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_vi-VN.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_vi-VN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_vi-VN.qm
 
-src/gui/res/lang/gui_zh-CN.qm: ../src/gui/res/lang/gui_zh-CN.ts
+src/gui/res/lang/gui_zh-CN.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_zh-CN.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating res/lang/gui_zh-CN.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_zh-CN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_zh-CN.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_zh-CN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_zh-CN.qm
 
-src/gui/res/lang/gui_zh-TW.qm: ../src/gui/res/lang/gui_zh-TW.ts
+src/gui/res/lang/gui_zh-TW.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_zh-TW.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating res/lang/gui_zh-TW.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_zh-TW.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_zh-TW.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_zh-TW.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_zh-TW.qm
 
 translations: src/gui/CMakeFiles/translations
 translations: src/gui/res/lang/gui_ar-SA.qm
@@ -328,6 +328,6 @@ src/gui/CMakeFiles/translations.dir/clean:
 .PHONY : src/gui/CMakeFiles/translations.dir/clean
 
 src/gui/CMakeFiles/translations.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/gui /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/gui /home/lucero/code/synergy-core/build/src/gui/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/gui /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/gui /home/lucero/code/synergy-core/build/src/gui/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/gui/CMakeFiles/translations.dir/depend
 

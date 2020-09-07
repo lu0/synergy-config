@@ -6,63 +6,63 @@
 
 #IncludeRegexTransform: 
 
-../src/lib/base/Event.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/Event.h
 common/basic_types.h
-../src/lib/base/common/basic_types.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/basic_types.h
 common/stdmap.h
-../src/lib/base/common/stdmap.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/stdmap.h
 
-../src/lib/base/EventTypes.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/EventTypes.h
 base/Event.h
-../src/lib/base/base/Event.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/base/Event.h
 
-../src/lib/base/IEventJob.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/IEventJob.h
 common/IInterface.h
-../src/lib/base/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/IInterface.h
 
-../src/lib/base/IEventQueue.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/IEventQueue.h
 common/IInterface.h
-../src/lib/base/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/IInterface.h
 base/Event.h
-../src/lib/base/base/Event.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/base/Event.h
 base/String.h
-../src/lib/base/base/String.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/base/String.h
 
-../src/lib/base/String.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/String.h
 common/common.h
-../src/lib/base/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/common.h
 common/stdstring.h
-../src/lib/base/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/stdstring.h
 stdarg.h
 -
 vector
 -
 
-../src/lib/base/TMethodEventJob.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/TMethodEventJob.h
 IEventJob.h
-../src/lib/base/IEventJob.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/IEventJob.h
 
-../src/lib/base/XBase.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/XBase.h
 base/String.h
-../src/lib/base/base/String.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/base/String.h
 common/stdexcept.h
-../src/lib/base/common/stdexcept.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/base/common/stdexcept.h
 
-../src/lib/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/IInterface.h
 common/common.h
-../src/lib/common/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/common.h
 
-../src/lib/common/basic_types.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/basic_types.h
 common/common.h
-../src/lib/common/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/common.h
 wchar.h
 -
 CoreServices/CoreServices.h
 -
 
-../src/lib/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common.h
 config.h
-../src/lib/common/config.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/config.h
 stddef.h
 -
 assert.h
@@ -72,91 +72,91 @@ stdlib.h
 string.h
 -
 
-../src/lib/common/stdexcept.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdexcept.h
 stdexcept
 -
 
-../src/lib/common/stdlist.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdlist.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 list
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/common/stdmap.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdmap.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 map
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdpost.h
 
-../src/lib/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdpre.h
 
-../src/lib/common/stdstring.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdstring.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 string
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/common/stdvector.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/stdvector.h
 common/stdpre.h
-../src/lib/common/common/stdpre.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpre.h
 vector
 -
 common/stdpost.h
-../src/lib/common/common/stdpost.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/stdpost.h
 
-../src/lib/io/IStream.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/IStream.h
 common/IInterface.h
-../src/lib/io/common/IInterface.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/common/IInterface.h
 base/Event.h
-../src/lib/io/base/Event.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/base/Event.h
 base/IEventQueue.h
-../src/lib/io/base/IEventQueue.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/base/IEventQueue.h
 base/EventTypes.h
-../src/lib/io/base/EventTypes.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/base/EventTypes.h
 
-../src/lib/io/StreamBuffer.h
-base/EventTypes.h
-../src/lib/io/base/EventTypes.h
-common/stdlist.h
-../src/lib/io/common/stdlist.h
-common/stdvector.h
-../src/lib/io/common/stdvector.h
-
-../src/lib/io/StreamFilter.h
-io/IStream.h
-../src/lib/io/io/IStream.h
-base/IEventQueue.h
-../src/lib/io/base/IEventQueue.h
-
-../src/lib/io/XIO.h
-base/XBase.h
-../src/lib/io/base/XBase.h
-
-/home/lucero/code/synergy-core/src/lib/io/StreamBuffer.cpp
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamBuffer.cpp
 io/StreamBuffer.h
-/home/lucero/code/synergy-core/src/lib/io/io/StreamBuffer.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/io/StreamBuffer.h
 common/common.h
-/home/lucero/code/synergy-core/src/lib/io/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/common/common.h
 
-/home/lucero/code/synergy-core/src/lib/io/StreamFilter.cpp
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamBuffer.h
+base/EventTypes.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/base/EventTypes.h
+common/stdlist.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/common/stdlist.h
+common/stdvector.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/common/stdvector.h
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamFilter.cpp
 io/StreamFilter.h
-/home/lucero/code/synergy-core/src/lib/io/io/StreamFilter.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/io/StreamFilter.h
 base/IEventQueue.h
-/home/lucero/code/synergy-core/src/lib/io/base/IEventQueue.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/base/IEventQueue.h
 base/TMethodEventJob.h
-/home/lucero/code/synergy-core/src/lib/io/base/TMethodEventJob.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/base/TMethodEventJob.h
 
-/home/lucero/code/synergy-core/src/lib/io/XIO.cpp
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamFilter.h
+io/IStream.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/io/IStream.h
+base/IEventQueue.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/base/IEventQueue.h
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/XIO.cpp
 io/XIO.h
-/home/lucero/code/synergy-core/src/lib/io/io/XIO.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/io/XIO.h
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/XIO.h
+base/XBase.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/io/base/XBase.h
 
 src/lib/config.h
 

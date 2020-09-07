@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../ext/googletest/googlemock/include/gmock/gmock-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-actions.h
 errno.h
 -
 algorithm
@@ -14,41 +14,41 @@ algorithm
 string
 -
 gmock/internal/gmock-internal-utils.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
 functional
 -
 type_traits
 -
 
-../ext/googletest/googlemock/include/gmock/gmock-cardinalities.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-cardinalities.h
 limits.h
 -
 ostream
 -
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
 gtest/gtest.h
-../ext/googletest/googlemock/include/gmock/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gtest/gtest.h
 
-../ext/googletest/googlemock/include/gmock/gmock-generated-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-generated-actions.h
 gmock/gmock-actions.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-actions.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
 gmock/internal/custom/gmock-generated-actions.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/custom/gmock-generated-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/custom/gmock-generated-actions.h
 
-../ext/googletest/googlemock/include/gmock/gmock-generated-function-mockers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-generated-function-mockers.h
 gmock/gmock-spec-builders.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-spec-builders.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-spec-builders.h
 gmock/internal/gmock-internal-utils.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
 functional
 -
 
-../ext/googletest/googlemock/include/gmock/gmock-generated-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-generated-matchers.h
 iterator
 -
 sstream
@@ -58,15 +58,15 @@ string
 vector
 -
 gmock/gmock-matchers.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-matchers.h
 
-../ext/googletest/googlemock/include/gmock/gmock-generated-nice-strict.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-generated-nice-strict.h
 gmock/gmock-spec-builders.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-spec-builders.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-spec-builders.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
 
-../ext/googletest/googlemock/include/gmock/gmock-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-matchers.h
 math.h
 -
 algorithm
@@ -86,27 +86,27 @@ utility
 vector
 -
 gtest/gtest.h
-../ext/googletest/googlemock/include/gmock/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gtest/gtest.h
 gmock/internal/gmock-internal-utils.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
 initializer_list
 -
 gmock/internal/custom/gmock-matchers.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/custom/gmock-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/custom/gmock-matchers.h
 
-../ext/googletest/googlemock/include/gmock/gmock-more-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-more-actions.h
 algorithm
 -
 gmock/gmock-generated-actions.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-generated-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-generated-actions.h
 
-../ext/googletest/googlemock/include/gmock/gmock-more-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-more-matchers.h
 gmock/gmock-generated-matchers.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-generated-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-generated-matchers.h
 
-../ext/googletest/googlemock/include/gmock/gmock-spec-builders.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock-spec-builders.h
 map
 -
 set
@@ -118,53 +118,53 @@ string
 vector
 -
 gmock/gmock-actions.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-actions.h
 gmock/gmock-cardinalities.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-cardinalities.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-cardinalities.h
 gmock/gmock-matchers.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-matchers.h
 gmock/internal/gmock-internal-utils.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-port.h
 gtest/gtest.h
-../ext/googletest/googlemock/include/gmock/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gtest/gtest.h
 stdexcept
 -
 
-../ext/googletest/googlemock/include/gmock/gmock.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock.h
 gmock/gmock-actions.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-actions.h
 gmock/gmock-cardinalities.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-cardinalities.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-cardinalities.h
 gmock/gmock-generated-actions.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-generated-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-generated-actions.h
 gmock/gmock-generated-function-mockers.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-generated-function-mockers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-generated-function-mockers.h
 gmock/gmock-generated-matchers.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-generated-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-generated-matchers.h
 gmock/gmock-generated-nice-strict.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-generated-nice-strict.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-generated-nice-strict.h
 gmock/gmock-matchers.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-matchers.h
 gmock/gmock-more-actions.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-more-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-more-actions.h
 gmock/gmock-more-matchers.h
-../ext/googletest/googlemock/include/gmock/gmock/gmock-more-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/gmock-more-matchers.h
 gmock/internal/gmock-internal-utils.h
-../ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
 
-../ext/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h
 
-../ext/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h
 
-../ext/googletest/googlemock/include/gmock/internal/custom/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/custom/gmock-port.h
 
-../ext/googletest/googlemock/include/gmock/internal/gmock-generated-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gmock-generated-internal-utils.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-port.h
 
-../ext/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h
 stdio.h
 -
 ostream
@@ -172,13 +172,13 @@ ostream
 string
 -
 gmock/internal/gmock-generated-internal-utils.h
-../ext/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-generated-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-generated-internal-utils.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-port.h
 gtest/gtest.h
-../ext/googletest/googlemock/include/gmock/internal/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gtest/gtest.h
 
-../ext/googletest/googlemock/include/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gmock-port.h
 assert.h
 -
 stdlib.h
@@ -186,15 +186,29 @@ stdlib.h
 iostream
 -
 gtest/internal/gtest-linked_ptr.h
-../ext/googletest/googlemock/include/gmock/internal/gtest/internal/gtest-linked_ptr.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gtest/internal/gtest-linked_ptr.h
 gtest/internal/gtest-port.h
-../ext/googletest/googlemock/include/gmock/internal/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gtest/internal/gtest-port.h
 gmock/internal/custom/gmock-port.h
-../ext/googletest/googlemock/include/gmock/internal/gmock/internal/custom/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/include/gmock/internal/gmock/internal/custom/gmock-port.h
 
-../ext/googletest/googlemock/src/gmock-cardinalities.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-all.cc
+gmock/gmock.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/gmock.h
+src/gmock-cardinalities.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/src/gmock-cardinalities.cc
+src/gmock-internal-utils.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/src/gmock-internal-utils.cc
+src/gmock-matchers.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/src/gmock-matchers.cc
+src/gmock-spec-builders.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/src/gmock-spec-builders.cc
+src/gmock.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/src/gmock.cc
+
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-cardinalities.cc
 gmock/gmock-cardinalities.h
-../ext/googletest/googlemock/src/gmock/gmock-cardinalities.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/gmock-cardinalities.h
 limits.h
 -
 ostream
@@ -204,13 +218,13 @@ sstream
 string
 -
 gmock/internal/gmock-internal-utils.h
-../ext/googletest/googlemock/src/gmock/internal/gmock-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/internal/gmock-internal-utils.h
 gtest/gtest.h
-../ext/googletest/googlemock/src/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gtest/gtest.h
 
-../ext/googletest/googlemock/src/gmock-internal-utils.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-internal-utils.cc
 gmock/internal/gmock-internal-utils.h
-../ext/googletest/googlemock/src/gmock/internal/gmock-internal-utils.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/internal/gmock-internal-utils.h
 ctype.h
 -
 ostream
@@ -218,17 +232,17 @@ ostream
 string
 -
 gmock/gmock.h
-../ext/googletest/googlemock/src/gmock/gmock.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/gmock.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/src/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/internal/gmock-port.h
 gtest/gtest.h
-../ext/googletest/googlemock/src/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gtest/gtest.h
 
-../ext/googletest/googlemock/src/gmock-matchers.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-matchers.cc
 gmock/gmock-matchers.h
-../ext/googletest/googlemock/src/gmock/gmock-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/gmock-matchers.h
 gmock/gmock-generated-matchers.h
-../ext/googletest/googlemock/src/gmock/gmock-generated-matchers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/gmock-generated-matchers.h
 string.h
 -
 iostream
@@ -238,9 +252,9 @@ sstream
 string
 -
 
-../ext/googletest/googlemock/src/gmock-spec-builders.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-spec-builders.cc
 gmock/gmock-spec-builders.h
-../ext/googletest/googlemock/src/gmock/gmock-spec-builders.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/gmock-spec-builders.h
 stdlib.h
 -
 iostream
@@ -254,41 +268,41 @@ string
 vector
 -
 gmock/gmock.h
-../ext/googletest/googlemock/src/gmock/gmock.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-../ext/googletest/googlemock/src/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gtest/gtest.h
 unistd.h
 -
 
-../ext/googletest/googlemock/src/gmock.cc
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock.cc
 gmock/gmock.h
-../ext/googletest/googlemock/src/gmock/gmock.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/gmock.h
 gmock/internal/gmock-port.h
-../ext/googletest/googlemock/src/gmock/internal/gmock-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock/internal/gmock-port.h
 
-../ext/googletest/googletest/include/gtest/gtest-death-test.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-death-test-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-death-test-internal.h
 
-../ext/googletest/googletest/include/gtest/gtest-message.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest-message.h
 limits
 -
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
 
-../ext/googletest/googletest/include/gtest/gtest-param-test.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest-param-test.h
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
 utility
 -
 gtest/internal/gtest-internal.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
 gtest/internal/gtest-param-util.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-param-util.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-param-util.h
 gtest/internal/gtest-param-util-generated.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-param-util-generated.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-param-util-generated.h
 
-../ext/googletest/googletest/include/gtest/gtest-printers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest-printers.h
 ostream
 -
 sstream
@@ -300,37 +314,37 @@ utility
 vector
 -
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
 gtest/internal/gtest-internal.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
 tuple
 -
 absl/strings/string_view.h
-../ext/googletest/googletest/include/gtest/absl/strings/string_view.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/absl/strings/string_view.h
 absl/types/optional.h
-../ext/googletest/googletest/include/gtest/absl/types/optional.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/absl/types/optional.h
 absl/types/variant.h
-../ext/googletest/googletest/include/gtest/absl/types/variant.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/absl/types/variant.h
 gtest/internal/custom/gtest-printers.h
-../ext/googletest/googletest/include/gtest/gtest/internal/custom/gtest-printers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/custom/gtest-printers.h
 
-../ext/googletest/googletest/include/gtest/gtest-test-part.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest-test-part.h
 iosfwd
 -
 vector
 -
 gtest/internal/gtest-internal.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
 gtest/internal/gtest-string.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-string.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-string.h
 
-../ext/googletest/googletest/include/gtest/gtest-typed-test.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest-typed-test.h
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
 gtest/internal/gtest-type-util.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-type-util.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-type-util.h
 
-../ext/googletest/googletest/include/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest.h
 limits
 -
 ostream
@@ -338,49 +352,49 @@ ostream
 vector
 -
 gtest/internal/gtest-internal.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
 gtest/internal/gtest-string.h
-../ext/googletest/googletest/include/gtest/gtest/internal/gtest-string.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/internal/gtest-string.h
 gtest/gtest-death-test.h
-../ext/googletest/googletest/include/gtest/gtest/gtest-death-test.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest-death-test.h
 gtest/gtest-message.h
-../ext/googletest/googletest/include/gtest/gtest/gtest-message.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest-message.h
 gtest/gtest-param-test.h
-../ext/googletest/googletest/include/gtest/gtest/gtest-param-test.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest-param-test.h
 gtest/gtest-printers.h
-../ext/googletest/googletest/include/gtest/gtest/gtest-printers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest-printers.h
 gtest/gtest_prod.h
-../ext/googletest/googletest/include/gtest/gtest/gtest_prod.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest_prod.h
 gtest/gtest-test-part.h
-../ext/googletest/googletest/include/gtest/gtest/gtest-test-part.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest-test-part.h
 gtest/gtest-typed-test.h
-../ext/googletest/googletest/include/gtest/gtest/gtest-typed-test.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest-typed-test.h
 gtest/gtest_pred_impl.h
-../ext/googletest/googletest/include/gtest/gtest/gtest_pred_impl.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest_pred_impl.h
 
-../ext/googletest/googletest/include/gtest/gtest_pred_impl.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest_pred_impl.h
 gtest/gtest.h
-../ext/googletest/googletest/include/gtest/gtest/gtest.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest/gtest.h
 
-../ext/googletest/googletest/include/gtest/gtest_prod.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/gtest_prod.h
 
-../ext/googletest/googletest/include/gtest/internal/custom/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/custom/gtest-port.h
 
-../ext/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
 
-../ext/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
 gtest/internal/gtest-internal.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
 stdio.h
 -
 
-../ext/googletest/googletest/include/gtest/internal/gtest-filepath.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-filepath.h
 gtest/internal/gtest-string.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-string.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-string.h
 
-../ext/googletest/googletest/include/gtest/internal/gtest-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-internal.h
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 stdlib.h
 -
 sys/types.h
@@ -410,29 +424,29 @@ string
 vector
 -
 gtest/gtest-message.h
-../ext/googletest/googletest/include/gtest/internal/gtest/gtest-message.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/gtest-message.h
 gtest/internal/gtest-filepath.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-filepath.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-filepath.h
 gtest/internal/gtest-string.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-string.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-string.h
 gtest/internal/gtest-type-util.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-type-util.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-type-util.h
 
-../ext/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
 stdlib.h
 -
 assert.h
 -
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 
-../ext/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
 gtest/internal/gtest-param-util.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-param-util.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-param-util.h
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 
-../ext/googletest/googletest/include/gtest/internal/gtest-param-util.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-param-util.h
 ctype.h
 -
 iterator
@@ -444,19 +458,19 @@ utility
 vector
 -
 gtest/internal/gtest-internal.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
 gtest/internal/gtest-linked_ptr.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-linked_ptr.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-linked_ptr.h
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 gtest/gtest-printers.h
-../ext/googletest/googletest/include/gtest/internal/gtest/gtest-printers.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/gtest-printers.h
 
-../ext/googletest/googletest/include/gtest/internal/gtest-port-arch.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-port-arch.h
 winapifamily.h
 -
 
-../ext/googletest/googletest/include/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-port.h
 ctype.h
 -
 stddef.h
@@ -488,9 +502,9 @@ utility
 vector
 -
 gtest/internal/gtest-port-arch.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port-arch.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port-arch.h
 gtest/internal/custom/gtest-port.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/custom/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/custom/gtest-port.h
 direct.h
 -
 io.h
@@ -512,7 +526,7 @@ time.h
 tuple
 -
 gtest/internal/gtest-tuple.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-tuple.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-tuple.h
 tuple
 -
 tr1/tuple
@@ -524,7 +538,7 @@ tuple
 tr1/tuple
 -
 
-../ext/googletest/googletest/include/gtest/internal/gtest-string.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-string.h
 mem.h
 -
 string.h
@@ -532,31 +546,17 @@ string.h
 string
 -
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 
-../ext/googletest/googletest/include/gtest/internal/gtest-tuple.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-tuple.h
 utility
 -
 
-../ext/googletest/googletest/include/gtest/internal/gtest-type-util.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest-type-util.h
 gtest/internal/gtest-port.h
-../ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 cxxabi.h
 -
 acxx_demangle.h
 -
-
-/home/lucero/code/synergy-core/ext/googletest/googlemock/src/gmock-all.cc
-gmock/gmock.h
-/home/lucero/code/synergy-core/ext/googletest/googlemock/src/gmock/gmock.h
-src/gmock-cardinalities.cc
-/home/lucero/code/synergy-core/ext/googletest/googlemock/src/src/gmock-cardinalities.cc
-src/gmock-internal-utils.cc
-/home/lucero/code/synergy-core/ext/googletest/googlemock/src/src/gmock-internal-utils.cc
-src/gmock-matchers.cc
-/home/lucero/code/synergy-core/ext/googletest/googlemock/src/src/gmock-matchers.cc
-src/gmock-spec-builders.cc
-/home/lucero/code/synergy-core/ext/googletest/googlemock/src/src/gmock-spec-builders.cc
-src/gmock.cc
-/home/lucero/code/synergy-core/ext/googletest/googlemock/src/src/gmock.cc
 

@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -57,199 +57,199 @@ include src/gui/CMakeFiles/synergy.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/gui/CMakeFiles/synergy.dir/flags.make
 
-src/gui/res/lang/gui_ar-SA.qm: ../src/gui/res/lang/gui_ar-SA.ts
+src/gui/res/lang/gui_ar-SA.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ar-SA.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating res/lang/gui_ar-SA.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ar-SA.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ar-SA.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ar-SA.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ar-SA.qm
 
-src/gui/res/lang/gui_bg-BG.qm: ../src/gui/res/lang/gui_bg-BG.ts
+src/gui/res/lang/gui_bg-BG.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_bg-BG.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating res/lang/gui_bg-BG.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_bg-BG.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_bg-BG.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_bg-BG.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_bg-BG.qm
 
-src/gui/res/lang/gui_ca-ES.qm: ../src/gui/res/lang/gui_ca-ES.ts
+src/gui/res/lang/gui_ca-ES.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ca-ES.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating res/lang/gui_ca-ES.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ca-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ca-ES.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ca-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ca-ES.qm
 
-src/gui/res/lang/gui_cs-CZ.qm: ../src/gui/res/lang/gui_cs-CZ.ts
+src/gui/res/lang/gui_cs-CZ.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_cs-CZ.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating res/lang/gui_cs-CZ.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_cs-CZ.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_cs-CZ.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_cs-CZ.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_cs-CZ.qm
 
-src/gui/res/lang/gui_cy-GB.qm: ../src/gui/res/lang/gui_cy-GB.ts
+src/gui/res/lang/gui_cy-GB.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_cy-GB.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating res/lang/gui_cy-GB.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_cy-GB.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_cy-GB.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_cy-GB.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_cy-GB.qm
 
-src/gui/res/lang/gui_da-DK.qm: ../src/gui/res/lang/gui_da-DK.ts
+src/gui/res/lang/gui_da-DK.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_da-DK.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating res/lang/gui_da-DK.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_da-DK.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_da-DK.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_da-DK.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_da-DK.qm
 
-src/gui/res/lang/gui_de-DE.qm: ../src/gui/res/lang/gui_de-DE.ts
+src/gui/res/lang/gui_de-DE.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_de-DE.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating res/lang/gui_de-DE.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_de-DE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_de-DE.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_de-DE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_de-DE.qm
 
-src/gui/res/lang/gui_el-GR.qm: ../src/gui/res/lang/gui_el-GR.ts
+src/gui/res/lang/gui_el-GR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_el-GR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating res/lang/gui_el-GR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_el-GR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_el-GR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_el-GR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_el-GR.qm
 
-src/gui/res/lang/gui_es-ES.qm: ../src/gui/res/lang/gui_es-ES.ts
+src/gui/res/lang/gui_es-ES.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_es-ES.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating res/lang/gui_es-ES.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_es-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_es-ES.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_es-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_es-ES.qm
 
-src/gui/res/lang/gui_et-EE.qm: ../src/gui/res/lang/gui_et-EE.ts
+src/gui/res/lang/gui_et-EE.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_et-EE.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating res/lang/gui_et-EE.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_et-EE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_et-EE.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_et-EE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_et-EE.qm
 
-src/gui/res/lang/gui_fa-IR.qm: ../src/gui/res/lang/gui_fa-IR.ts
+src/gui/res/lang/gui_fa-IR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fa-IR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating res/lang/gui_fa-IR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_fa-IR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fa-IR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fa-IR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fa-IR.qm
 
-src/gui/res/lang/gui_fi-FI.qm: ../src/gui/res/lang/gui_fi-FI.ts
+src/gui/res/lang/gui_fi-FI.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fi-FI.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating res/lang/gui_fi-FI.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_fi-FI.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fi-FI.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fi-FI.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fi-FI.qm
 
-src/gui/res/lang/gui_fr-FR.qm: ../src/gui/res/lang/gui_fr-FR.ts
+src/gui/res/lang/gui_fr-FR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fr-FR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating res/lang/gui_fr-FR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_fr-FR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fr-FR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_fr-FR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_fr-FR.qm
 
-src/gui/res/lang/gui_gl-ES.qm: ../src/gui/res/lang/gui_gl-ES.ts
+src/gui/res/lang/gui_gl-ES.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_gl-ES.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating res/lang/gui_gl-ES.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_gl-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_gl-ES.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_gl-ES.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_gl-ES.qm
 
-src/gui/res/lang/gui_he-IL.qm: ../src/gui/res/lang/gui_he-IL.ts
+src/gui/res/lang/gui_he-IL.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_he-IL.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating res/lang/gui_he-IL.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_he-IL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_he-IL.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_he-IL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_he-IL.qm
 
-src/gui/res/lang/gui_hr-HR.qm: ../src/gui/res/lang/gui_hr-HR.ts
+src/gui/res/lang/gui_hr-HR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_hr-HR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating res/lang/gui_hr-HR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_hr-HR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_hr-HR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_hr-HR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_hr-HR.qm
 
-src/gui/res/lang/gui_hu-HU.qm: ../src/gui/res/lang/gui_hu-HU.ts
+src/gui/res/lang/gui_hu-HU.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_hu-HU.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating res/lang/gui_hu-HU.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_hu-HU.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_hu-HU.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_hu-HU.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_hu-HU.qm
 
-src/gui/res/lang/gui_id-ID.qm: ../src/gui/res/lang/gui_id-ID.ts
+src/gui/res/lang/gui_id-ID.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_id-ID.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating res/lang/gui_id-ID.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_id-ID.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_id-ID.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_id-ID.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_id-ID.qm
 
-src/gui/res/lang/gui_it-IT.qm: ../src/gui/res/lang/gui_it-IT.ts
+src/gui/res/lang/gui_it-IT.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_it-IT.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating res/lang/gui_it-IT.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_it-IT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_it-IT.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_it-IT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_it-IT.qm
 
-src/gui/res/lang/gui_ja-JP.qm: ../src/gui/res/lang/gui_ja-JP.ts
+src/gui/res/lang/gui_ja-JP.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ja-JP.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating res/lang/gui_ja-JP.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ja-JP.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ja-JP.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ja-JP.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ja-JP.qm
 
-src/gui/res/lang/gui_ko-KR.qm: ../src/gui/res/lang/gui_ko-KR.ts
+src/gui/res/lang/gui_ko-KR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ko-KR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating res/lang/gui_ko-KR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ko-KR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ko-KR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ko-KR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ko-KR.qm
 
-src/gui/res/lang/gui_lt-LT.qm: ../src/gui/res/lang/gui_lt-LT.ts
+src/gui/res/lang/gui_lt-LT.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_lt-LT.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating res/lang/gui_lt-LT.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_lt-LT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_lt-LT.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_lt-LT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_lt-LT.qm
 
-src/gui/res/lang/gui_lv-LV.qm: ../src/gui/res/lang/gui_lv-LV.ts
+src/gui/res/lang/gui_lv-LV.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_lv-LV.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating res/lang/gui_lv-LV.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_lv-LV.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_lv-LV.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_lv-LV.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_lv-LV.qm
 
-src/gui/res/lang/gui_mr-IN.qm: ../src/gui/res/lang/gui_mr-IN.ts
+src/gui/res/lang/gui_mr-IN.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_mr-IN.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating res/lang/gui_mr-IN.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_mr-IN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_mr-IN.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_mr-IN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_mr-IN.qm
 
-src/gui/res/lang/gui_nl-NL.qm: ../src/gui/res/lang/gui_nl-NL.ts
+src/gui/res/lang/gui_nl-NL.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_nl-NL.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating res/lang/gui_nl-NL.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_nl-NL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_nl-NL.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_nl-NL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_nl-NL.qm
 
-src/gui/res/lang/gui_no-NO.qm: ../src/gui/res/lang/gui_no-NO.ts
+src/gui/res/lang/gui_no-NO.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_no-NO.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating res/lang/gui_no-NO.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_no-NO.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_no-NO.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_no-NO.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_no-NO.qm
 
-src/gui/res/lang/gui_pl-PL.qm: ../src/gui/res/lang/gui_pl-PL.ts
+src/gui/res/lang/gui_pl-PL.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pl-PL.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating res/lang/gui_pl-PL.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_pl-PL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pl-PL.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pl-PL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pl-PL.qm
 
-src/gui/res/lang/gui_pt-BR.qm: ../src/gui/res/lang/gui_pt-BR.ts
+src/gui/res/lang/gui_pt-BR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pt-BR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating res/lang/gui_pt-BR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_pt-BR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pt-BR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pt-BR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pt-BR.qm
 
-src/gui/res/lang/gui_pt-PT.qm: ../src/gui/res/lang/gui_pt-PT.ts
+src/gui/res/lang/gui_pt-PT.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pt-PT.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating res/lang/gui_pt-PT.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_pt-PT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pt-PT.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_pt-PT.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_pt-PT.qm
 
-src/gui/res/lang/gui_ro-RO.qm: ../src/gui/res/lang/gui_ro-RO.ts
+src/gui/res/lang/gui_ro-RO.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ro-RO.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating res/lang/gui_ro-RO.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ro-RO.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ro-RO.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ro-RO.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ro-RO.qm
 
-src/gui/res/lang/gui_ru-RU.qm: ../src/gui/res/lang/gui_ru-RU.ts
+src/gui/res/lang/gui_ru-RU.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ru-RU.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating res/lang/gui_ru-RU.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ru-RU.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ru-RU.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ru-RU.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ru-RU.qm
 
-src/gui/res/lang/gui_sk-SK.qm: ../src/gui/res/lang/gui_sk-SK.ts
+src/gui/res/lang/gui_sk-SK.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sk-SK.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating res/lang/gui_sk-SK.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sk-SK.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sk-SK.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sk-SK.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sk-SK.qm
 
-src/gui/res/lang/gui_sl-SI.qm: ../src/gui/res/lang/gui_sl-SI.ts
+src/gui/res/lang/gui_sl-SI.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sl-SI.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating res/lang/gui_sl-SI.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sl-SI.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sl-SI.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sl-SI.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sl-SI.qm
 
-src/gui/res/lang/gui_sq-AL.qm: ../src/gui/res/lang/gui_sq-AL.ts
+src/gui/res/lang/gui_sq-AL.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sq-AL.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating res/lang/gui_sq-AL.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sq-AL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sq-AL.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sq-AL.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sq-AL.qm
 
-src/gui/res/lang/gui_sr-SP.qm: ../src/gui/res/lang/gui_sr-SP.ts
+src/gui/res/lang/gui_sr-SP.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sr-SP.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating res/lang/gui_sr-SP.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sr-SP.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sr-SP.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sr-SP.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sr-SP.qm
 
-src/gui/res/lang/gui_sv-SE.qm: ../src/gui/res/lang/gui_sv-SE.ts
+src/gui/res/lang/gui_sv-SE.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sv-SE.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating res/lang/gui_sv-SE.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_sv-SE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sv-SE.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_sv-SE.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_sv-SE.qm
 
-src/gui/res/lang/gui_th-TH.qm: ../src/gui/res/lang/gui_th-TH.ts
+src/gui/res/lang/gui_th-TH.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_th-TH.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating res/lang/gui_th-TH.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_th-TH.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_th-TH.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_th-TH.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_th-TH.qm
 
-src/gui/res/lang/gui_tr-TR.qm: ../src/gui/res/lang/gui_tr-TR.ts
+src/gui/res/lang/gui_tr-TR.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_tr-TR.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating res/lang/gui_tr-TR.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_tr-TR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_tr-TR.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_tr-TR.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_tr-TR.qm
 
-src/gui/res/lang/gui_uk-UA.qm: ../src/gui/res/lang/gui_uk-UA.ts
+src/gui/res/lang/gui_uk-UA.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_uk-UA.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating res/lang/gui_uk-UA.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_uk-UA.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_uk-UA.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_uk-UA.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_uk-UA.qm
 
-src/gui/res/lang/gui_ur-IN.qm: ../src/gui/res/lang/gui_ur-IN.ts
+src/gui/res/lang/gui_ur-IN.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ur-IN.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating res/lang/gui_ur-IN.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_ur-IN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ur-IN.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_ur-IN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_ur-IN.qm
 
-src/gui/res/lang/gui_vi-VN.qm: ../src/gui/res/lang/gui_vi-VN.ts
+src/gui/res/lang/gui_vi-VN.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_vi-VN.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating res/lang/gui_vi-VN.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_vi-VN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_vi-VN.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_vi-VN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_vi-VN.qm
 
-src/gui/res/lang/gui_zh-CN.qm: ../src/gui/res/lang/gui_zh-CN.ts
+src/gui/res/lang/gui_zh-CN.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_zh-CN.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating res/lang/gui_zh-CN.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_zh-CN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_zh-CN.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_zh-CN.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_zh-CN.qm
 
-src/gui/res/lang/gui_zh-TW.qm: ../src/gui/res/lang/gui_zh-TW.ts
+src/gui/res/lang/gui_zh-TW.qm: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_zh-TW.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating res/lang/gui_zh-TW.qm"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/src/gui/res/lang/gui_zh-TW.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_zh-TW.qm
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/lib/qt5/bin/lrelease /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/gui_zh-TW.ts -qm /home/lucero/code/synergy-core/build/src/gui/res/lang/gui_zh-TW.qm
 
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/Synergy.qrc
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/Synergy.qrc
 src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: src/gui/CMakeFiles/synergy_autogen.dir/AutoRcc_Synergy_PNK5WDWK6L_Info.json
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/lang/Languages.xml
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/image/about.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/image/spinning-wheel.gif
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/256x256/synergy.ico
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/64x64/video-display.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/64x64/synergy-light-transfering.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/64x64/user-trash.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/64x64/synergy-dark-transfering.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/64x64/synergy-light-disconnected.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/64x64/synergy-dark-connected.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/64x64/synergy-dark-disconnected.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/64x64/synergy-light-connected.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/16x16/money.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/16x16/padlock.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/16x16/synergy-connected.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/16x16/synergy-disconnected.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/16x16/auto-config.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/16x16/warning.png
-src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: ../src/gui/res/icons/16x16/synergy-transfering.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/lang/Languages.xml
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/image/about.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/image/spinning-wheel.gif
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/256x256/synergy.ico
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/64x64/video-display.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/64x64/synergy-light-transfering.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/64x64/user-trash.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/64x64/synergy-dark-transfering.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/64x64/synergy-light-disconnected.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/64x64/synergy-dark-connected.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/64x64/synergy-dark-disconnected.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/64x64/synergy-light-connected.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/16x16/money.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/16x16/padlock.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/16x16/synergy-connected.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/16x16/synergy-disconnected.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/16x16/auto-config.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/16x16/warning.png
+src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /home/lucero/code/synergy-core/source-code-git/src/gui/res/icons/16x16/synergy-transfering.png
 src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp: /usr/lib/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Automatic RCC for res/Synergy.qrc"
 	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/cmake -E cmake_autorcc /home/lucero/code/synergy-core/build/src/gui/CMakeFiles/synergy_autogen.dir/AutoRcc_Synergy_PNK5WDWK6L_Info.json 
@@ -316,615 +316,615 @@ src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.s: cmake_for
 	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/build/src/gui/synergy_autogen/mocs_compilation.cpp -o CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/AboutDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/AboutDialog.cpp.o: ../src/gui/src/AboutDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/AboutDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/AboutDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/AboutDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/AboutDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/AboutDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/AboutDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/AboutDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/AboutDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/AboutDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/AboutDialog.cpp > CMakeFiles/synergy.dir/src/AboutDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/AboutDialog.cpp > CMakeFiles/synergy.dir/src/AboutDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/AboutDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/AboutDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/AboutDialog.cpp -o CMakeFiles/synergy.dir/src/AboutDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/AboutDialog.cpp -o CMakeFiles/synergy.dir/src/AboutDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/Action.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/Action.cpp.o: ../src/gui/src/Action.cpp
+src/gui/CMakeFiles/synergy.dir/src/Action.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/Action.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/Action.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Action.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/Action.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Action.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/Action.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/Action.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/Action.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/Action.cpp > CMakeFiles/synergy.dir/src/Action.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/Action.cpp > CMakeFiles/synergy.dir/src/Action.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/Action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/Action.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/Action.cpp -o CMakeFiles/synergy.dir/src/Action.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/Action.cpp -o CMakeFiles/synergy.dir/src/Action.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ActionDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ActionDialog.cpp.o: ../src/gui/src/ActionDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/ActionDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActionDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ActionDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ActionDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ActionDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ActionDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActionDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ActionDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ActionDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ActionDialog.cpp > CMakeFiles/synergy.dir/src/ActionDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActionDialog.cpp > CMakeFiles/synergy.dir/src/ActionDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ActionDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ActionDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ActionDialog.cpp -o CMakeFiles/synergy.dir/src/ActionDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActionDialog.cpp -o CMakeFiles/synergy.dir/src/ActionDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: ../src/gui/src/ActivationDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActivationDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ActivationDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActivationDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ActivationDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ActivationDialog.cpp > CMakeFiles/synergy.dir/src/ActivationDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActivationDialog.cpp > CMakeFiles/synergy.dir/src/ActivationDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ActivationDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ActivationDialog.cpp -o CMakeFiles/synergy.dir/src/ActivationDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActivationDialog.cpp -o CMakeFiles/synergy.dir/src/ActivationDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.o: ../src/gui/src/ActivationNotifier.cpp
+src/gui/CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActivationNotifier.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ActivationNotifier.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActivationNotifier.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ActivationNotifier.cpp > CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActivationNotifier.cpp > CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ActivationNotifier.cpp -o CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ActivationNotifier.cpp -o CMakeFiles/synergy.dir/src/ActivationNotifier.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/AddClientDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/AddClientDialog.cpp.o: ../src/gui/src/AddClientDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/AddClientDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/AddClientDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/AddClientDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/AddClientDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/AddClientDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/AddClientDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/AddClientDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/AddClientDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/AddClientDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/AddClientDialog.cpp > CMakeFiles/synergy.dir/src/AddClientDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/AddClientDialog.cpp > CMakeFiles/synergy.dir/src/AddClientDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/AddClientDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/AddClientDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/AddClientDialog.cpp -o CMakeFiles/synergy.dir/src/AddClientDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/AddClientDialog.cpp -o CMakeFiles/synergy.dir/src/AddClientDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: ../src/gui/src/AppConfig.cpp
+src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/AppConfig.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/AppConfig.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/AppConfig.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/AppConfig.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/AppConfig.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/AppConfig.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/AppConfig.cpp > CMakeFiles/synergy.dir/src/AppConfig.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/AppConfig.cpp > CMakeFiles/synergy.dir/src/AppConfig.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/AppConfig.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/AppConfig.cpp -o CMakeFiles/synergy.dir/src/AppConfig.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/AppConfig.cpp -o CMakeFiles/synergy.dir/src/AppConfig.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/BaseConfig.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/BaseConfig.cpp.o: ../src/gui/src/BaseConfig.cpp
+src/gui/CMakeFiles/synergy.dir/src/BaseConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/BaseConfig.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/BaseConfig.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/BaseConfig.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/BaseConfig.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/BaseConfig.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/BaseConfig.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/BaseConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/BaseConfig.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/BaseConfig.cpp > CMakeFiles/synergy.dir/src/BaseConfig.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/BaseConfig.cpp > CMakeFiles/synergy.dir/src/BaseConfig.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/BaseConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/BaseConfig.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/BaseConfig.cpp -o CMakeFiles/synergy.dir/src/BaseConfig.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/BaseConfig.cpp -o CMakeFiles/synergy.dir/src/BaseConfig.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: ../src/gui/src/BonjourWindows.cpp
+src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/BonjourWindows.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/BonjourWindows.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/BonjourWindows.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/BonjourWindows.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/BonjourWindows.cpp > CMakeFiles/synergy.dir/src/BonjourWindows.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/BonjourWindows.cpp > CMakeFiles/synergy.dir/src/BonjourWindows.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/BonjourWindows.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/BonjourWindows.cpp -o CMakeFiles/synergy.dir/src/BonjourWindows.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/BonjourWindows.cpp -o CMakeFiles/synergy.dir/src/BonjourWindows.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.o: ../src/gui/src/CancelActivationDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/CancelActivationDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/CancelActivationDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/CancelActivationDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/CancelActivationDialog.cpp > CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/CancelActivationDialog.cpp > CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/CancelActivationDialog.cpp -o CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/CancelActivationDialog.cpp -o CMakeFiles/synergy.dir/src/CancelActivationDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/CommandProcess.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/CommandProcess.cpp.o: ../src/gui/src/CommandProcess.cpp
+src/gui/CMakeFiles/synergy.dir/src/CommandProcess.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/CommandProcess.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/CommandProcess.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/CommandProcess.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/CommandProcess.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/CommandProcess.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/CommandProcess.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/CommandProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/CommandProcess.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/CommandProcess.cpp > CMakeFiles/synergy.dir/src/CommandProcess.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/CommandProcess.cpp > CMakeFiles/synergy.dir/src/CommandProcess.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/CommandProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/CommandProcess.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/CommandProcess.cpp -o CMakeFiles/synergy.dir/src/CommandProcess.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/CommandProcess.cpp -o CMakeFiles/synergy.dir/src/CommandProcess.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ConfigWriter.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ConfigWriter.cpp.o: ../src/gui/src/ConfigWriter.cpp
+src/gui/CMakeFiles/synergy.dir/src/ConfigWriter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ConfigWriter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ConfigWriter.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ConfigWriter.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ConfigWriter.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ConfigWriter.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ConfigWriter.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ConfigWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ConfigWriter.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ConfigWriter.cpp > CMakeFiles/synergy.dir/src/ConfigWriter.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ConfigWriter.cpp > CMakeFiles/synergy.dir/src/ConfigWriter.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ConfigWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ConfigWriter.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ConfigWriter.cpp -o CMakeFiles/synergy.dir/src/ConfigWriter.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ConfigWriter.cpp -o CMakeFiles/synergy.dir/src/ConfigWriter.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/CoreInterface.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/CoreInterface.cpp.o: ../src/gui/src/CoreInterface.cpp
+src/gui/CMakeFiles/synergy.dir/src/CoreInterface.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/CoreInterface.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/CoreInterface.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/CoreInterface.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/CoreInterface.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/CoreInterface.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/CoreInterface.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/CoreInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/CoreInterface.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/CoreInterface.cpp > CMakeFiles/synergy.dir/src/CoreInterface.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/CoreInterface.cpp > CMakeFiles/synergy.dir/src/CoreInterface.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/CoreInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/CoreInterface.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/CoreInterface.cpp -o CMakeFiles/synergy.dir/src/CoreInterface.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/CoreInterface.cpp -o CMakeFiles/synergy.dir/src/CoreInterface.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/DataDownloader.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/DataDownloader.cpp.o: ../src/gui/src/DataDownloader.cpp
+src/gui/CMakeFiles/synergy.dir/src/DataDownloader.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/DataDownloader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/DataDownloader.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/DataDownloader.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/DataDownloader.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/DataDownloader.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/DataDownloader.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/DataDownloader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/DataDownloader.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/DataDownloader.cpp > CMakeFiles/synergy.dir/src/DataDownloader.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/DataDownloader.cpp > CMakeFiles/synergy.dir/src/DataDownloader.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/DataDownloader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/DataDownloader.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/DataDownloader.cpp -o CMakeFiles/synergy.dir/src/DataDownloader.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/DataDownloader.cpp -o CMakeFiles/synergy.dir/src/DataDownloader.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.o: ../src/gui/src/FailedLoginDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/FailedLoginDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/FailedLoginDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/FailedLoginDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/FailedLoginDialog.cpp > CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/FailedLoginDialog.cpp > CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/FailedLoginDialog.cpp -o CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/FailedLoginDialog.cpp -o CMakeFiles/synergy.dir/src/FailedLoginDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/Fingerprint.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/Fingerprint.cpp.o: ../src/gui/src/Fingerprint.cpp
+src/gui/CMakeFiles/synergy.dir/src/Fingerprint.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/Fingerprint.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/Fingerprint.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Fingerprint.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/Fingerprint.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Fingerprint.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/Fingerprint.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/Fingerprint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/Fingerprint.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/Fingerprint.cpp > CMakeFiles/synergy.dir/src/Fingerprint.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/Fingerprint.cpp > CMakeFiles/synergy.dir/src/Fingerprint.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/Fingerprint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/Fingerprint.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/Fingerprint.cpp -o CMakeFiles/synergy.dir/src/Fingerprint.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/Fingerprint.cpp -o CMakeFiles/synergy.dir/src/Fingerprint.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/Hotkey.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/Hotkey.cpp.o: ../src/gui/src/Hotkey.cpp
+src/gui/CMakeFiles/synergy.dir/src/Hotkey.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/Hotkey.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/Hotkey.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Hotkey.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/Hotkey.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Hotkey.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/Hotkey.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/Hotkey.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/Hotkey.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/Hotkey.cpp > CMakeFiles/synergy.dir/src/Hotkey.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/Hotkey.cpp > CMakeFiles/synergy.dir/src/Hotkey.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/Hotkey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/Hotkey.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/Hotkey.cpp -o CMakeFiles/synergy.dir/src/Hotkey.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/Hotkey.cpp -o CMakeFiles/synergy.dir/src/Hotkey.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.o: ../src/gui/src/HotkeyDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/HotkeyDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/HotkeyDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/HotkeyDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/HotkeyDialog.cpp > CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/HotkeyDialog.cpp > CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/HotkeyDialog.cpp -o CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/HotkeyDialog.cpp -o CMakeFiles/synergy.dir/src/HotkeyDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/Ipc.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/Ipc.cpp.o: ../src/gui/src/Ipc.cpp
+src/gui/CMakeFiles/synergy.dir/src/Ipc.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/Ipc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/Ipc.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Ipc.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/Ipc.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Ipc.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/Ipc.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/Ipc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/Ipc.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/Ipc.cpp > CMakeFiles/synergy.dir/src/Ipc.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/Ipc.cpp > CMakeFiles/synergy.dir/src/Ipc.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/Ipc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/Ipc.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/Ipc.cpp -o CMakeFiles/synergy.dir/src/Ipc.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/Ipc.cpp -o CMakeFiles/synergy.dir/src/Ipc.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/IpcClient.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/IpcClient.cpp.o: ../src/gui/src/IpcClient.cpp
+src/gui/CMakeFiles/synergy.dir/src/IpcClient.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/IpcClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/IpcClient.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/IpcClient.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/IpcClient.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/IpcClient.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/IpcClient.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/IpcClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/IpcClient.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/IpcClient.cpp > CMakeFiles/synergy.dir/src/IpcClient.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/IpcClient.cpp > CMakeFiles/synergy.dir/src/IpcClient.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/IpcClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/IpcClient.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/IpcClient.cpp -o CMakeFiles/synergy.dir/src/IpcClient.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/IpcClient.cpp -o CMakeFiles/synergy.dir/src/IpcClient.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/IpcReader.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/IpcReader.cpp.o: ../src/gui/src/IpcReader.cpp
+src/gui/CMakeFiles/synergy.dir/src/IpcReader.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/IpcReader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/IpcReader.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/IpcReader.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/IpcReader.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/IpcReader.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/IpcReader.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/IpcReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/IpcReader.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/IpcReader.cpp > CMakeFiles/synergy.dir/src/IpcReader.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/IpcReader.cpp > CMakeFiles/synergy.dir/src/IpcReader.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/IpcReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/IpcReader.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/IpcReader.cpp -o CMakeFiles/synergy.dir/src/IpcReader.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/IpcReader.cpp -o CMakeFiles/synergy.dir/src/IpcReader.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/KeySequence.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/KeySequence.cpp.o: ../src/gui/src/KeySequence.cpp
+src/gui/CMakeFiles/synergy.dir/src/KeySequence.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/KeySequence.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/KeySequence.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/KeySequence.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/KeySequence.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/KeySequence.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/KeySequence.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/KeySequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/KeySequence.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/KeySequence.cpp > CMakeFiles/synergy.dir/src/KeySequence.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/KeySequence.cpp > CMakeFiles/synergy.dir/src/KeySequence.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/KeySequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/KeySequence.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/KeySequence.cpp -o CMakeFiles/synergy.dir/src/KeySequence.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/KeySequence.cpp -o CMakeFiles/synergy.dir/src/KeySequence.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.o: ../src/gui/src/KeySequenceWidget.cpp
+src/gui/CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/KeySequenceWidget.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/KeySequenceWidget.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/KeySequenceWidget.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/KeySequenceWidget.cpp > CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/KeySequenceWidget.cpp > CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/KeySequenceWidget.cpp -o CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/KeySequenceWidget.cpp -o CMakeFiles/synergy.dir/src/KeySequenceWidget.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: ../src/gui/src/LicenseManager.cpp
+src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/LicenseManager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/LicenseManager.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/LicenseManager.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/LicenseManager.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/LicenseManager.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/LicenseManager.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/LicenseManager.cpp > CMakeFiles/synergy.dir/src/LicenseManager.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/LicenseManager.cpp > CMakeFiles/synergy.dir/src/LicenseManager.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/LicenseManager.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/LicenseManager.cpp -o CMakeFiles/synergy.dir/src/LicenseManager.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/LicenseManager.cpp -o CMakeFiles/synergy.dir/src/LicenseManager.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: ../src/gui/src/MainWindow.cpp
+src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/MainWindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/MainWindow.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/MainWindow.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/MainWindow.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/MainWindow.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/MainWindow.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/MainWindow.cpp > CMakeFiles/synergy.dir/src/MainWindow.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/MainWindow.cpp > CMakeFiles/synergy.dir/src/MainWindow.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/MainWindow.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/MainWindow.cpp -o CMakeFiles/synergy.dir/src/MainWindow.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/MainWindow.cpp -o CMakeFiles/synergy.dir/src/MainWindow.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.o: ../src/gui/src/NewScreenWidget.cpp
+src/gui/CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/NewScreenWidget.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/NewScreenWidget.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/NewScreenWidget.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/NewScreenWidget.cpp > CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/NewScreenWidget.cpp > CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/NewScreenWidget.cpp -o CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/NewScreenWidget.cpp -o CMakeFiles/synergy.dir/src/NewScreenWidget.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: ../src/gui/src/QSynergyApplication.cpp
+src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/QSynergyApplication.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/QSynergyApplication.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/QSynergyApplication.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/QSynergyApplication.cpp > CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/QSynergyApplication.cpp > CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/QSynergyApplication.cpp -o CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/QSynergyApplication.cpp -o CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/QUtility.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/QUtility.cpp.o: ../src/gui/src/QUtility.cpp
+src/gui/CMakeFiles/synergy.dir/src/QUtility.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/QUtility.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/QUtility.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/QUtility.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/QUtility.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/QUtility.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/QUtility.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/QUtility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/QUtility.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/QUtility.cpp > CMakeFiles/synergy.dir/src/QUtility.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/QUtility.cpp > CMakeFiles/synergy.dir/src/QUtility.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/QUtility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/QUtility.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/QUtility.cpp -o CMakeFiles/synergy.dir/src/QUtility.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/QUtility.cpp -o CMakeFiles/synergy.dir/src/QUtility.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/Screen.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/Screen.cpp.o: ../src/gui/src/Screen.cpp
+src/gui/CMakeFiles/synergy.dir/src/Screen.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/Screen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/Screen.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Screen.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/Screen.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Screen.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/Screen.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/Screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/Screen.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/Screen.cpp > CMakeFiles/synergy.dir/src/Screen.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/Screen.cpp > CMakeFiles/synergy.dir/src/Screen.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/Screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/Screen.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/Screen.cpp -o CMakeFiles/synergy.dir/src/Screen.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/Screen.cpp -o CMakeFiles/synergy.dir/src/Screen.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.o: ../src/gui/src/ScreenSettingsDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSettingsDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ScreenSettingsDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSettingsDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ScreenSettingsDialog.cpp > CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSettingsDialog.cpp > CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ScreenSettingsDialog.cpp -o CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSettingsDialog.cpp -o CMakeFiles/synergy.dir/src/ScreenSettingsDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.o: ../src/gui/src/ScreenSetupModel.cpp
+src/gui/CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSetupModel.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ScreenSetupModel.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSetupModel.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ScreenSetupModel.cpp > CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSetupModel.cpp > CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ScreenSetupModel.cpp -o CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSetupModel.cpp -o CMakeFiles/synergy.dir/src/ScreenSetupModel.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.o: ../src/gui/src/ScreenSetupView.cpp
+src/gui/CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSetupView.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ScreenSetupView.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSetupView.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ScreenSetupView.cpp > CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSetupView.cpp > CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ScreenSetupView.cpp -o CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ScreenSetupView.cpp -o CMakeFiles/synergy.dir/src/ScreenSetupView.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: ../src/gui/src/ServerConfig.cpp
+src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ServerConfig.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ServerConfig.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ServerConfig.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ServerConfig.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ServerConfig.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ServerConfig.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ServerConfig.cpp > CMakeFiles/synergy.dir/src/ServerConfig.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ServerConfig.cpp > CMakeFiles/synergy.dir/src/ServerConfig.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ServerConfig.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ServerConfig.cpp -o CMakeFiles/synergy.dir/src/ServerConfig.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ServerConfig.cpp -o CMakeFiles/synergy.dir/src/ServerConfig.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.o: ../src/gui/src/ServerConfigDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ServerConfigDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ServerConfigDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ServerConfigDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ServerConfigDialog.cpp > CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ServerConfigDialog.cpp > CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ServerConfigDialog.cpp -o CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ServerConfigDialog.cpp -o CMakeFiles/synergy.dir/src/ServerConfigDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: ../src/gui/src/SettingsDialog.cpp
+src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/SettingsDialog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/SettingsDialog.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/SettingsDialog.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/SettingsDialog.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/SettingsDialog.cpp > CMakeFiles/synergy.dir/src/SettingsDialog.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/SettingsDialog.cpp > CMakeFiles/synergy.dir/src/SettingsDialog.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/SettingsDialog.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/SettingsDialog.cpp -o CMakeFiles/synergy.dir/src/SettingsDialog.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/SettingsDialog.cpp -o CMakeFiles/synergy.dir/src/SettingsDialog.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: ../src/gui/src/SetupWizard.cpp
+src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/SetupWizard.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/SetupWizard.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/SetupWizard.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/SetupWizard.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/SetupWizard.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/SetupWizard.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/SetupWizard.cpp > CMakeFiles/synergy.dir/src/SetupWizard.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/SetupWizard.cpp > CMakeFiles/synergy.dir/src/SetupWizard.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/SetupWizard.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/SetupWizard.cpp -o CMakeFiles/synergy.dir/src/SetupWizard.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/SetupWizard.cpp -o CMakeFiles/synergy.dir/src/SetupWizard.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/SslCertificate.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/SslCertificate.cpp.o: ../src/gui/src/SslCertificate.cpp
+src/gui/CMakeFiles/synergy.dir/src/SslCertificate.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/SslCertificate.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/SslCertificate.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/SslCertificate.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/SslCertificate.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/SslCertificate.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/SslCertificate.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/SslCertificate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/SslCertificate.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/SslCertificate.cpp > CMakeFiles/synergy.dir/src/SslCertificate.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/SslCertificate.cpp > CMakeFiles/synergy.dir/src/SslCertificate.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/SslCertificate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/SslCertificate.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/SslCertificate.cpp -o CMakeFiles/synergy.dir/src/SslCertificate.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/SslCertificate.cpp -o CMakeFiles/synergy.dir/src/SslCertificate.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/SynergyLocale.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/SynergyLocale.cpp.o: ../src/gui/src/SynergyLocale.cpp
+src/gui/CMakeFiles/synergy.dir/src/SynergyLocale.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/SynergyLocale.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/SynergyLocale.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/SynergyLocale.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/SynergyLocale.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/SynergyLocale.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/SynergyLocale.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/SynergyLocale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/SynergyLocale.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/SynergyLocale.cpp > CMakeFiles/synergy.dir/src/SynergyLocale.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/SynergyLocale.cpp > CMakeFiles/synergy.dir/src/SynergyLocale.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/SynergyLocale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/SynergyLocale.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/SynergyLocale.cpp -o CMakeFiles/synergy.dir/src/SynergyLocale.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/SynergyLocale.cpp -o CMakeFiles/synergy.dir/src/SynergyLocale.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.o: ../src/gui/src/TrashScreenWidget.cpp
+src/gui/CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/TrashScreenWidget.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/TrashScreenWidget.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/TrashScreenWidget.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/TrashScreenWidget.cpp > CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/TrashScreenWidget.cpp > CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/TrashScreenWidget.cpp -o CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/TrashScreenWidget.cpp -o CMakeFiles/synergy.dir/src/TrashScreenWidget.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/VersionChecker.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/VersionChecker.cpp.o: ../src/gui/src/VersionChecker.cpp
+src/gui/CMakeFiles/synergy.dir/src/VersionChecker.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/VersionChecker.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/VersionChecker.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/VersionChecker.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/VersionChecker.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/VersionChecker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/VersionChecker.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/VersionChecker.cpp > CMakeFiles/synergy.dir/src/VersionChecker.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.cpp > CMakeFiles/synergy.dir/src/VersionChecker.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/VersionChecker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/VersionChecker.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/VersionChecker.cpp -o CMakeFiles/synergy.dir/src/VersionChecker.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.cpp -o CMakeFiles/synergy.dir/src/VersionChecker.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: ../src/gui/src/Zeroconf.cpp
+src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/Zeroconf.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Zeroconf.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/Zeroconf.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/Zeroconf.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/Zeroconf.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/Zeroconf.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/Zeroconf.cpp > CMakeFiles/synergy.dir/src/Zeroconf.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/Zeroconf.cpp > CMakeFiles/synergy.dir/src/Zeroconf.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/Zeroconf.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/Zeroconf.cpp -o CMakeFiles/synergy.dir/src/Zeroconf.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/Zeroconf.cpp -o CMakeFiles/synergy.dir/src/Zeroconf.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.o: ../src/gui/src/ZeroconfBrowser.cpp
+src/gui/CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfBrowser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ZeroconfBrowser.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfBrowser.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ZeroconfBrowser.cpp > CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfBrowser.cpp > CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ZeroconfBrowser.cpp -o CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfBrowser.cpp -o CMakeFiles/synergy.dir/src/ZeroconfBrowser.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.o: ../src/gui/src/ZeroconfRegister.cpp
+src/gui/CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfRegister.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ZeroconfRegister.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfRegister.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ZeroconfRegister.cpp > CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfRegister.cpp > CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ZeroconfRegister.cpp -o CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfRegister.cpp -o CMakeFiles/synergy.dir/src/ZeroconfRegister.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.o: ../src/gui/src/ZeroconfServer.cpp
+src/gui/CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ZeroconfServer.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfServer.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ZeroconfServer.cpp > CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfServer.cpp > CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ZeroconfServer.cpp -o CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfServer.cpp -o CMakeFiles/synergy.dir/src/ZeroconfServer.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: ../src/gui/src/ZeroconfService.cpp
+src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfService.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ZeroconfService.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfService.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ZeroconfService.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ZeroconfService.cpp > CMakeFiles/synergy.dir/src/ZeroconfService.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfService.cpp > CMakeFiles/synergy.dir/src/ZeroconfService.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ZeroconfService.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ZeroconfService.cpp -o CMakeFiles/synergy.dir/src/ZeroconfService.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfService.cpp -o CMakeFiles/synergy.dir/src/ZeroconfService.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.o: ../src/gui/src/ZeroconfThread.cpp
+src/gui/CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfThread.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/ZeroconfThread.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfThread.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/ZeroconfThread.cpp > CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfThread.cpp > CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/ZeroconfThread.cpp -o CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfThread.cpp -o CMakeFiles/synergy.dir/src/ZeroconfThread.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
-src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: ../src/gui/src/main.cpp
+src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object src/gui/CMakeFiles/synergy.dir/src/main.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/main.cpp.o -c /home/lucero/code/synergy-core/src/gui/src/main.cpp
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergy.dir/src/main.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/gui/src/main.cpp
 
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergy.dir/src/main.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/gui/src/main.cpp > CMakeFiles/synergy.dir/src/main.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/gui/src/main.cpp > CMakeFiles/synergy.dir/src/main.cpp.i
 
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergy.dir/src/main.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/gui/src/main.cpp -o CMakeFiles/synergy.dir/src/main.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/gui/src/main.cpp -o CMakeFiles/synergy.dir/src/main.cpp.s
 
 src/gui/CMakeFiles/synergy.dir/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp.o: src/gui/CMakeFiles/synergy.dir/flags.make
 src/gui/CMakeFiles/synergy.dir/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp.o: src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp
@@ -1125,6 +1125,6 @@ src/gui/CMakeFiles/synergy.dir/depend: src/gui/res/lang/gui_zh-CN.qm
 src/gui/CMakeFiles/synergy.dir/depend: src/gui/res/lang/gui_zh-TW.qm
 src/gui/CMakeFiles/synergy.dir/depend: src/gui/synergy_autogen/PNK5WDWK6L/qrc_Synergy.cpp
 src/gui/CMakeFiles/synergy.dir/depend: src/gui/synergy_autogen/PR4VE6O6XJ/qrc_Languages.cpp
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/gui /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/gui /home/lucero/code/synergy-core/build/src/gui/CMakeFiles/synergy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/gui /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/gui /home/lucero/code/synergy-core/build/src/gui/CMakeFiles/synergy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/gui/CMakeFiles/synergy.dir/depend
 

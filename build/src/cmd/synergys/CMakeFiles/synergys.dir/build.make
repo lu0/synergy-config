@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,30 +58,30 @@ include src/cmd/synergys/CMakeFiles/synergys.dir/progress.make
 include src/cmd/synergys/CMakeFiles/synergys.dir/flags.make
 
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: src/cmd/synergys/CMakeFiles/synergys.dir/flags.make
-src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: ../src/cmd/synergys/synergys.cpp
+src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/synergys.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergys.dir/synergys.cpp.o -c /home/lucero/code/synergy-core/src/cmd/synergys/synergys.cpp
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergys.dir/synergys.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/synergys.cpp
 
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergys.dir/synergys.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/cmd/synergys/synergys.cpp > CMakeFiles/synergys.dir/synergys.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/synergys.cpp > CMakeFiles/synergys.dir/synergys.cpp.i
 
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergys.dir/synergys.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/cmd/synergys/synergys.cpp -o CMakeFiles/synergys.dir/synergys.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/synergys.cpp -o CMakeFiles/synergys.dir/synergys.cpp.s
 
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: src/cmd/synergys/CMakeFiles/synergys.dir/flags.make
-src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: ../src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp
+src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o -c /home/lucero/code/synergy-core/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp
 
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp > CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp > CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.i
 
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp -o CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/cmd/synergys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp -o CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.s
 
 # Object files for target synergys
 synergys_OBJECTS = \
@@ -131,6 +131,6 @@ src/cmd/synergys/CMakeFiles/synergys.dir/clean:
 .PHONY : src/cmd/synergys/CMakeFiles/synergys.dir/clean
 
 src/cmd/synergys/CMakeFiles/synergys.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/cmd/synergys /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/cmd/synergys /home/lucero/code/synergy-core/build/src/cmd/synergys/CMakeFiles/synergys.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/cmd/synergys /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/cmd/synergys /home/lucero/code/synergy-core/build/src/cmd/synergys/CMakeFiles/synergys.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/cmd/synergys/CMakeFiles/synergys.dir/depend
 

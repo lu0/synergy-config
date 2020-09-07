@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,472 +58,472 @@ include src/lib/synergy/CMakeFiles/synlib.dir/progress.make
 include src/lib/synergy/CMakeFiles/synlib.dir/flags.make
 
 src/lib/synergy/CMakeFiles/synlib.dir/App.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/App.cpp.o: ../src/lib/synergy/App.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/App.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/App.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/App.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/App.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/App.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/App.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/App.cpp > CMakeFiles/synlib.dir/App.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.cpp > CMakeFiles/synlib.dir/App.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/App.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/App.cpp -o CMakeFiles/synlib.dir/App.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.cpp -o CMakeFiles/synlib.dir/App.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/AppUtil.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/AppUtil.cpp.o: ../src/lib/synergy/AppUtil.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/AppUtil.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/AppUtil.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/AppUtil.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/AppUtil.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/AppUtil.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/AppUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/AppUtil.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/AppUtil.cpp > CMakeFiles/synlib.dir/AppUtil.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.cpp > CMakeFiles/synlib.dir/AppUtil.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/AppUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/AppUtil.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/AppUtil.cpp -o CMakeFiles/synlib.dir/AppUtil.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.cpp -o CMakeFiles/synlib.dir/AppUtil.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: ../src/lib/synergy/ArgParser.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgParser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ArgParser.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ArgParser.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ArgParser.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgParser.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ArgParser.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ArgParser.cpp > CMakeFiles/synlib.dir/ArgParser.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgParser.cpp > CMakeFiles/synlib.dir/ArgParser.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ArgParser.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ArgParser.cpp -o CMakeFiles/synlib.dir/ArgParser.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgParser.cpp -o CMakeFiles/synlib.dir/ArgParser.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ArgsBase.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ArgsBase.cpp.o: ../src/lib/synergy/ArgsBase.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ArgsBase.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ArgsBase.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ArgsBase.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ArgsBase.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ArgsBase.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ArgsBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ArgsBase.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ArgsBase.cpp > CMakeFiles/synlib.dir/ArgsBase.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.cpp > CMakeFiles/synlib.dir/ArgsBase.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ArgsBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ArgsBase.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ArgsBase.cpp -o CMakeFiles/synlib.dir/ArgsBase.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.cpp -o CMakeFiles/synlib.dir/ArgsBase.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/Chunk.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/Chunk.cpp.o: ../src/lib/synergy/Chunk.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/Chunk.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/Chunk.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/Chunk.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/Chunk.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/Chunk.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/Chunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/Chunk.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/Chunk.cpp > CMakeFiles/synlib.dir/Chunk.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.cpp > CMakeFiles/synlib.dir/Chunk.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/Chunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/Chunk.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/Chunk.cpp -o CMakeFiles/synlib.dir/Chunk.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.cpp -o CMakeFiles/synlib.dir/Chunk.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientApp.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ClientApp.cpp.o: ../src/lib/synergy/ClientApp.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ClientApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientApp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ClientApp.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ClientApp.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ClientApp.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ClientApp.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientApp.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ClientApp.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ClientApp.cpp > CMakeFiles/synlib.dir/ClientApp.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientApp.cpp > CMakeFiles/synlib.dir/ClientApp.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ClientApp.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ClientApp.cpp -o CMakeFiles/synlib.dir/ClientApp.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientApp.cpp -o CMakeFiles/synlib.dir/ClientApp.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientArgs.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ClientArgs.cpp.o: ../src/lib/synergy/ClientArgs.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ClientArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientArgs.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ClientArgs.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ClientArgs.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ClientArgs.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ClientArgs.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientArgs.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientArgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ClientArgs.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ClientArgs.cpp > CMakeFiles/synlib.dir/ClientArgs.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientArgs.cpp > CMakeFiles/synlib.dir/ClientArgs.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientArgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ClientArgs.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ClientArgs.cpp -o CMakeFiles/synlib.dir/ClientArgs.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientArgs.cpp -o CMakeFiles/synlib.dir/ClientArgs.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.o: ../src/lib/synergy/ClientTaskBarReceiver.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientTaskBarReceiver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ClientTaskBarReceiver.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientTaskBarReceiver.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ClientTaskBarReceiver.cpp > CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientTaskBarReceiver.cpp > CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ClientTaskBarReceiver.cpp -o CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClientTaskBarReceiver.cpp -o CMakeFiles/synlib.dir/ClientTaskBarReceiver.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/Clipboard.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/Clipboard.cpp.o: ../src/lib/synergy/Clipboard.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/Clipboard.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/Clipboard.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/Clipboard.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/Clipboard.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/Clipboard.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/Clipboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/Clipboard.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/Clipboard.cpp > CMakeFiles/synlib.dir/Clipboard.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.cpp > CMakeFiles/synlib.dir/Clipboard.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/Clipboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/Clipboard.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/Clipboard.cpp -o CMakeFiles/synlib.dir/Clipboard.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.cpp -o CMakeFiles/synlib.dir/Clipboard.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClipboardChunk.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ClipboardChunk.cpp.o: ../src/lib/synergy/ClipboardChunk.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ClipboardChunk.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClipboardChunk.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ClipboardChunk.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ClipboardChunk.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ClipboardChunk.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ClipboardChunk.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClipboardChunk.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClipboardChunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ClipboardChunk.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ClipboardChunk.cpp > CMakeFiles/synlib.dir/ClipboardChunk.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClipboardChunk.cpp > CMakeFiles/synlib.dir/ClipboardChunk.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ClipboardChunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ClipboardChunk.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ClipboardChunk.cpp -o CMakeFiles/synlib.dir/ClipboardChunk.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ClipboardChunk.cpp -o CMakeFiles/synlib.dir/ClipboardChunk.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: ../src/lib/synergy/DaemonApp.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DaemonApp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/DaemonApp.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/DaemonApp.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/DaemonApp.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DaemonApp.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/DaemonApp.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/DaemonApp.cpp > CMakeFiles/synlib.dir/DaemonApp.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DaemonApp.cpp > CMakeFiles/synlib.dir/DaemonApp.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/DaemonApp.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/DaemonApp.cpp -o CMakeFiles/synlib.dir/DaemonApp.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DaemonApp.cpp -o CMakeFiles/synlib.dir/DaemonApp.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/DragInformation.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/DragInformation.cpp.o: ../src/lib/synergy/DragInformation.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/DragInformation.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/DragInformation.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/DragInformation.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/DragInformation.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/DragInformation.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/DragInformation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/DragInformation.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/DragInformation.cpp > CMakeFiles/synlib.dir/DragInformation.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.cpp > CMakeFiles/synlib.dir/DragInformation.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/DragInformation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/DragInformation.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/DragInformation.cpp -o CMakeFiles/synlib.dir/DragInformation.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.cpp -o CMakeFiles/synlib.dir/DragInformation.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/DropHelper.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/DropHelper.cpp.o: ../src/lib/synergy/DropHelper.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/DropHelper.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DropHelper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/DropHelper.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/DropHelper.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/DropHelper.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/DropHelper.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DropHelper.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/DropHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/DropHelper.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/DropHelper.cpp > CMakeFiles/synlib.dir/DropHelper.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DropHelper.cpp > CMakeFiles/synlib.dir/DropHelper.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/DropHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/DropHelper.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/DropHelper.cpp -o CMakeFiles/synlib.dir/DropHelper.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DropHelper.cpp -o CMakeFiles/synlib.dir/DropHelper.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/FileChunk.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/FileChunk.cpp.o: ../src/lib/synergy/FileChunk.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/FileChunk.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/FileChunk.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/FileChunk.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/FileChunk.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/FileChunk.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/FileChunk.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/FileChunk.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/FileChunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/FileChunk.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/FileChunk.cpp > CMakeFiles/synlib.dir/FileChunk.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/FileChunk.cpp > CMakeFiles/synlib.dir/FileChunk.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/FileChunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/FileChunk.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/FileChunk.cpp -o CMakeFiles/synlib.dir/FileChunk.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/FileChunk.cpp -o CMakeFiles/synlib.dir/FileChunk.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/IClipboard.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/IClipboard.cpp.o: ../src/lib/synergy/IClipboard.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/IClipboard.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IClipboard.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/IClipboard.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/IClipboard.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/IClipboard.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/IClipboard.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IClipboard.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/IClipboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/IClipboard.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/IClipboard.cpp > CMakeFiles/synlib.dir/IClipboard.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IClipboard.cpp > CMakeFiles/synlib.dir/IClipboard.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/IClipboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/IClipboard.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/IClipboard.cpp -o CMakeFiles/synlib.dir/IClipboard.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IClipboard.cpp -o CMakeFiles/synlib.dir/IClipboard.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/IKeyState.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/IKeyState.cpp.o: ../src/lib/synergy/IKeyState.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/IKeyState.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IKeyState.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/IKeyState.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/IKeyState.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/IKeyState.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/IKeyState.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IKeyState.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/IKeyState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/IKeyState.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/IKeyState.cpp > CMakeFiles/synlib.dir/IKeyState.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IKeyState.cpp > CMakeFiles/synlib.dir/IKeyState.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/IKeyState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/IKeyState.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/IKeyState.cpp -o CMakeFiles/synlib.dir/IKeyState.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IKeyState.cpp -o CMakeFiles/synlib.dir/IKeyState.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/IPlatformScreen.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/IPlatformScreen.cpp.o: ../src/lib/synergy/IPlatformScreen.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/IPlatformScreen.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IPlatformScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/IPlatformScreen.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/IPlatformScreen.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/IPlatformScreen.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/IPlatformScreen.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IPlatformScreen.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/IPlatformScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/IPlatformScreen.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/IPlatformScreen.cpp > CMakeFiles/synlib.dir/IPlatformScreen.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IPlatformScreen.cpp > CMakeFiles/synlib.dir/IPlatformScreen.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/IPlatformScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/IPlatformScreen.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/IPlatformScreen.cpp -o CMakeFiles/synlib.dir/IPlatformScreen.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IPlatformScreen.cpp -o CMakeFiles/synlib.dir/IPlatformScreen.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/IPrimaryScreen.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/IPrimaryScreen.cpp.o: ../src/lib/synergy/IPrimaryScreen.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/IPrimaryScreen.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IPrimaryScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/IPrimaryScreen.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/IPrimaryScreen.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/IPrimaryScreen.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/IPrimaryScreen.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IPrimaryScreen.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/IPrimaryScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/IPrimaryScreen.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/IPrimaryScreen.cpp > CMakeFiles/synlib.dir/IPrimaryScreen.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IPrimaryScreen.cpp > CMakeFiles/synlib.dir/IPrimaryScreen.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/IPrimaryScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/IPrimaryScreen.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/IPrimaryScreen.cpp -o CMakeFiles/synlib.dir/IPrimaryScreen.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IPrimaryScreen.cpp -o CMakeFiles/synlib.dir/IPrimaryScreen.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/KeyMap.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/KeyMap.cpp.o: ../src/lib/synergy/KeyMap.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/KeyMap.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/KeyMap.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/KeyMap.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/KeyMap.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/KeyMap.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/KeyMap.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/KeyMap.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/KeyMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/KeyMap.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/KeyMap.cpp > CMakeFiles/synlib.dir/KeyMap.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/KeyMap.cpp > CMakeFiles/synlib.dir/KeyMap.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/KeyMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/KeyMap.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/KeyMap.cpp -o CMakeFiles/synlib.dir/KeyMap.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/KeyMap.cpp -o CMakeFiles/synlib.dir/KeyMap.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/KeyState.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/KeyState.cpp.o: ../src/lib/synergy/KeyState.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/KeyState.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/KeyState.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/KeyState.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/KeyState.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/KeyState.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/KeyState.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/KeyState.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/KeyState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/KeyState.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/KeyState.cpp > CMakeFiles/synlib.dir/KeyState.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/KeyState.cpp > CMakeFiles/synlib.dir/KeyState.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/KeyState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/KeyState.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/KeyState.cpp -o CMakeFiles/synlib.dir/KeyState.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/KeyState.cpp -o CMakeFiles/synlib.dir/KeyState.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/PacketStreamFilter.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/PacketStreamFilter.cpp.o: ../src/lib/synergy/PacketStreamFilter.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/PacketStreamFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PacketStreamFilter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/PacketStreamFilter.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/PacketStreamFilter.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/PacketStreamFilter.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/PacketStreamFilter.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PacketStreamFilter.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/PacketStreamFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/PacketStreamFilter.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/PacketStreamFilter.cpp > CMakeFiles/synlib.dir/PacketStreamFilter.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PacketStreamFilter.cpp > CMakeFiles/synlib.dir/PacketStreamFilter.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/PacketStreamFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/PacketStreamFilter.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/PacketStreamFilter.cpp -o CMakeFiles/synlib.dir/PacketStreamFilter.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PacketStreamFilter.cpp -o CMakeFiles/synlib.dir/PacketStreamFilter.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/PlatformScreen.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/PlatformScreen.cpp.o: ../src/lib/synergy/PlatformScreen.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/PlatformScreen.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PlatformScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/PlatformScreen.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/PlatformScreen.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/PlatformScreen.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/PlatformScreen.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PlatformScreen.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/PlatformScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/PlatformScreen.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/PlatformScreen.cpp > CMakeFiles/synlib.dir/PlatformScreen.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PlatformScreen.cpp > CMakeFiles/synlib.dir/PlatformScreen.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/PlatformScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/PlatformScreen.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/PlatformScreen.cpp -o CMakeFiles/synlib.dir/PlatformScreen.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PlatformScreen.cpp -o CMakeFiles/synlib.dir/PlatformScreen.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.o: ../src/lib/synergy/PortableTaskBarReceiver.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PortableTaskBarReceiver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/PortableTaskBarReceiver.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PortableTaskBarReceiver.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/PortableTaskBarReceiver.cpp > CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PortableTaskBarReceiver.cpp > CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/PortableTaskBarReceiver.cpp -o CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/PortableTaskBarReceiver.cpp -o CMakeFiles/synlib.dir/PortableTaskBarReceiver.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ProtocolUtil.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ProtocolUtil.cpp.o: ../src/lib/synergy/ProtocolUtil.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ProtocolUtil.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ProtocolUtil.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ProtocolUtil.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ProtocolUtil.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ProtocolUtil.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ProtocolUtil.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ProtocolUtil.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ProtocolUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ProtocolUtil.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ProtocolUtil.cpp > CMakeFiles/synlib.dir/ProtocolUtil.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ProtocolUtil.cpp > CMakeFiles/synlib.dir/ProtocolUtil.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ProtocolUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ProtocolUtil.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ProtocolUtil.cpp -o CMakeFiles/synlib.dir/ProtocolUtil.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ProtocolUtil.cpp -o CMakeFiles/synlib.dir/ProtocolUtil.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/Screen.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/Screen.cpp.o: ../src/lib/synergy/Screen.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/Screen.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Screen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/Screen.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/Screen.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/Screen.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/Screen.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Screen.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/Screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/Screen.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/Screen.cpp > CMakeFiles/synlib.dir/Screen.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Screen.cpp > CMakeFiles/synlib.dir/Screen.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/Screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/Screen.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/Screen.cpp -o CMakeFiles/synlib.dir/Screen.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Screen.cpp -o CMakeFiles/synlib.dir/Screen.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: ../src/lib/synergy/ServerApp.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerApp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ServerApp.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ServerApp.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ServerApp.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerApp.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ServerApp.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ServerApp.cpp > CMakeFiles/synlib.dir/ServerApp.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerApp.cpp > CMakeFiles/synlib.dir/ServerApp.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ServerApp.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ServerApp.cpp -o CMakeFiles/synlib.dir/ServerApp.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerApp.cpp -o CMakeFiles/synlib.dir/ServerApp.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: ../src/lib/synergy/ServerArgs.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerArgs.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ServerArgs.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ServerArgs.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ServerArgs.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerArgs.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ServerArgs.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ServerArgs.cpp > CMakeFiles/synlib.dir/ServerArgs.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerArgs.cpp > CMakeFiles/synlib.dir/ServerArgs.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ServerArgs.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ServerArgs.cpp -o CMakeFiles/synlib.dir/ServerArgs.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerArgs.cpp -o CMakeFiles/synlib.dir/ServerArgs.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: ../src/lib/synergy/ServerTaskBarReceiver.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerTaskBarReceiver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ServerTaskBarReceiver.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerTaskBarReceiver.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ServerTaskBarReceiver.cpp > CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerTaskBarReceiver.cpp > CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ServerTaskBarReceiver.cpp -o CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerTaskBarReceiver.cpp -o CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/StreamChunker.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/StreamChunker.cpp.o: ../src/lib/synergy/StreamChunker.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/StreamChunker.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/StreamChunker.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/StreamChunker.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/StreamChunker.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/StreamChunker.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/StreamChunker.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/StreamChunker.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/StreamChunker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/StreamChunker.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/StreamChunker.cpp > CMakeFiles/synlib.dir/StreamChunker.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/StreamChunker.cpp > CMakeFiles/synlib.dir/StreamChunker.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/StreamChunker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/StreamChunker.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/StreamChunker.cpp -o CMakeFiles/synlib.dir/StreamChunker.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/StreamChunker.cpp -o CMakeFiles/synlib.dir/StreamChunker.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ToolApp.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ToolApp.cpp.o: ../src/lib/synergy/ToolApp.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ToolApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ToolApp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ToolApp.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ToolApp.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ToolApp.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ToolApp.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ToolApp.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ToolApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ToolApp.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ToolApp.cpp > CMakeFiles/synlib.dir/ToolApp.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ToolApp.cpp > CMakeFiles/synlib.dir/ToolApp.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ToolApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ToolApp.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ToolApp.cpp -o CMakeFiles/synlib.dir/ToolApp.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ToolApp.cpp -o CMakeFiles/synlib.dir/ToolApp.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/ToolArgs.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/ToolArgs.cpp.o: ../src/lib/synergy/ToolArgs.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/ToolArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ToolArgs.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/ToolArgs.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ToolArgs.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/ToolArgs.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/ToolArgs.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ToolArgs.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/ToolArgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/ToolArgs.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/ToolArgs.cpp > CMakeFiles/synlib.dir/ToolArgs.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ToolArgs.cpp > CMakeFiles/synlib.dir/ToolArgs.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/ToolArgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/ToolArgs.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/ToolArgs.cpp -o CMakeFiles/synlib.dir/ToolArgs.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ToolArgs.cpp -o CMakeFiles/synlib.dir/ToolArgs.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/XScreen.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/XScreen.cpp.o: ../src/lib/synergy/XScreen.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/XScreen.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/XScreen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/XScreen.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/XScreen.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/XScreen.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/XScreen.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/XScreen.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/XScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/XScreen.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/XScreen.cpp > CMakeFiles/synlib.dir/XScreen.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/XScreen.cpp > CMakeFiles/synlib.dir/XScreen.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/XScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/XScreen.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/XScreen.cpp -o CMakeFiles/synlib.dir/XScreen.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/XScreen.cpp -o CMakeFiles/synlib.dir/XScreen.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/XSynergy.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/XSynergy.cpp.o: ../src/lib/synergy/XSynergy.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/XSynergy.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/XSynergy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/XSynergy.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/XSynergy.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/XSynergy.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/XSynergy.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/XSynergy.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/XSynergy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/XSynergy.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/XSynergy.cpp > CMakeFiles/synlib.dir/XSynergy.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/XSynergy.cpp > CMakeFiles/synlib.dir/XSynergy.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/XSynergy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/XSynergy.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/XSynergy.cpp -o CMakeFiles/synlib.dir/XSynergy.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/XSynergy.cpp -o CMakeFiles/synlib.dir/XSynergy.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/key_types.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/key_types.cpp.o: ../src/lib/synergy/key_types.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/key_types.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/key_types.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/key_types.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/key_types.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/key_types.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/key_types.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/key_types.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/key_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/key_types.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/key_types.cpp > CMakeFiles/synlib.dir/key_types.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/key_types.cpp > CMakeFiles/synlib.dir/key_types.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/key_types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/key_types.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/key_types.cpp -o CMakeFiles/synlib.dir/key_types.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/key_types.cpp -o CMakeFiles/synlib.dir/key_types.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/protocol_types.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/protocol_types.cpp.o: ../src/lib/synergy/protocol_types.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/protocol_types.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/protocol_types.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/protocol_types.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/protocol_types.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/protocol_types.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/protocol_types.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/protocol_types.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/protocol_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/protocol_types.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/protocol_types.cpp > CMakeFiles/synlib.dir/protocol_types.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/protocol_types.cpp > CMakeFiles/synlib.dir/protocol_types.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/protocol_types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/protocol_types.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/protocol_types.cpp -o CMakeFiles/synlib.dir/protocol_types.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/protocol_types.cpp -o CMakeFiles/synlib.dir/protocol_types.cpp.s
 
 src/lib/synergy/CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.o: src/lib/synergy/CMakeFiles/synlib.dir/flags.make
-src/lib/synergy/CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.o: ../src/lib/synergy/unix/AppUtilUnix.cpp
+src/lib/synergy/CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/unix/AppUtilUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/lib/synergy/CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/synergy/unix/AppUtilUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/unix/AppUtilUnix.cpp
 
 src/lib/synergy/CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/synergy/unix/AppUtilUnix.cpp > CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/unix/AppUtilUnix.cpp > CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.i
 
 src/lib/synergy/CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/synergy/unix/AppUtilUnix.cpp -o CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/synergy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/unix/AppUtilUnix.cpp -o CMakeFiles/synlib.dir/unix/AppUtilUnix.cpp.s
 
 # Object files for target synlib
 synlib_OBJECTS = \
@@ -619,6 +619,6 @@ src/lib/synergy/CMakeFiles/synlib.dir/clean:
 .PHONY : src/lib/synergy/CMakeFiles/synlib.dir/clean
 
 src/lib/synergy/CMakeFiles/synlib.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/synergy /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/synergy /home/lucero/code/synergy-core/build/src/lib/synergy/CMakeFiles/synlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/synergy /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/synergy /home/lucero/code/synergy-core/build/src/lib/synergy/CMakeFiles/synlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/synergy/CMakeFiles/synlib.dir/depend
 

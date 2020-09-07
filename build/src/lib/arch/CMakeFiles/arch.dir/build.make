@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,212 +58,212 @@ include src/lib/arch/CMakeFiles/arch.dir/progress.make
 include src/lib/arch/CMakeFiles/arch.dir/flags.make
 
 src/lib/arch/CMakeFiles/arch.dir/Arch.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/Arch.cpp.o: ../src/lib/arch/Arch.cpp
+src/lib/arch/CMakeFiles/arch.dir/Arch.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/Arch.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/Arch.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/Arch.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/Arch.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/Arch.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/Arch.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/Arch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/Arch.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/Arch.cpp > CMakeFiles/arch.dir/Arch.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/Arch.cpp > CMakeFiles/arch.dir/Arch.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/Arch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/Arch.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/Arch.cpp -o CMakeFiles/arch.dir/Arch.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/Arch.cpp -o CMakeFiles/arch.dir/Arch.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/ArchConsoleStd.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/ArchConsoleStd.cpp.o: ../src/lib/arch/ArchConsoleStd.cpp
+src/lib/arch/CMakeFiles/arch.dir/ArchConsoleStd.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchConsoleStd.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/ArchConsoleStd.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/ArchConsoleStd.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/ArchConsoleStd.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/ArchConsoleStd.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchConsoleStd.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/ArchConsoleStd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/ArchConsoleStd.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/ArchConsoleStd.cpp > CMakeFiles/arch.dir/ArchConsoleStd.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchConsoleStd.cpp > CMakeFiles/arch.dir/ArchConsoleStd.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/ArchConsoleStd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/ArchConsoleStd.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/ArchConsoleStd.cpp -o CMakeFiles/arch.dir/ArchConsoleStd.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchConsoleStd.cpp -o CMakeFiles/arch.dir/ArchConsoleStd.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/ArchDaemonNone.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/ArchDaemonNone.cpp.o: ../src/lib/arch/ArchDaemonNone.cpp
+src/lib/arch/CMakeFiles/arch.dir/ArchDaemonNone.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchDaemonNone.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/ArchDaemonNone.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/ArchDaemonNone.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/ArchDaemonNone.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/ArchDaemonNone.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchDaemonNone.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/ArchDaemonNone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/ArchDaemonNone.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/ArchDaemonNone.cpp > CMakeFiles/arch.dir/ArchDaemonNone.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchDaemonNone.cpp > CMakeFiles/arch.dir/ArchDaemonNone.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/ArchDaemonNone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/ArchDaemonNone.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/ArchDaemonNone.cpp -o CMakeFiles/arch.dir/ArchDaemonNone.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/ArchDaemonNone.cpp -o CMakeFiles/arch.dir/ArchDaemonNone.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/IArchString.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/IArchString.cpp.o: ../src/lib/arch/IArchString.cpp
+src/lib/arch/CMakeFiles/arch.dir/IArchString.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchString.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/IArchString.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/IArchString.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/IArchString.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/IArchString.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchString.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/IArchString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/IArchString.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/IArchString.cpp > CMakeFiles/arch.dir/IArchString.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchString.cpp > CMakeFiles/arch.dir/IArchString.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/IArchString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/IArchString.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/IArchString.cpp -o CMakeFiles/arch.dir/IArchString.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/IArchString.cpp -o CMakeFiles/arch.dir/IArchString.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.o: ../src/lib/arch/unix/ArchConsoleUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchConsoleUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchConsoleUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchConsoleUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchConsoleUnix.cpp > CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchConsoleUnix.cpp > CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchConsoleUnix.cpp -o CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchConsoleUnix.cpp -o CMakeFiles/arch.dir/unix/ArchConsoleUnix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.o: ../src/lib/arch/unix/ArchDaemonUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchDaemonUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchDaemonUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchDaemonUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchDaemonUnix.cpp > CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchDaemonUnix.cpp > CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchDaemonUnix.cpp -o CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchDaemonUnix.cpp -o CMakeFiles/arch.dir/unix/ArchDaemonUnix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.o: ../src/lib/arch/unix/ArchFileUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchFileUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchFileUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchFileUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchFileUnix.cpp > CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchFileUnix.cpp > CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchFileUnix.cpp -o CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchFileUnix.cpp -o CMakeFiles/arch.dir/unix/ArchFileUnix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.o: ../src/lib/arch/unix/ArchLogUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchLogUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchLogUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchLogUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchLogUnix.cpp > CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchLogUnix.cpp > CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchLogUnix.cpp -o CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchLogUnix.cpp -o CMakeFiles/arch.dir/unix/ArchLogUnix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.o: ../src/lib/arch/unix/ArchMultithreadPosix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchMultithreadPosix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchMultithreadPosix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchMultithreadPosix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchMultithreadPosix.cpp > CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchMultithreadPosix.cpp > CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchMultithreadPosix.cpp -o CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchMultithreadPosix.cpp -o CMakeFiles/arch.dir/unix/ArchMultithreadPosix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.o: ../src/lib/arch/unix/ArchNetworkBSD.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchNetworkBSD.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchNetworkBSD.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchNetworkBSD.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchNetworkBSD.cpp > CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchNetworkBSD.cpp > CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchNetworkBSD.cpp -o CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchNetworkBSD.cpp -o CMakeFiles/arch.dir/unix/ArchNetworkBSD.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.o: ../src/lib/arch/unix/ArchSleepUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSleepUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchSleepUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSleepUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchSleepUnix.cpp > CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSleepUnix.cpp > CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchSleepUnix.cpp -o CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSleepUnix.cpp -o CMakeFiles/arch.dir/unix/ArchSleepUnix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.o: ../src/lib/arch/unix/ArchStringUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchStringUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchStringUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchStringUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchStringUnix.cpp > CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchStringUnix.cpp > CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchStringUnix.cpp -o CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchStringUnix.cpp -o CMakeFiles/arch.dir/unix/ArchStringUnix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.o: ../src/lib/arch/unix/ArchSystemUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSystemUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchSystemUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSystemUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchSystemUnix.cpp > CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSystemUnix.cpp > CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchSystemUnix.cpp -o CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchSystemUnix.cpp -o CMakeFiles/arch.dir/unix/ArchSystemUnix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.o: ../src/lib/arch/unix/ArchTaskBarXWindows.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTaskBarXWindows.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchTaskBarXWindows.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTaskBarXWindows.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchTaskBarXWindows.cpp > CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTaskBarXWindows.cpp > CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchTaskBarXWindows.cpp -o CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTaskBarXWindows.cpp -o CMakeFiles/arch.dir/unix/ArchTaskBarXWindows.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.o: ../src/lib/arch/unix/ArchTimeUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTimeUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/ArchTimeUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTimeUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/ArchTimeUnix.cpp > CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTimeUnix.cpp > CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/ArchTimeUnix.cpp -o CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/ArchTimeUnix.cpp -o CMakeFiles/arch.dir/unix/ArchTimeUnix.cpp.s
 
 src/lib/arch/CMakeFiles/arch.dir/unix/XArchUnix.cpp.o: src/lib/arch/CMakeFiles/arch.dir/flags.make
-src/lib/arch/CMakeFiles/arch.dir/unix/XArchUnix.cpp.o: ../src/lib/arch/unix/XArchUnix.cpp
+src/lib/arch/CMakeFiles/arch.dir/unix/XArchUnix.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/XArchUnix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/lib/arch/CMakeFiles/arch.dir/unix/XArchUnix.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/XArchUnix.cpp.o -c /home/lucero/code/synergy-core/src/lib/arch/unix/XArchUnix.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arch.dir/unix/XArchUnix.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/XArchUnix.cpp
 
 src/lib/arch/CMakeFiles/arch.dir/unix/XArchUnix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arch.dir/unix/XArchUnix.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/arch/unix/XArchUnix.cpp > CMakeFiles/arch.dir/unix/XArchUnix.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/XArchUnix.cpp > CMakeFiles/arch.dir/unix/XArchUnix.cpp.i
 
 src/lib/arch/CMakeFiles/arch.dir/unix/XArchUnix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arch.dir/unix/XArchUnix.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/arch/unix/XArchUnix.cpp -o CMakeFiles/arch.dir/unix/XArchUnix.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/arch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/arch/unix/XArchUnix.cpp -o CMakeFiles/arch.dir/unix/XArchUnix.cpp.s
 
 # Object files for target arch
 arch_OBJECTS = \
@@ -319,6 +319,6 @@ src/lib/arch/CMakeFiles/arch.dir/clean:
 .PHONY : src/lib/arch/CMakeFiles/arch.dir/clean
 
 src/lib/arch/CMakeFiles/arch.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/arch /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/arch /home/lucero/code/synergy-core/build/src/lib/arch/CMakeFiles/arch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/arch /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/arch /home/lucero/code/synergy-core/build/src/lib/arch/CMakeFiles/arch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/arch/CMakeFiles/arch.dir/depend
 

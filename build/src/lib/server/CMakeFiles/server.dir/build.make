@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,199 +58,199 @@ include src/lib/server/CMakeFiles/server.dir/progress.make
 include src/lib/server/CMakeFiles/server.dir/flags.make
 
 src/lib/server/CMakeFiles/server.dir/BaseClientProxy.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/BaseClientProxy.cpp.o: ../src/lib/server/BaseClientProxy.cpp
+src/lib/server/CMakeFiles/server.dir/BaseClientProxy.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/BaseClientProxy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/server/CMakeFiles/server.dir/BaseClientProxy.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/BaseClientProxy.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/BaseClientProxy.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/BaseClientProxy.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/BaseClientProxy.cpp
 
 src/lib/server/CMakeFiles/server.dir/BaseClientProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/BaseClientProxy.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/BaseClientProxy.cpp > CMakeFiles/server.dir/BaseClientProxy.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/BaseClientProxy.cpp > CMakeFiles/server.dir/BaseClientProxy.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/BaseClientProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/BaseClientProxy.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/BaseClientProxy.cpp -o CMakeFiles/server.dir/BaseClientProxy.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/BaseClientProxy.cpp -o CMakeFiles/server.dir/BaseClientProxy.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientListener.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientListener.cpp.o: ../src/lib/server/ClientListener.cpp
+src/lib/server/CMakeFiles/server.dir/ClientListener.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientListener.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientListener.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientListener.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientListener.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientListener.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientListener.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientListener.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientListener.cpp > CMakeFiles/server.dir/ClientListener.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientListener.cpp > CMakeFiles/server.dir/ClientListener.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientListener.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientListener.cpp -o CMakeFiles/server.dir/ClientListener.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientListener.cpp -o CMakeFiles/server.dir/ClientListener.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxy.cpp.o: ../src/lib/server/ClientProxy.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxy.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxy.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxy.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxy.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxy.cpp > CMakeFiles/server.dir/ClientProxy.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy.cpp > CMakeFiles/server.dir/ClientProxy.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxy.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxy.cpp -o CMakeFiles/server.dir/ClientProxy.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy.cpp -o CMakeFiles/server.dir/ClientProxy.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_0.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxy1_0.cpp.o: ../src/lib/server/ClientProxy1_0.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_0.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_0.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxy1_0.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_0.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_0.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_0.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_0.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxy1_0.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_0.cpp > CMakeFiles/server.dir/ClientProxy1_0.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_0.cpp > CMakeFiles/server.dir/ClientProxy1_0.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxy1_0.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_0.cpp -o CMakeFiles/server.dir/ClientProxy1_0.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_0.cpp -o CMakeFiles/server.dir/ClientProxy1_0.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_1.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxy1_1.cpp.o: ../src/lib/server/ClientProxy1_1.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_1.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxy1_1.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_1.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_1.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_1.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_1.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxy1_1.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_1.cpp > CMakeFiles/server.dir/ClientProxy1_1.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_1.cpp > CMakeFiles/server.dir/ClientProxy1_1.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxy1_1.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_1.cpp -o CMakeFiles/server.dir/ClientProxy1_1.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_1.cpp -o CMakeFiles/server.dir/ClientProxy1_1.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_2.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxy1_2.cpp.o: ../src/lib/server/ClientProxy1_2.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_2.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxy1_2.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_2.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_2.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_2.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_2.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxy1_2.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_2.cpp > CMakeFiles/server.dir/ClientProxy1_2.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_2.cpp > CMakeFiles/server.dir/ClientProxy1_2.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxy1_2.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_2.cpp -o CMakeFiles/server.dir/ClientProxy1_2.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_2.cpp -o CMakeFiles/server.dir/ClientProxy1_2.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_3.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxy1_3.cpp.o: ../src/lib/server/ClientProxy1_3.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_3.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_3.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxy1_3.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_3.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_3.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_3.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_3.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxy1_3.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_3.cpp > CMakeFiles/server.dir/ClientProxy1_3.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_3.cpp > CMakeFiles/server.dir/ClientProxy1_3.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxy1_3.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_3.cpp -o CMakeFiles/server.dir/ClientProxy1_3.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_3.cpp -o CMakeFiles/server.dir/ClientProxy1_3.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: ../src/lib/server/ClientProxy1_4.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_4.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_4.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_4.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_4.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_4.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxy1_4.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_4.cpp > CMakeFiles/server.dir/ClientProxy1_4.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_4.cpp > CMakeFiles/server.dir/ClientProxy1_4.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxy1_4.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_4.cpp -o CMakeFiles/server.dir/ClientProxy1_4.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_4.cpp -o CMakeFiles/server.dir/ClientProxy1_4.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: ../src/lib/server/ClientProxy1_5.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_5.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_5.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_5.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_5.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_5.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxy1_5.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_5.cpp > CMakeFiles/server.dir/ClientProxy1_5.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_5.cpp > CMakeFiles/server.dir/ClientProxy1_5.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxy1_5.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_5.cpp -o CMakeFiles/server.dir/ClientProxy1_5.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_5.cpp -o CMakeFiles/server.dir/ClientProxy1_5.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: ../src/lib/server/ClientProxy1_6.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_6.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_6.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_6.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxy1_6.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_6.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxy1_6.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_6.cpp > CMakeFiles/server.dir/ClientProxy1_6.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_6.cpp > CMakeFiles/server.dir/ClientProxy1_6.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxy1_6.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxy1_6.cpp -o CMakeFiles/server.dir/ClientProxy1_6.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxy1_6.cpp -o CMakeFiles/server.dir/ClientProxy1_6.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: ../src/lib/server/ClientProxyUnknown.cpp
+src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxyUnknown.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxyUnknown.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/ClientProxyUnknown.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/ClientProxyUnknown.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxyUnknown.cpp
 
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/ClientProxyUnknown.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/ClientProxyUnknown.cpp > CMakeFiles/server.dir/ClientProxyUnknown.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxyUnknown.cpp > CMakeFiles/server.dir/ClientProxyUnknown.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/ClientProxyUnknown.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/ClientProxyUnknown.cpp -o CMakeFiles/server.dir/ClientProxyUnknown.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/ClientProxyUnknown.cpp -o CMakeFiles/server.dir/ClientProxyUnknown.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/Config.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/Config.cpp.o: ../src/lib/server/Config.cpp
+src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Config.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/lib/server/CMakeFiles/server.dir/Config.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/Config.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/Config.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/Config.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/Config.cpp
 
 src/lib/server/CMakeFiles/server.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/Config.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/Config.cpp > CMakeFiles/server.dir/Config.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/Config.cpp > CMakeFiles/server.dir/Config.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Config.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/Config.cpp -o CMakeFiles/server.dir/Config.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/Config.cpp -o CMakeFiles/server.dir/Config.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: ../src/lib/server/InputFilter.cpp
+src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/InputFilter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/InputFilter.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/InputFilter.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/InputFilter.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/InputFilter.cpp
 
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/InputFilter.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/InputFilter.cpp > CMakeFiles/server.dir/InputFilter.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/InputFilter.cpp > CMakeFiles/server.dir/InputFilter.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/InputFilter.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/InputFilter.cpp -o CMakeFiles/server.dir/InputFilter.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/InputFilter.cpp -o CMakeFiles/server.dir/InputFilter.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/PrimaryClient.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/PrimaryClient.cpp.o: ../src/lib/server/PrimaryClient.cpp
+src/lib/server/CMakeFiles/server.dir/PrimaryClient.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/PrimaryClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/lib/server/CMakeFiles/server.dir/PrimaryClient.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/PrimaryClient.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/PrimaryClient.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/PrimaryClient.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/PrimaryClient.cpp
 
 src/lib/server/CMakeFiles/server.dir/PrimaryClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/PrimaryClient.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/PrimaryClient.cpp > CMakeFiles/server.dir/PrimaryClient.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/PrimaryClient.cpp > CMakeFiles/server.dir/PrimaryClient.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/PrimaryClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/PrimaryClient.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/PrimaryClient.cpp -o CMakeFiles/server.dir/PrimaryClient.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/PrimaryClient.cpp -o CMakeFiles/server.dir/PrimaryClient.cpp.s
 
 src/lib/server/CMakeFiles/server.dir/Server.cpp.o: src/lib/server/CMakeFiles/server.dir/flags.make
-src/lib/server/CMakeFiles/server.dir/Server.cpp.o: ../src/lib/server/Server.cpp
+src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/lib/server/CMakeFiles/server.dir/Server.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/Server.cpp.o -c /home/lucero/code/synergy-core/src/lib/server/Server.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/Server.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.cpp
 
 src/lib/server/CMakeFiles/server.dir/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/Server.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/server/Server.cpp > CMakeFiles/server.dir/Server.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.cpp > CMakeFiles/server.dir/Server.cpp.i
 
 src/lib/server/CMakeFiles/server.dir/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Server.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/server/Server.cpp -o CMakeFiles/server.dir/Server.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.cpp -o CMakeFiles/server.dir/Server.cpp.s
 
 # Object files for target server
 server_OBJECTS = \
@@ -304,6 +304,6 @@ src/lib/server/CMakeFiles/server.dir/clean:
 .PHONY : src/lib/server/CMakeFiles/server.dir/clean
 
 src/lib/server/CMakeFiles/server.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/server /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/server /home/lucero/code/synergy-core/build/src/lib/server/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/server /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/server /home/lucero/code/synergy-core/build/src/lib/server/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/server/CMakeFiles/server.dir/depend
 

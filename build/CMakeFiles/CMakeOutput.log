@@ -1,4 +1,4 @@
-The system is: Linux - 5.4.0-26-generic - x86_64
+The system is: Linux - 5.4.0-45-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -28,13 +28,13 @@ The CXX compiler identification is GNU, found in "/home/lucero/code/synergy-core
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5f951/fast && /usr/bin/make -f CMakeFiles/cmTC_5f951.dir/build.make CMakeFiles/cmTC_5f951.dir/build
+Run Build Command(s):/usr/bin/make cmTC_31c43/fast && /usr/bin/make -f CMakeFiles/cmTC_31c43.dir/build.make CMakeFiles/cmTC_31c43.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5f951.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5f951.dir/testCCompiler.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_5f951
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f951.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_5f951.dir/testCCompiler.c.o  -o cmTC_5f951 
+Building C object CMakeFiles/cmTC_31c43.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_31c43.dir/testCCompiler.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_31c43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c43.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_31c43.dir/testCCompiler.c.o  -o cmTC_31c43 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -42,10 +42,10 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ddc84/fast && /usr/bin/make -f CMakeFiles/cmTC_ddc84.dir/build.make CMakeFiles/cmTC_ddc84.dir/build
+Run Build Command(s):/usr/bin/make cmTC_44f70/fast && /usr/bin/make -f CMakeFiles/cmTC_44f70.dir/build.make CMakeFiles/cmTC_44f70.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -54,8 +54,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc5nC4Vc.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cckAqb2G.s
 GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -75,15 +75,15 @@ GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o /tmp/cc5nC4Vc.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o /tmp/cckAqb2G.s
 GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_ddc84
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc84.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o  -o cmTC_ddc84 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_44f70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f70.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o  -o cmTC_44f70 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -95,9 +95,9 @@ Thread model: posix
 gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ddc84' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgRF8JW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ddc84 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ddc84' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_44f70' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2vCHN5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_44f70 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_44f70' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -121,10 +121,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ddc84/fast && /usr/bin/make -f CMakeFiles/cmTC_ddc84.dir/build.make CMakeFiles/cmTC_ddc84.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_44f70/fast && /usr/bin/make -f CMakeFiles/cmTC_44f70.dir/build.make CMakeFiles/cmTC_44f70.dir/build]
   ignore line: [make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -133,8 +133,8 @@ Parsed C implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc5nC4Vc.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cckAqb2G.s]
   ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -154,15 +154,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o /tmp/cc5nC4Vc.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o /tmp/cckAqb2G.s]
   ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_ddc84]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc84.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o  -o cmTC_ddc84 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_44f70]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f70.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o  -o cmTC_44f70 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -174,13 +174,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ddc84' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgRF8JW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ddc84 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_44f70' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2vCHN5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_44f70 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgRF8JW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2vCHN5.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -198,7 +198,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ddc84] ==> ignore
+    arg [cmTC_44f70] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
@@ -210,7 +210,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_ddc84.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_44f70.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -240,13 +240,13 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2669f/fast && /usr/bin/make -f CMakeFiles/cmTC_2669f.dir/build.make CMakeFiles/cmTC_2669f.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cb73b/fast && /usr/bin/make -f CMakeFiles/cmTC_cb73b.dir/build.make CMakeFiles/cmTC_cb73b.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2669f.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2669f.dir/testCXXCompiler.cxx.o -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2669f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2669f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2669f.dir/testCXXCompiler.cxx.o  -o cmTC_2669f 
+Building CXX object CMakeFiles/cmTC_cb73b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_cb73b.dir/testCXXCompiler.cxx.o -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cb73b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb73b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_cb73b.dir/testCXXCompiler.cxx.o  -o cmTC_cb73b 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -254,10 +254,10 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6d3de/fast && /usr/bin/make -f CMakeFiles/cmTC_6d3de.dir/build.make CMakeFiles/cmTC_6d3de.dir/build
+Run Build Command(s):/usr/bin/make cmTC_edc6c/fast && /usr/bin/make -f CMakeFiles/cmTC_edc6c.dir/build.make CMakeFiles/cmTC_edc6c.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -266,8 +266,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQWi4nP.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccly4Jkl.s
 GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -291,15 +291,15 @@ GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: a3d04a02fbd98a786d710618ca593f02
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQWi4nP.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccly4Jkl.s
 GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_6d3de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d3de.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6d3de 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_edc6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edc6c.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_edc6c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -311,9 +311,9 @@ Thread model: posix
 gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d3de' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cctZgaue.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6d3de /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d3de' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edc6c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYFfvgP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_edc6c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edc6c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -343,10 +343,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_6d3de/fast && /usr/bin/make -f CMakeFiles/cmTC_6d3de.dir/build.make CMakeFiles/cmTC_6d3de.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_edc6c/fast && /usr/bin/make -f CMakeFiles/cmTC_edc6c.dir/build.make CMakeFiles/cmTC_edc6c.dir/build]
   ignore line: [make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -355,8 +355,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQWi4nP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccly4Jkl.s]
   ignore line: [GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -380,15 +380,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: a3d04a02fbd98a786d710618ca593f02]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQWi4nP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccly4Jkl.s]
   ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_6d3de]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d3de.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6d3de ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_edc6c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edc6c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_edc6c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -400,13 +400,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d3de' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cctZgaue.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6d3de /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edc6c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYFfvgP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_edc6c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cctZgaue.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYFfvgP.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -424,7 +424,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6d3de] ==> ignore
+    arg [cmTC_edc6c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
@@ -436,7 +436,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_6d3de.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_edc6c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -462,13 +462,13 @@ Parsed CXX implicit link information from above output:
 Determining if the include file istream exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_97df3/fast && /usr/bin/make -f CMakeFiles/cmTC_97df3.dir/build.make CMakeFiles/cmTC_97df3.dir/build
+Run Build Command(s):/usr/bin/make cmTC_2b987/fast && /usr/bin/make -f CMakeFiles/cmTC_2b987.dir/build.make CMakeFiles/cmTC_2b987.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_97df3.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -fPIC    -o CMakeFiles/cmTC_97df3.dir/CheckIncludeFile.cxx.o -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_97df3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97df3.dir/link.txt --verbose=1
-/usr/bin/c++   -fPIC     CMakeFiles/cmTC_97df3.dir/CheckIncludeFile.cxx.o  -o cmTC_97df3 
+Building CXX object CMakeFiles/cmTC_2b987.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC    -o CMakeFiles/cmTC_2b987.dir/CheckIncludeFile.cxx.o -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2b987
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b987.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC     CMakeFiles/cmTC_2b987.dir/CheckIncludeFile.cxx.o  -o cmTC_2b987 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -476,13 +476,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the include file ostream exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ad62e/fast && /usr/bin/make -f CMakeFiles/cmTC_ad62e.dir/build.make CMakeFiles/cmTC_ad62e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f3b59/fast && /usr/bin/make -f CMakeFiles/cmTC_f3b59.dir/build.make CMakeFiles/cmTC_f3b59.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ad62e.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -fPIC    -o CMakeFiles/cmTC_ad62e.dir/CheckIncludeFile.cxx.o -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_ad62e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad62e.dir/link.txt --verbose=1
-/usr/bin/c++   -fPIC     CMakeFiles/cmTC_ad62e.dir/CheckIncludeFile.cxx.o  -o cmTC_ad62e 
+Building CXX object CMakeFiles/cmTC_f3b59.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC    -o CMakeFiles/cmTC_f3b59.dir/CheckIncludeFile.cxx.o -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_f3b59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3b59.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC     CMakeFiles/cmTC_f3b59.dir/CheckIncludeFile.cxx.o  -o cmTC_f3b59 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,13 +490,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the include file sstream exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4047e/fast && /usr/bin/make -f CMakeFiles/cmTC_4047e.dir/build.make CMakeFiles/cmTC_4047e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_fa4f2/fast && /usr/bin/make -f CMakeFiles/cmTC_fa4f2.dir/build.make CMakeFiles/cmTC_fa4f2.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4047e.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -fPIC    -o CMakeFiles/cmTC_4047e.dir/CheckIncludeFile.cxx.o -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_4047e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4047e.dir/link.txt --verbose=1
-/usr/bin/c++   -fPIC     CMakeFiles/cmTC_4047e.dir/CheckIncludeFile.cxx.o  -o cmTC_4047e 
+Building CXX object CMakeFiles/cmTC_fa4f2.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC    -o CMakeFiles/cmTC_fa4f2.dir/CheckIncludeFile.cxx.o -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_fa4f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa4f2.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC     CMakeFiles/cmTC_fa4f2.dir/CheckIncludeFile.cxx.o  -o cmTC_fa4f2 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -504,13 +504,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files inttypes.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_eae1f/fast && /usr/bin/make -f CMakeFiles/cmTC_eae1f.dir/build.make CMakeFiles/cmTC_eae1f.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d9fa0/fast && /usr/bin/make -f CMakeFiles/cmTC_d9fa0.dir/build.make CMakeFiles/cmTC_d9fa0.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eae1f.dir/HAVE_INTTYPES_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_eae1f.dir/HAVE_INTTYPES_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
-Linking C executable cmTC_eae1f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae1f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_eae1f.dir/HAVE_INTTYPES_H.c.o  -o cmTC_eae1f 
+Building C object CMakeFiles/cmTC_d9fa0.dir/HAVE_INTTYPES_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d9fa0.dir/HAVE_INTTYPES_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
+Linking C executable cmTC_d9fa0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9fa0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d9fa0.dir/HAVE_INTTYPES_H.c.o  -o cmTC_d9fa0 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -518,13 +518,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files locale.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f10ab/fast && /usr/bin/make -f CMakeFiles/cmTC_f10ab.dir/build.make CMakeFiles/cmTC_f10ab.dir/build
+Run Build Command(s):/usr/bin/make cmTC_94259/fast && /usr/bin/make -f CMakeFiles/cmTC_94259.dir/build.make CMakeFiles/cmTC_94259.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f10ab.dir/HAVE_LOCALE_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f10ab.dir/HAVE_LOCALE_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
-Linking C executable cmTC_f10ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f10ab.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_f10ab.dir/HAVE_LOCALE_H.c.o  -o cmTC_f10ab 
+Building C object CMakeFiles/cmTC_94259.dir/HAVE_LOCALE_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_94259.dir/HAVE_LOCALE_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_94259
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94259.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_94259.dir/HAVE_LOCALE_H.c.o  -o cmTC_94259 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -532,13 +532,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files memory.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b29d8/fast && /usr/bin/make -f CMakeFiles/cmTC_b29d8.dir/build.make CMakeFiles/cmTC_b29d8.dir/build
+Run Build Command(s):/usr/bin/make cmTC_9f230/fast && /usr/bin/make -f CMakeFiles/cmTC_9f230.dir/build.make CMakeFiles/cmTC_9f230.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b29d8.dir/HAVE_MEMORY_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b29d8.dir/HAVE_MEMORY_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_MEMORY_H.c
-Linking C executable cmTC_b29d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b29d8.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b29d8.dir/HAVE_MEMORY_H.c.o  -o cmTC_b29d8 
+Building C object CMakeFiles/cmTC_9f230.dir/HAVE_MEMORY_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9f230.dir/HAVE_MEMORY_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_MEMORY_H.c
+Linking C executable cmTC_9f230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f230.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9f230.dir/HAVE_MEMORY_H.c.o  -o cmTC_9f230 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -546,13 +546,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files stdlib.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a3234/fast && /usr/bin/make -f CMakeFiles/cmTC_a3234.dir/build.make CMakeFiles/cmTC_a3234.dir/build
+Run Build Command(s):/usr/bin/make cmTC_7a6e6/fast && /usr/bin/make -f CMakeFiles/cmTC_7a6e6.dir/build.make CMakeFiles/cmTC_7a6e6.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a3234.dir/HAVE_STDLIB_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a3234.dir/HAVE_STDLIB_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
-Linking C executable cmTC_a3234
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3234.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_a3234.dir/HAVE_STDLIB_H.c.o  -o cmTC_a3234 
+Building C object CMakeFiles/cmTC_7a6e6.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7a6e6.dir/HAVE_STDLIB_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_7a6e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a6e6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7a6e6.dir/HAVE_STDLIB_H.c.o  -o cmTC_7a6e6 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -560,13 +560,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files strings.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2aae6/fast && /usr/bin/make -f CMakeFiles/cmTC_2aae6.dir/build.make CMakeFiles/cmTC_2aae6.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d3c0b/fast && /usr/bin/make -f CMakeFiles/cmTC_d3c0b.dir/build.make CMakeFiles/cmTC_d3c0b.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2aae6.dir/HAVE_STRINGS_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2aae6.dir/HAVE_STRINGS_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
-Linking C executable cmTC_2aae6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aae6.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_2aae6.dir/HAVE_STRINGS_H.c.o  -o cmTC_2aae6 
+Building C object CMakeFiles/cmTC_d3c0b.dir/HAVE_STRINGS_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d3c0b.dir/HAVE_STRINGS_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_d3c0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3c0b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d3c0b.dir/HAVE_STRINGS_H.c.o  -o cmTC_d3c0b 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -574,13 +574,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files string.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_416ad/fast && /usr/bin/make -f CMakeFiles/cmTC_416ad.dir/build.make CMakeFiles/cmTC_416ad.dir/build
+Run Build Command(s):/usr/bin/make cmTC_52c6f/fast && /usr/bin/make -f CMakeFiles/cmTC_52c6f.dir/build.make CMakeFiles/cmTC_52c6f.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_416ad.dir/HAVE_STRING_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_416ad.dir/HAVE_STRING_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
-Linking C executable cmTC_416ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_416ad.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_416ad.dir/HAVE_STRING_H.c.o  -o cmTC_416ad 
+Building C object CMakeFiles/cmTC_52c6f.dir/HAVE_STRING_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_52c6f.dir/HAVE_STRING_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
+Linking C executable cmTC_52c6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52c6f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_52c6f.dir/HAVE_STRING_H.c.o  -o cmTC_52c6f 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -588,13 +588,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files sys/select.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b9ae4/fast && /usr/bin/make -f CMakeFiles/cmTC_b9ae4.dir/build.make CMakeFiles/cmTC_b9ae4.dir/build
+Run Build Command(s):/usr/bin/make cmTC_0b348/fast && /usr/bin/make -f CMakeFiles/cmTC_0b348.dir/build.make CMakeFiles/cmTC_0b348.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b9ae4.dir/HAVE_SYS_SELECT_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b9ae4.dir/HAVE_SYS_SELECT_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SELECT_H.c
-Linking C executable cmTC_b9ae4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ae4.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b9ae4.dir/HAVE_SYS_SELECT_H.c.o  -o cmTC_b9ae4 
+Building C object CMakeFiles/cmTC_0b348.dir/HAVE_SYS_SELECT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0b348.dir/HAVE_SYS_SELECT_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SELECT_H.c
+Linking C executable cmTC_0b348
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b348.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0b348.dir/HAVE_SYS_SELECT_H.c.o  -o cmTC_0b348 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -602,13 +602,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files sys/socket.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_07f9a/fast && /usr/bin/make -f CMakeFiles/cmTC_07f9a.dir/build.make CMakeFiles/cmTC_07f9a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_99681/fast && /usr/bin/make -f CMakeFiles/cmTC_99681.dir/build.make CMakeFiles/cmTC_99681.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07f9a.dir/HAVE_SYS_SOCKET_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_07f9a.dir/HAVE_SYS_SOCKET_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKET_H.c
-Linking C executable cmTC_07f9a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f9a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_07f9a.dir/HAVE_SYS_SOCKET_H.c.o  -o cmTC_07f9a 
+Building C object CMakeFiles/cmTC_99681.dir/HAVE_SYS_SOCKET_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_99681.dir/HAVE_SYS_SOCKET_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKET_H.c
+Linking C executable cmTC_99681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99681.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_99681.dir/HAVE_SYS_SOCKET_H.c.o  -o cmTC_99681 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -616,13 +616,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files sys/stat.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7ab11/fast && /usr/bin/make -f CMakeFiles/cmTC_7ab11.dir/build.make CMakeFiles/cmTC_7ab11.dir/build
+Run Build Command(s):/usr/bin/make cmTC_94d65/fast && /usr/bin/make -f CMakeFiles/cmTC_94d65.dir/build.make CMakeFiles/cmTC_94d65.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7ab11.dir/HAVE_SYS_STAT_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7ab11.dir/HAVE_SYS_STAT_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STAT_H.c
-Linking C executable cmTC_7ab11
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ab11.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_7ab11.dir/HAVE_SYS_STAT_H.c.o  -o cmTC_7ab11 
+Building C object CMakeFiles/cmTC_94d65.dir/HAVE_SYS_STAT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_94d65.dir/HAVE_SYS_STAT_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STAT_H.c
+Linking C executable cmTC_94d65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94d65.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_94d65.dir/HAVE_SYS_STAT_H.c.o  -o cmTC_94d65 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -630,13 +630,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files sys/time.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c9402/fast && /usr/bin/make -f CMakeFiles/cmTC_c9402.dir/build.make CMakeFiles/cmTC_c9402.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6d06f/fast && /usr/bin/make -f CMakeFiles/cmTC_6d06f.dir/build.make CMakeFiles/cmTC_6d06f.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c9402.dir/HAVE_SYS_TIME_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c9402.dir/HAVE_SYS_TIME_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
-Linking C executable cmTC_c9402
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9402.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c9402.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_c9402 
+Building C object CMakeFiles/cmTC_6d06f.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6d06f.dir/HAVE_SYS_TIME_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_6d06f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d06f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6d06f.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_6d06f 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -644,13 +644,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files sys/utsname.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e014a/fast && /usr/bin/make -f CMakeFiles/cmTC_e014a.dir/build.make CMakeFiles/cmTC_e014a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_664be/fast && /usr/bin/make -f CMakeFiles/cmTC_664be.dir/build.make CMakeFiles/cmTC_664be.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e014a.dir/HAVE_SYS_UTSNAME_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e014a.dir/HAVE_SYS_UTSNAME_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTSNAME_H.c
-Linking C executable cmTC_e014a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e014a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e014a.dir/HAVE_SYS_UTSNAME_H.c.o  -o cmTC_e014a 
+Building C object CMakeFiles/cmTC_664be.dir/HAVE_SYS_UTSNAME_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_664be.dir/HAVE_SYS_UTSNAME_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTSNAME_H.c
+Linking C executable cmTC_664be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_664be.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_664be.dir/HAVE_SYS_UTSNAME_H.c.o  -o cmTC_664be 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -658,13 +658,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files unistd.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_19a64/fast && /usr/bin/make -f CMakeFiles/cmTC_19a64.dir/build.make CMakeFiles/cmTC_19a64.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c0a1f/fast && /usr/bin/make -f CMakeFiles/cmTC_c0a1f.dir/build.make CMakeFiles/cmTC_c0a1f.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_19a64.dir/HAVE_UNISTD_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_19a64.dir/HAVE_UNISTD_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
-Linking C executable cmTC_19a64
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a64.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_19a64.dir/HAVE_UNISTD_H.c.o  -o cmTC_19a64 
+Building C object CMakeFiles/cmTC_c0a1f.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c0a1f.dir/HAVE_UNISTD_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_c0a1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0a1f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c0a1f.dir/HAVE_UNISTD_H.c.o  -o cmTC_c0a1f 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -672,13 +672,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files wchar.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_77092/fast && /usr/bin/make -f CMakeFiles/cmTC_77092.dir/build.make CMakeFiles/cmTC_77092.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c8f86/fast && /usr/bin/make -f CMakeFiles/cmTC_c8f86.dir/build.make CMakeFiles/cmTC_c8f86.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_77092.dir/HAVE_WCHAR_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_77092.dir/HAVE_WCHAR_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_WCHAR_H.c
-Linking C executable cmTC_77092
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77092.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_77092.dir/HAVE_WCHAR_H.c.o  -o cmTC_77092 
+Building C object CMakeFiles/cmTC_c8f86.dir/HAVE_WCHAR_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c8f86.dir/HAVE_WCHAR_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_WCHAR_H.c
+Linking C executable cmTC_c8f86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8f86.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c8f86.dir/HAVE_WCHAR_H.c.o  -o cmTC_c8f86 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -686,13 +686,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function getpwuid_r exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0a487/fast && /usr/bin/make -f CMakeFiles/cmTC_0a487.dir/build.make CMakeFiles/cmTC_0a487.dir/build
+Run Build Command(s):/usr/bin/make cmTC_acbc2/fast && /usr/bin/make -f CMakeFiles/cmTC_acbc2.dir/build.make CMakeFiles/cmTC_acbc2.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0a487.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpwuid_r   -o CMakeFiles/cmTC_0a487.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0a487
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a487.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpwuid_r    CMakeFiles/cmTC_0a487.dir/CheckFunctionExists.c.o  -o cmTC_0a487 
+Building C object CMakeFiles/cmTC_acbc2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpwuid_r   -o CMakeFiles/cmTC_acbc2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_acbc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acbc2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpwuid_r    CMakeFiles/cmTC_acbc2.dir/CheckFunctionExists.c.o  -o cmTC_acbc2 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -700,13 +700,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function gmtime_r exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_9eacf/fast && /usr/bin/make -f CMakeFiles/cmTC_9eacf.dir/build.make CMakeFiles/cmTC_9eacf.dir/build
+Run Build Command(s):/usr/bin/make cmTC_853e3/fast && /usr/bin/make -f CMakeFiles/cmTC_853e3.dir/build.make CMakeFiles/cmTC_853e3.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9eacf.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_r   -o CMakeFiles/cmTC_9eacf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9eacf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eacf.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gmtime_r    CMakeFiles/cmTC_9eacf.dir/CheckFunctionExists.c.o  -o cmTC_9eacf 
+Building C object CMakeFiles/cmTC_853e3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_r   -o CMakeFiles/cmTC_853e3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_853e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_853e3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gmtime_r    CMakeFiles/cmTC_853e3.dir/CheckFunctionExists.c.o  -o cmTC_853e3 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -714,13 +714,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function nanosleep exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b7444/fast && /usr/bin/make -f CMakeFiles/cmTC_b7444.dir/build.make CMakeFiles/cmTC_b7444.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c031f/fast && /usr/bin/make -f CMakeFiles/cmTC_c031f.dir/build.make CMakeFiles/cmTC_c031f.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b7444.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_b7444.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b7444
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7444.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTC_b7444.dir/CheckFunctionExists.c.o  -o cmTC_b7444 
+Building C object CMakeFiles/cmTC_c031f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_c031f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c031f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c031f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTC_c031f.dir/CheckFunctionExists.c.o  -o cmTC_c031f 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -728,13 +728,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function poll exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c13b5/fast && /usr/bin/make -f CMakeFiles/cmTC_c13b5.dir/build.make CMakeFiles/cmTC_c13b5.dir/build
+Run Build Command(s):/usr/bin/make cmTC_426c3/fast && /usr/bin/make -f CMakeFiles/cmTC_426c3.dir/build.make CMakeFiles/cmTC_426c3.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c13b5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_c13b5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c13b5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c13b5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTC_c13b5.dir/CheckFunctionExists.c.o  -o cmTC_c13b5 
+Building C object CMakeFiles/cmTC_426c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_426c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_426c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_426c3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTC_426c3.dir/CheckFunctionExists.c.o  -o cmTC_426c3 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -742,13 +742,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function sigwait exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0626d/fast && /usr/bin/make -f CMakeFiles/cmTC_0626d.dir/build.make CMakeFiles/cmTC_0626d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_dd56f/fast && /usr/bin/make -f CMakeFiles/cmTC_dd56f.dir/build.make CMakeFiles/cmTC_dd56f.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0626d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigwait   -o CMakeFiles/cmTC_0626d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0626d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0626d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigwait    CMakeFiles/cmTC_0626d.dir/CheckFunctionExists.c.o  -o cmTC_0626d 
+Building C object CMakeFiles/cmTC_dd56f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigwait   -o CMakeFiles/cmTC_dd56f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd56f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd56f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigwait    CMakeFiles/cmTC_dd56f.dir/CheckFunctionExists.c.o  -o cmTC_dd56f 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -756,10 +756,10 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function strftime exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7a42c/fast && /usr/bin/make -f CMakeFiles/cmTC_7a42c.dir/build.make CMakeFiles/cmTC_7a42c.dir/build
+Run Build Command(s):/usr/bin/make cmTC_57e39/fast && /usr/bin/make -f CMakeFiles/cmTC_57e39.dir/build.make CMakeFiles/cmTC_57e39.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a42c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strftime   -o CMakeFiles/cmTC_7a42c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_57e39.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strftime   -o CMakeFiles/cmTC_57e39.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
 <command-line>: warning: conflicting types for built-in function ‘strftime’; expected ‘long unsigned int(char *, long unsigned int,  const char *, const void *)’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
     7 |   CHECK_FUNCTION_EXISTS(void);
@@ -767,9 +767,9 @@ Building C object CMakeFiles/cmTC_7a42c.dir/CheckFunctionExists.c.o
 /usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘strftime’ is declared in header ‘<time.h>’
   +++ |+#include <time.h>
     1 | #ifdef CHECK_FUNCTION_EXISTS
-Linking C executable cmTC_7a42c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a42c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strftime    CMakeFiles/cmTC_7a42c.dir/CheckFunctionExists.c.o  -o cmTC_7a42c 
+Linking C executable cmTC_57e39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57e39.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strftime    CMakeFiles/cmTC_57e39.dir/CheckFunctionExists.c.o  -o cmTC_57e39 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -777,10 +777,10 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function vsnprintf exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4af57/fast && /usr/bin/make -f CMakeFiles/cmTC_4af57.dir/build.make CMakeFiles/cmTC_4af57.dir/build
+Run Build Command(s):/usr/bin/make cmTC_37351/fast && /usr/bin/make -f CMakeFiles/cmTC_37351.dir/build.make CMakeFiles/cmTC_37351.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4af57.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_4af57.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_37351.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_37351.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
 <command-line>: warning: conflicting types for built-in function ‘vsnprintf’; expected ‘int(char *, long unsigned int,  const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
     7 |   CHECK_FUNCTION_EXISTS(void);
@@ -788,9 +788,9 @@ Building C object CMakeFiles/cmTC_4af57.dir/CheckFunctionExists.c.o
 /usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘vsnprintf’ is declared in header ‘<stdio.h>’
   +++ |+#include <stdio.h>
     1 | #ifdef CHECK_FUNCTION_EXISTS
-Linking C executable cmTC_4af57
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4af57.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTC_4af57.dir/CheckFunctionExists.c.o  -o cmTC_4af57 
+Linking C executable cmTC_37351
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37351.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTC_37351.dir/CheckFunctionExists.c.o  -o cmTC_37351 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -798,13 +798,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function inet_aton exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_42337/fast && /usr/bin/make -f CMakeFiles/cmTC_42337.dir/build.make CMakeFiles/cmTC_42337.dir/build
+Run Build Command(s):/usr/bin/make cmTC_0e7dc/fast && /usr/bin/make -f CMakeFiles/cmTC_0e7dc.dir/build.make CMakeFiles/cmTC_0e7dc.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_42337.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton   -o CMakeFiles/cmTC_42337.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_42337
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42337.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_aton    CMakeFiles/cmTC_42337.dir/CheckFunctionExists.c.o  -o cmTC_42337 
+Building C object CMakeFiles/cmTC_0e7dc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton   -o CMakeFiles/cmTC_0e7dc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e7dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e7dc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_aton    CMakeFiles/cmTC_0e7dc.dir/CheckFunctionExists.c.o  -o cmTC_0e7dc 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -812,13 +812,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_29707/fast && /usr/bin/make -f CMakeFiles/cmTC_29707.dir/build.make CMakeFiles/cmTC_29707.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f8e43/fast && /usr/bin/make -f CMakeFiles/cmTC_f8e43.dir/build.make CMakeFiles/cmTC_f8e43.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_29707.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_29707.dir/CheckIncludeFile.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_29707
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29707.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_29707.dir/CheckIncludeFile.c.o  -o cmTC_29707 
+Building C object CMakeFiles/cmTC_f8e43.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f8e43.dir/CheckIncludeFile.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f8e43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8e43.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f8e43.dir/CheckIncludeFile.c.o  -o cmTC_f8e43 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -826,13 +826,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b6c39/fast && /usr/bin/make -f CMakeFiles/cmTC_b6c39.dir/build.make CMakeFiles/cmTC_b6c39.dir/build
+Run Build Command(s):/usr/bin/make cmTC_88c4d/fast && /usr/bin/make -f CMakeFiles/cmTC_88c4d.dir/build.make CMakeFiles/cmTC_88c4d.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b6c39.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b6c39.dir/CheckIncludeFile.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b6c39
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c39.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b6c39.dir/CheckIncludeFile.c.o  -o cmTC_b6c39 
+Building C object CMakeFiles/cmTC_88c4d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88c4d.dir/CheckIncludeFile.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_88c4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c4d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_88c4d.dir/CheckIncludeFile.c.o  -o cmTC_88c4d 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -840,13 +840,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f64f0/fast && /usr/bin/make -f CMakeFiles/cmTC_f64f0.dir/build.make CMakeFiles/cmTC_f64f0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f77f8/fast && /usr/bin/make -f CMakeFiles/cmTC_f77f8.dir/build.make CMakeFiles/cmTC_f77f8.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f64f0.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f64f0.dir/CheckIncludeFile.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f64f0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f64f0.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_f64f0.dir/CheckIncludeFile.c.o  -o cmTC_f64f0 
+Building C object CMakeFiles/cmTC_f77f8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f77f8.dir/CheckIncludeFile.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f77f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f77f8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f77f8.dir/CheckIncludeFile.c.o  -o cmTC_f77f8 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -854,13 +854,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining size of char passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5c03a/fast && /usr/bin/make -f CMakeFiles/cmTC_5c03a.dir/build.make CMakeFiles/cmTC_5c03a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1a5f3/fast && /usr/bin/make -f CMakeFiles/cmTC_1a5f3.dir/build.make CMakeFiles/cmTC_1a5f3.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5c03a.dir/SIZEOF_CHAR.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5c03a.dir/SIZEOF_CHAR.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/SIZEOF_CHAR.c
-Linking C executable cmTC_5c03a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c03a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_5c03a.dir/SIZEOF_CHAR.c.o  -o cmTC_5c03a 
+Building C object CMakeFiles/cmTC_1a5f3.dir/SIZEOF_CHAR.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a5f3.dir/SIZEOF_CHAR.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/SIZEOF_CHAR.c
+Linking C executable cmTC_1a5f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a5f3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1a5f3.dir/SIZEOF_CHAR.c.o  -o cmTC_1a5f3 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -868,13 +868,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining size of int passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6e111/fast && /usr/bin/make -f CMakeFiles/cmTC_6e111.dir/build.make CMakeFiles/cmTC_6e111.dir/build
+Run Build Command(s):/usr/bin/make cmTC_7567b/fast && /usr/bin/make -f CMakeFiles/cmTC_7567b.dir/build.make CMakeFiles/cmTC_7567b.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6e111.dir/SIZEOF_INT.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_6e111.dir/SIZEOF_INT.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
-Linking C executable cmTC_6e111
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e111.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_6e111.dir/SIZEOF_INT.c.o  -o cmTC_6e111 
+Building C object CMakeFiles/cmTC_7567b.dir/SIZEOF_INT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7567b.dir/SIZEOF_INT.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_7567b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7567b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7567b.dir/SIZEOF_INT.c.o  -o cmTC_7567b 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -882,13 +882,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining size of long passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7315a/fast && /usr/bin/make -f CMakeFiles/cmTC_7315a.dir/build.make CMakeFiles/cmTC_7315a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c4fe6/fast && /usr/bin/make -f CMakeFiles/cmTC_c4fe6.dir/build.make CMakeFiles/cmTC_c4fe6.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7315a.dir/SIZEOF_LONG.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7315a.dir/SIZEOF_LONG.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
-Linking C executable cmTC_7315a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7315a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_7315a.dir/SIZEOF_LONG.c.o  -o cmTC_7315a 
+Building C object CMakeFiles/cmTC_c4fe6.dir/SIZEOF_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c4fe6.dir/SIZEOF_LONG.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_c4fe6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4fe6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c4fe6.dir/SIZEOF_LONG.c.o  -o cmTC_c4fe6 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -896,13 +896,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining size of short passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_33b0a/fast && /usr/bin/make -f CMakeFiles/cmTC_33b0a.dir/build.make CMakeFiles/cmTC_33b0a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1862b/fast && /usr/bin/make -f CMakeFiles/cmTC_1862b.dir/build.make CMakeFiles/cmTC_1862b.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_33b0a.dir/SIZEOF_SHORT.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_33b0a.dir/SIZEOF_SHORT.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
-Linking C executable cmTC_33b0a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33b0a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_33b0a.dir/SIZEOF_SHORT.c.o  -o cmTC_33b0a 
+Building C object CMakeFiles/cmTC_1862b.dir/SIZEOF_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1862b.dir/SIZEOF_SHORT.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTC_1862b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1862b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1862b.dir/SIZEOF_SHORT.c.o  -o cmTC_1862b 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -910,13 +910,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_fac8f/fast && /usr/bin/make -f CMakeFiles/cmTC_fac8f.dir/build.make CMakeFiles/cmTC_fac8f.dir/build
+Run Build Command(s):/usr/bin/make cmTC_78d2e/fast && /usr/bin/make -f CMakeFiles/cmTC_78d2e.dir/build.make CMakeFiles/cmTC_78d2e.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fac8f.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fac8f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fac8f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fac8f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fac8f.dir/CheckFunctionExists.c.o  -o cmTC_fac8f  -lpthread 
+Building C object CMakeFiles/cmTC_78d2e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_78d2e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78d2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78d2e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_78d2e.dir/CheckFunctionExists.c.o  -o cmTC_78d2e  -lpthread 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -924,13 +924,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining size of XRRNotifyEvent passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c8097/fast && /usr/bin/make -f CMakeFiles/cmTC_c8097.dir/build.make CMakeFiles/cmTC_c8097.dir/build
+Run Build Command(s):/usr/bin/make cmTC_29a82/fast && /usr/bin/make -f CMakeFiles/cmTC_29a82.dir/build.make CMakeFiles/cmTC_29a82.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c8097.dir/X11_EXTENSIONS_XRANDR_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c8097.dir/X11_EXTENSIONS_XRANDR_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/X11_EXTENSIONS_XRANDR_H.c
-Linking C executable cmTC_c8097
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8097.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c8097.dir/X11_EXTENSIONS_XRANDR_H.c.o  -o cmTC_c8097 
+Building C object CMakeFiles/cmTC_29a82.dir/X11_EXTENSIONS_XRANDR_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29a82.dir/X11_EXTENSIONS_XRANDR_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckTypeSize/X11_EXTENSIONS_XRANDR_H.c
+Linking C executable cmTC_29a82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29a82.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_29a82.dir/X11_EXTENSIONS_XRANDR_H.c.o  -o cmTC_29a82 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -938,13 +938,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files X11/Xlib.h;X11/XKBlib.h;X11/extensions/dpms.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0e07a/fast && /usr/bin/make -f CMakeFiles/cmTC_0e07a.dir/build.make CMakeFiles/cmTC_0e07a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_304c4/fast && /usr/bin/make -f CMakeFiles/cmTC_304c4.dir/build.make CMakeFiles/cmTC_304c4.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e07a.dir/HAVE_X11_EXTENSIONS_DPMS_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0e07a.dir/HAVE_X11_EXTENSIONS_DPMS_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_EXTENSIONS_DPMS_H.c
-Linking C executable cmTC_0e07a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e07a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0e07a.dir/HAVE_X11_EXTENSIONS_DPMS_H.c.o  -o cmTC_0e07a 
+Building C object CMakeFiles/cmTC_304c4.dir/HAVE_X11_EXTENSIONS_DPMS_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_304c4.dir/HAVE_X11_EXTENSIONS_DPMS_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_EXTENSIONS_DPMS_H.c
+Linking C executable cmTC_304c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_304c4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_304c4.dir/HAVE_X11_EXTENSIONS_DPMS_H.c.o  -o cmTC_304c4 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -952,13 +952,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files X11/extensions/Xinerama.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6c48c/fast && /usr/bin/make -f CMakeFiles/cmTC_6c48c.dir/build.make CMakeFiles/cmTC_6c48c.dir/build
+Run Build Command(s):/usr/bin/make cmTC_74305/fast && /usr/bin/make -f CMakeFiles/cmTC_74305.dir/build.make CMakeFiles/cmTC_74305.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6c48c.dir/HAVE_X11_EXTENSIONS_XINERAMA_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_6c48c.dir/HAVE_X11_EXTENSIONS_XINERAMA_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_EXTENSIONS_XINERAMA_H.c
-Linking C executable cmTC_6c48c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c48c.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_6c48c.dir/HAVE_X11_EXTENSIONS_XINERAMA_H.c.o  -o cmTC_6c48c 
+Building C object CMakeFiles/cmTC_74305.dir/HAVE_X11_EXTENSIONS_XINERAMA_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_74305.dir/HAVE_X11_EXTENSIONS_XINERAMA_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_EXTENSIONS_XINERAMA_H.c
+Linking C executable cmTC_74305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74305.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_74305.dir/HAVE_X11_EXTENSIONS_XINERAMA_H.c.o  -o cmTC_74305 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -966,13 +966,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files X11/Xlib.h;X11/XKBlib.h;X11/extensions/XKBstr.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b1163/fast && /usr/bin/make -f CMakeFiles/cmTC_b1163.dir/build.make CMakeFiles/cmTC_b1163.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c1ce0/fast && /usr/bin/make -f CMakeFiles/cmTC_c1ce0.dir/build.make CMakeFiles/cmTC_c1ce0.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b1163.dir/HAVE_X11_EXTENSIONS_XKBSTR_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b1163.dir/HAVE_X11_EXTENSIONS_XKBSTR_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_EXTENSIONS_XKBSTR_H.c
-Linking C executable cmTC_b1163
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1163.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b1163.dir/HAVE_X11_EXTENSIONS_XKBSTR_H.c.o  -o cmTC_b1163 
+Building C object CMakeFiles/cmTC_c1ce0.dir/HAVE_X11_EXTENSIONS_XKBSTR_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c1ce0.dir/HAVE_X11_EXTENSIONS_XKBSTR_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_EXTENSIONS_XKBSTR_H.c
+Linking C executable cmTC_c1ce0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1ce0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c1ce0.dir/HAVE_X11_EXTENSIONS_XKBSTR_H.c.o  -o cmTC_c1ce0 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -980,13 +980,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files X11/extensions/XKB.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e2dd2/fast && /usr/bin/make -f CMakeFiles/cmTC_e2dd2.dir/build.make CMakeFiles/cmTC_e2dd2.dir/build
+Run Build Command(s):/usr/bin/make cmTC_eeed3/fast && /usr/bin/make -f CMakeFiles/cmTC_eeed3.dir/build.make CMakeFiles/cmTC_eeed3.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e2dd2.dir/HAVE_XKB_EXTENSION.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e2dd2.dir/HAVE_XKB_EXTENSION.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_XKB_EXTENSION.c
-Linking C executable cmTC_e2dd2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2dd2.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e2dd2.dir/HAVE_XKB_EXTENSION.c.o  -o cmTC_e2dd2 
+Building C object CMakeFiles/cmTC_eeed3.dir/HAVE_XKB_EXTENSION.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eeed3.dir/HAVE_XKB_EXTENSION.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_XKB_EXTENSION.c
+Linking C executable cmTC_eeed3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeed3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_eeed3.dir/HAVE_XKB_EXTENSION.c.o  -o cmTC_eeed3 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -994,13 +994,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files X11/extensions/XTest.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_892be/fast && /usr/bin/make -f CMakeFiles/cmTC_892be.dir/build.make CMakeFiles/cmTC_892be.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1452a/fast && /usr/bin/make -f CMakeFiles/cmTC_1452a.dir/build.make CMakeFiles/cmTC_1452a.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_892be.dir/HAVE_X11_EXTENSIONS_XTEST_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_892be.dir/HAVE_X11_EXTENSIONS_XTEST_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_EXTENSIONS_XTEST_H.c
-Linking C executable cmTC_892be
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_892be.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_892be.dir/HAVE_X11_EXTENSIONS_XTEST_H.c.o  -o cmTC_892be 
+Building C object CMakeFiles/cmTC_1452a.dir/HAVE_X11_EXTENSIONS_XTEST_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1452a.dir/HAVE_X11_EXTENSIONS_XTEST_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_EXTENSIONS_XTEST_H.c
+Linking C executable cmTC_1452a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1452a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1452a.dir/HAVE_X11_EXTENSIONS_XTEST_H.c.o  -o cmTC_1452a 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1008,13 +1008,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files X11/Xlib.h;X11/XKBlib.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b19c9/fast && /usr/bin/make -f CMakeFiles/cmTC_b19c9.dir/build.make CMakeFiles/cmTC_b19c9.dir/build
+Run Build Command(s):/usr/bin/make cmTC_053a2/fast && /usr/bin/make -f CMakeFiles/cmTC_053a2.dir/build.make CMakeFiles/cmTC_053a2.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b19c9.dir/HAVE_X11_XKBLIB_H.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b19c9.dir/HAVE_X11_XKBLIB_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_XKBLIB_H.c
-Linking C executable cmTC_b19c9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b19c9.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b19c9.dir/HAVE_X11_XKBLIB_H.c.o  -o cmTC_b19c9 
+Building C object CMakeFiles/cmTC_053a2.dir/HAVE_X11_XKBLIB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_053a2.dir/HAVE_X11_XKBLIB_H.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_XKBLIB_H.c
+Linking C executable cmTC_053a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_053a2.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_053a2.dir/HAVE_X11_XKBLIB_H.c.o  -o cmTC_053a2 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1022,13 +1022,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files X11/extensions/XInput2.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0a3b0/fast && /usr/bin/make -f CMakeFiles/cmTC_0a3b0.dir/build.make CMakeFiles/cmTC_0a3b0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6bc95/fast && /usr/bin/make -f CMakeFiles/cmTC_6bc95.dir/build.make CMakeFiles/cmTC_6bc95.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0a3b0.dir/HAVE_XI2.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0a3b0.dir/HAVE_XI2.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_XI2.c
-Linking C executable cmTC_0a3b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a3b0.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0a3b0.dir/HAVE_XI2.c.o  -o cmTC_0a3b0 
+Building C object CMakeFiles/cmTC_6bc95.dir/HAVE_XI2.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6bc95.dir/HAVE_XI2.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_XI2.c
+Linking C executable cmTC_6bc95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bc95.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6bc95.dir/HAVE_XI2.c.o  -o cmTC_6bc95 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1036,13 +1036,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function IceConnectionNumber exists in the SM;ICE passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ee952/fast && /usr/bin/make -f CMakeFiles/cmTC_ee952.dir/build.make CMakeFiles/cmTC_ee952.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d47db/fast && /usr/bin/make -f CMakeFiles/cmTC_d47db.dir/build.make CMakeFiles/cmTC_d47db.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ee952.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_ee952.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ee952
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee952.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_ee952.dir/CheckFunctionExists.c.o  -o cmTC_ee952  -lSM -lICE 
+Building C object CMakeFiles/cmTC_d47db.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_d47db.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d47db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d47db.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_d47db.dir/CheckFunctionExists.c.o  -o cmTC_d47db  -lSM -lICE 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1050,13 +1050,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function DPMSQueryExtension exists in the Xext;X11 passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b00d7/fast && /usr/bin/make -f CMakeFiles/cmTC_b00d7.dir/build.make CMakeFiles/cmTC_b00d7.dir/build
+Run Build Command(s):/usr/bin/make cmTC_382d0/fast && /usr/bin/make -f CMakeFiles/cmTC_382d0.dir/build.make CMakeFiles/cmTC_382d0.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b00d7.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=DPMSQueryExtension   -o CMakeFiles/cmTC_b00d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b00d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b00d7.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=DPMSQueryExtension    CMakeFiles/cmTC_b00d7.dir/CheckFunctionExists.c.o  -o cmTC_b00d7  -lXext -lX11 
+Building C object CMakeFiles/cmTC_382d0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=DPMSQueryExtension   -o CMakeFiles/cmTC_382d0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_382d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_382d0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=DPMSQueryExtension    CMakeFiles/cmTC_382d0.dir/CheckFunctionExists.c.o  -o cmTC_382d0  -lXext -lX11 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1064,13 +1064,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function XTestQueryExtension exists in the Xtst;Xext;X11 passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b3e0a/fast && /usr/bin/make -f CMakeFiles/cmTC_b3e0a.dir/build.make CMakeFiles/cmTC_b3e0a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_aaf32/fast && /usr/bin/make -f CMakeFiles/cmTC_aaf32.dir/build.make CMakeFiles/cmTC_aaf32.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3e0a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XTestQueryExtension   -o CMakeFiles/cmTC_b3e0a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b3e0a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3e0a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XTestQueryExtension    CMakeFiles/cmTC_b3e0a.dir/CheckFunctionExists.c.o  -o cmTC_b3e0a  -lXtst -lXext -lX11 
+Building C object CMakeFiles/cmTC_aaf32.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XTestQueryExtension   -o CMakeFiles/cmTC_aaf32.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aaf32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaf32.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XTestQueryExtension    CMakeFiles/cmTC_aaf32.dir/CheckFunctionExists.c.o  -o cmTC_aaf32  -lXtst -lXext -lX11 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1078,13 +1078,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function XineramaQueryExtension exists in the Xinerama passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f72e0/fast && /usr/bin/make -f CMakeFiles/cmTC_f72e0.dir/build.make CMakeFiles/cmTC_f72e0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_63930/fast && /usr/bin/make -f CMakeFiles/cmTC_63930.dir/build.make CMakeFiles/cmTC_63930.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f72e0.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension   -o CMakeFiles/cmTC_f72e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f72e0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f72e0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension    CMakeFiles/cmTC_f72e0.dir/CheckFunctionExists.c.o  -o cmTC_f72e0  -lXinerama 
+Building C object CMakeFiles/cmTC_63930.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension   -o CMakeFiles/cmTC_63930.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_63930
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63930.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension    CMakeFiles/cmTC_63930.dir/CheckFunctionExists.c.o  -o cmTC_63930  -lXinerama 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1092,13 +1092,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function XISelectEvents exists in the Xi passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e2520/fast && /usr/bin/make -f CMakeFiles/cmTC_e2520.dir/build.make CMakeFiles/cmTC_e2520.dir/build
+Run Build Command(s):/usr/bin/make cmTC_e3969/fast && /usr/bin/make -f CMakeFiles/cmTC_e3969.dir/build.make CMakeFiles/cmTC_e3969.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e2520.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XISelectEvents   -o CMakeFiles/cmTC_e2520.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e2520
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2520.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XISelectEvents    CMakeFiles/cmTC_e2520.dir/CheckFunctionExists.c.o  -o cmTC_e2520  -lXi 
+Building C object CMakeFiles/cmTC_e3969.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XISelectEvents   -o CMakeFiles/cmTC_e3969.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3969.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XISelectEvents    CMakeFiles/cmTC_e3969.dir/CheckFunctionExists.c.o  -o cmTC_e3969  -lXi 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1106,13 +1106,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if the function XRRQueryExtension exists in the Xrandr passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d48b9/fast && /usr/bin/make -f CMakeFiles/cmTC_d48b9.dir/build.make CMakeFiles/cmTC_d48b9.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6cbc6/fast && /usr/bin/make -f CMakeFiles/cmTC_6cbc6.dir/build.make CMakeFiles/cmTC_6cbc6.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d48b9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XRRQueryExtension   -o CMakeFiles/cmTC_d48b9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d48b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d48b9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XRRQueryExtension    CMakeFiles/cmTC_d48b9.dir/CheckFunctionExists.c.o  -o cmTC_d48b9  -lXrandr 
+Building C object CMakeFiles/cmTC_6cbc6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XRRQueryExtension   -o CMakeFiles/cmTC_6cbc6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6cbc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cbc6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XRRQueryExtension    CMakeFiles/cmTC_6cbc6.dir/CheckFunctionExists.c.o  -o cmTC_6cbc6  -lXrandr 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 
@@ -1120,13 +1120,13 @@ make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMak
 Determining if files dns_sd.h exist passed with the following output:
 Change Dir: /home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_eaefa/fast && /usr/bin/make -f CMakeFiles/cmTC_eaefa.dir/build.make CMakeFiles/cmTC_eaefa.dir/build
+Run Build Command(s):/usr/bin/make cmTC_758d9/fast && /usr/bin/make -f CMakeFiles/cmTC_758d9.dir/build.make CMakeFiles/cmTC_758d9.dir/build
 make[1]: Entering directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eaefa.dir/HAVE_DNS_SD.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_eaefa.dir/HAVE_DNS_SD.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_DNS_SD.c
-Linking C executable cmTC_eaefa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaefa.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_eaefa.dir/HAVE_DNS_SD.c.o  -o cmTC_eaefa 
+Building C object CMakeFiles/cmTC_758d9.dir/HAVE_DNS_SD.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_758d9.dir/HAVE_DNS_SD.c.o   -c /home/lucero/code/synergy-core/build/CMakeFiles/CheckIncludeFiles/HAVE_DNS_SD.c
+Linking C executable cmTC_758d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_758d9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_758d9.dir/HAVE_DNS_SD.c.o  -o cmTC_758d9 
 make[1]: Leaving directory '/home/lucero/code/synergy-core/build/CMakeFiles/CMakeTmp'
 
 

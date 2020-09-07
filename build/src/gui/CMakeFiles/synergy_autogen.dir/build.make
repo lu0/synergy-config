@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -72,6 +72,6 @@ src/gui/CMakeFiles/synergy_autogen.dir/clean:
 .PHONY : src/gui/CMakeFiles/synergy_autogen.dir/clean
 
 src/gui/CMakeFiles/synergy_autogen.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/gui /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/gui /home/lucero/code/synergy-core/build/src/gui/CMakeFiles/synergy_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/gui /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/gui /home/lucero/code/synergy-core/build/src/gui/CMakeFiles/synergy_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/gui/CMakeFiles/synergy_autogen.dir/depend
 

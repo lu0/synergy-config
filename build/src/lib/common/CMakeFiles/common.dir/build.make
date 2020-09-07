@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,17 +58,17 @@ include src/lib/common/CMakeFiles/common.dir/progress.make
 include src/lib/common/CMakeFiles/common.dir/flags.make
 
 src/lib/common/CMakeFiles/common.dir/Version.cpp.o: src/lib/common/CMakeFiles/common.dir/flags.make
-src/lib/common/CMakeFiles/common.dir/Version.cpp.o: ../src/lib/common/Version.cpp
+src/lib/common/CMakeFiles/common.dir/Version.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/common/Version.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/common/CMakeFiles/common.dir/Version.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/Version.cpp.o -c /home/lucero/code/synergy-core/src/lib/common/Version.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/Version.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/common/Version.cpp
 
 src/lib/common/CMakeFiles/common.dir/Version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/Version.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/common/Version.cpp > CMakeFiles/common.dir/Version.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/common/Version.cpp > CMakeFiles/common.dir/Version.cpp.i
 
 src/lib/common/CMakeFiles/common.dir/Version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/Version.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/common/Version.cpp -o CMakeFiles/common.dir/Version.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/common/Version.cpp -o CMakeFiles/common.dir/Version.cpp.s
 
 # Object files for target common
 common_OBJECTS = \
@@ -94,6 +94,6 @@ src/lib/common/CMakeFiles/common.dir/clean:
 .PHONY : src/lib/common/CMakeFiles/common.dir/clean
 
 src/lib/common/CMakeFiles/common.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/common /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/common /home/lucero/code/synergy-core/build/src/lib/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/common /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/common /home/lucero/code/synergy-core/build/src/lib/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/common/CMakeFiles/common.dir/depend
 

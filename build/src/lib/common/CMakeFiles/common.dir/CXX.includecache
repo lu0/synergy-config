@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-../src/lib/common/Version.h
-common/common.h
-../src/lib/common/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/Version.cpp
+common/Version.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/Version.h
 
-../src/lib/common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/Version.h
+common/common.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common/common.h
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/common.h
 config.h
-../src/lib/common/config.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/common/config.h
 stddef.h
 -
 assert.h
@@ -21,10 +25,6 @@ stdlib.h
 -
 string.h
 -
-
-/home/lucero/code/synergy-core/src/lib/common/Version.cpp
-common/Version.h
-/home/lucero/code/synergy-core/src/lib/common/common/Version.h
 
 src/lib/config.h
 

@@ -296,7 +296,7 @@
 #define __INT_FAST64_MAX__ 0x7fffffffffffffffL
 #define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
 #define __FLT_DIG__ 6
-#define SYNERGY_BUILD_DATE "20200829"
+#define SYNERGY_BUILD_DATE "20200907"
 #define __FLT64X_MAX_EXP__ 16384
 #define __UINT_FAST64_TYPE__ long unsigned int
 #define __INT_MAX__ 0x7fffffff

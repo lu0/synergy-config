@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,17 +58,17 @@ include src/test/CMakeFiles/gmock.dir/progress.make
 include src/test/CMakeFiles/gmock.dir/flags.make
 
 src/test/CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.o: src/test/CMakeFiles/gmock.dir/flags.make
-src/test/CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.o: ../ext/googletest/googlemock/src/gmock-all.cc
+src/test/CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.o: /home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-all.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/test/CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.o"
-	cd /home/lucero/code/synergy-core/build/src/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.o -c /home/lucero/code/synergy-core/ext/googletest/googlemock/src/gmock-all.cc
+	cd /home/lucero/code/synergy-core/build/src/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.o -c /home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-all.cc
 
 src/test/CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.i"
-	cd /home/lucero/code/synergy-core/build/src/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/ext/googletest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.i
+	cd /home/lucero/code/synergy-core/build/src/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.i
 
 src/test/CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.s"
-	cd /home/lucero/code/synergy-core/build/src/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/ext/googletest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.s
+	cd /home/lucero/code/synergy-core/build/src/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/ext/googletest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/__/__/ext/googletest/googlemock/src/gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \
@@ -94,6 +94,6 @@ src/test/CMakeFiles/gmock.dir/clean:
 .PHONY : src/test/CMakeFiles/gmock.dir/clean
 
 src/test/CMakeFiles/gmock.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/test /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/test /home/lucero/code/synergy-core/build/src/test/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/test /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/test /home/lucero/code/synergy-core/build/src/test/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/test/CMakeFiles/gmock.dir/depend
 

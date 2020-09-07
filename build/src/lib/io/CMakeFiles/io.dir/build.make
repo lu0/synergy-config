@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,43 +58,43 @@ include src/lib/io/CMakeFiles/io.dir/progress.make
 include src/lib/io/CMakeFiles/io.dir/flags.make
 
 src/lib/io/CMakeFiles/io.dir/StreamBuffer.cpp.o: src/lib/io/CMakeFiles/io.dir/flags.make
-src/lib/io/CMakeFiles/io.dir/StreamBuffer.cpp.o: ../src/lib/io/StreamBuffer.cpp
+src/lib/io/CMakeFiles/io.dir/StreamBuffer.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamBuffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/io/CMakeFiles/io.dir/StreamBuffer.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io.dir/StreamBuffer.cpp.o -c /home/lucero/code/synergy-core/src/lib/io/StreamBuffer.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io.dir/StreamBuffer.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamBuffer.cpp
 
 src/lib/io/CMakeFiles/io.dir/StreamBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/io.dir/StreamBuffer.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/io/StreamBuffer.cpp > CMakeFiles/io.dir/StreamBuffer.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamBuffer.cpp > CMakeFiles/io.dir/StreamBuffer.cpp.i
 
 src/lib/io/CMakeFiles/io.dir/StreamBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/io.dir/StreamBuffer.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/io/StreamBuffer.cpp -o CMakeFiles/io.dir/StreamBuffer.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamBuffer.cpp -o CMakeFiles/io.dir/StreamBuffer.cpp.s
 
 src/lib/io/CMakeFiles/io.dir/StreamFilter.cpp.o: src/lib/io/CMakeFiles/io.dir/flags.make
-src/lib/io/CMakeFiles/io.dir/StreamFilter.cpp.o: ../src/lib/io/StreamFilter.cpp
+src/lib/io/CMakeFiles/io.dir/StreamFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamFilter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/io/CMakeFiles/io.dir/StreamFilter.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io.dir/StreamFilter.cpp.o -c /home/lucero/code/synergy-core/src/lib/io/StreamFilter.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io.dir/StreamFilter.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamFilter.cpp
 
 src/lib/io/CMakeFiles/io.dir/StreamFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/io.dir/StreamFilter.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/io/StreamFilter.cpp > CMakeFiles/io.dir/StreamFilter.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamFilter.cpp > CMakeFiles/io.dir/StreamFilter.cpp.i
 
 src/lib/io/CMakeFiles/io.dir/StreamFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/io.dir/StreamFilter.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/io/StreamFilter.cpp -o CMakeFiles/io.dir/StreamFilter.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/io/StreamFilter.cpp -o CMakeFiles/io.dir/StreamFilter.cpp.s
 
 src/lib/io/CMakeFiles/io.dir/XIO.cpp.o: src/lib/io/CMakeFiles/io.dir/flags.make
-src/lib/io/CMakeFiles/io.dir/XIO.cpp.o: ../src/lib/io/XIO.cpp
+src/lib/io/CMakeFiles/io.dir/XIO.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/io/XIO.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/lib/io/CMakeFiles/io.dir/XIO.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io.dir/XIO.cpp.o -c /home/lucero/code/synergy-core/src/lib/io/XIO.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io.dir/XIO.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/io/XIO.cpp
 
 src/lib/io/CMakeFiles/io.dir/XIO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/io.dir/XIO.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/io/XIO.cpp > CMakeFiles/io.dir/XIO.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/io/XIO.cpp > CMakeFiles/io.dir/XIO.cpp.i
 
 src/lib/io/CMakeFiles/io.dir/XIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/io.dir/XIO.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/io/XIO.cpp -o CMakeFiles/io.dir/XIO.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/io/XIO.cpp -o CMakeFiles/io.dir/XIO.cpp.s
 
 # Object files for target io
 io_OBJECTS = \
@@ -124,6 +124,6 @@ src/lib/io/CMakeFiles/io.dir/clean:
 .PHONY : src/lib/io/CMakeFiles/io.dir/clean
 
 src/lib/io/CMakeFiles/io.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/io /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/io /home/lucero/code/synergy-core/build/src/lib/io/CMakeFiles/io.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/io /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/io /home/lucero/code/synergy-core/build/src/lib/io/CMakeFiles/io.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/io/CMakeFiles/io.dir/depend
 

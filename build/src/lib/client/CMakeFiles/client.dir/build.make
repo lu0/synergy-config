@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,30 +58,30 @@ include src/lib/client/CMakeFiles/client.dir/progress.make
 include src/lib/client/CMakeFiles/client.dir/flags.make
 
 src/lib/client/CMakeFiles/client.dir/Client.cpp.o: src/lib/client/CMakeFiles/client.dir/flags.make
-src/lib/client/CMakeFiles/client.dir/Client.cpp.o: ../src/lib/client/Client.cpp
+src/lib/client/CMakeFiles/client.dir/Client.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/client/Client.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/client/CMakeFiles/client.dir/Client.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Client.cpp.o -c /home/lucero/code/synergy-core/src/lib/client/Client.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Client.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/client/Client.cpp
 
 src/lib/client/CMakeFiles/client.dir/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/Client.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/client/Client.cpp > CMakeFiles/client.dir/Client.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/client/Client.cpp > CMakeFiles/client.dir/Client.cpp.i
 
 src/lib/client/CMakeFiles/client.dir/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/Client.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/client/Client.cpp -o CMakeFiles/client.dir/Client.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/client/Client.cpp -o CMakeFiles/client.dir/Client.cpp.s
 
 src/lib/client/CMakeFiles/client.dir/ServerProxy.cpp.o: src/lib/client/CMakeFiles/client.dir/flags.make
-src/lib/client/CMakeFiles/client.dir/ServerProxy.cpp.o: ../src/lib/client/ServerProxy.cpp
+src/lib/client/CMakeFiles/client.dir/ServerProxy.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/client/ServerProxy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/client/CMakeFiles/client.dir/ServerProxy.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/ServerProxy.cpp.o -c /home/lucero/code/synergy-core/src/lib/client/ServerProxy.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/ServerProxy.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/client/ServerProxy.cpp
 
 src/lib/client/CMakeFiles/client.dir/ServerProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/ServerProxy.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/client/ServerProxy.cpp > CMakeFiles/client.dir/ServerProxy.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/client/ServerProxy.cpp > CMakeFiles/client.dir/ServerProxy.cpp.i
 
 src/lib/client/CMakeFiles/client.dir/ServerProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/ServerProxy.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/client/ServerProxy.cpp -o CMakeFiles/client.dir/ServerProxy.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/client/ServerProxy.cpp -o CMakeFiles/client.dir/ServerProxy.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
@@ -109,6 +109,6 @@ src/lib/client/CMakeFiles/client.dir/clean:
 .PHONY : src/lib/client/CMakeFiles/client.dir/clean
 
 src/lib/client/CMakeFiles/client.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/client /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/client /home/lucero/code/synergy-core/build/src/lib/client/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/client /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/client /home/lucero/code/synergy-core/build/src/lib/client/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/client/CMakeFiles/client.dir/depend
 

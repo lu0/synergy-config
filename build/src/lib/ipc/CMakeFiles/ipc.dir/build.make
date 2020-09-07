@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core
+CMAKE_SOURCE_DIR = /home/lucero/code/synergy-core/source-code-git
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lucero/code/synergy-core/build
@@ -58,95 +58,95 @@ include src/lib/ipc/CMakeFiles/ipc.dir/progress.make
 include src/lib/ipc/CMakeFiles/ipc.dir/flags.make
 
 src/lib/ipc/CMakeFiles/ipc.dir/Ipc.cpp.o: src/lib/ipc/CMakeFiles/ipc.dir/flags.make
-src/lib/ipc/CMakeFiles/ipc.dir/Ipc.cpp.o: ../src/lib/ipc/Ipc.cpp
+src/lib/ipc/CMakeFiles/ipc.dir/Ipc.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/Ipc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/ipc/CMakeFiles/ipc.dir/Ipc.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/Ipc.cpp.o -c /home/lucero/code/synergy-core/src/lib/ipc/Ipc.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/Ipc.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/Ipc.cpp
 
 src/lib/ipc/CMakeFiles/ipc.dir/Ipc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipc.dir/Ipc.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/ipc/Ipc.cpp > CMakeFiles/ipc.dir/Ipc.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/Ipc.cpp > CMakeFiles/ipc.dir/Ipc.cpp.i
 
 src/lib/ipc/CMakeFiles/ipc.dir/Ipc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipc.dir/Ipc.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/ipc/Ipc.cpp -o CMakeFiles/ipc.dir/Ipc.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/Ipc.cpp -o CMakeFiles/ipc.dir/Ipc.cpp.s
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcClient.cpp.o: src/lib/ipc/CMakeFiles/ipc.dir/flags.make
-src/lib/ipc/CMakeFiles/ipc.dir/IpcClient.cpp.o: ../src/lib/ipc/IpcClient.cpp
+src/lib/ipc/CMakeFiles/ipc.dir/IpcClient.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/ipc/CMakeFiles/ipc.dir/IpcClient.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcClient.cpp.o -c /home/lucero/code/synergy-core/src/lib/ipc/IpcClient.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcClient.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcClient.cpp
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipc.dir/IpcClient.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/ipc/IpcClient.cpp > CMakeFiles/ipc.dir/IpcClient.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcClient.cpp > CMakeFiles/ipc.dir/IpcClient.cpp.i
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipc.dir/IpcClient.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/ipc/IpcClient.cpp -o CMakeFiles/ipc.dir/IpcClient.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcClient.cpp -o CMakeFiles/ipc.dir/IpcClient.cpp.s
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcClientProxy.cpp.o: src/lib/ipc/CMakeFiles/ipc.dir/flags.make
-src/lib/ipc/CMakeFiles/ipc.dir/IpcClientProxy.cpp.o: ../src/lib/ipc/IpcClientProxy.cpp
+src/lib/ipc/CMakeFiles/ipc.dir/IpcClientProxy.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcClientProxy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/lib/ipc/CMakeFiles/ipc.dir/IpcClientProxy.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcClientProxy.cpp.o -c /home/lucero/code/synergy-core/src/lib/ipc/IpcClientProxy.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcClientProxy.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcClientProxy.cpp
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcClientProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipc.dir/IpcClientProxy.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/ipc/IpcClientProxy.cpp > CMakeFiles/ipc.dir/IpcClientProxy.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcClientProxy.cpp > CMakeFiles/ipc.dir/IpcClientProxy.cpp.i
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcClientProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipc.dir/IpcClientProxy.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/ipc/IpcClientProxy.cpp -o CMakeFiles/ipc.dir/IpcClientProxy.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcClientProxy.cpp -o CMakeFiles/ipc.dir/IpcClientProxy.cpp.s
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcLogOutputter.cpp.o: src/lib/ipc/CMakeFiles/ipc.dir/flags.make
-src/lib/ipc/CMakeFiles/ipc.dir/IpcLogOutputter.cpp.o: ../src/lib/ipc/IpcLogOutputter.cpp
+src/lib/ipc/CMakeFiles/ipc.dir/IpcLogOutputter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcLogOutputter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/lib/ipc/CMakeFiles/ipc.dir/IpcLogOutputter.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcLogOutputter.cpp.o -c /home/lucero/code/synergy-core/src/lib/ipc/IpcLogOutputter.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcLogOutputter.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcLogOutputter.cpp
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcLogOutputter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipc.dir/IpcLogOutputter.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/ipc/IpcLogOutputter.cpp > CMakeFiles/ipc.dir/IpcLogOutputter.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcLogOutputter.cpp > CMakeFiles/ipc.dir/IpcLogOutputter.cpp.i
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcLogOutputter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipc.dir/IpcLogOutputter.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/ipc/IpcLogOutputter.cpp -o CMakeFiles/ipc.dir/IpcLogOutputter.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcLogOutputter.cpp -o CMakeFiles/ipc.dir/IpcLogOutputter.cpp.s
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcMessage.cpp.o: src/lib/ipc/CMakeFiles/ipc.dir/flags.make
-src/lib/ipc/CMakeFiles/ipc.dir/IpcMessage.cpp.o: ../src/lib/ipc/IpcMessage.cpp
+src/lib/ipc/CMakeFiles/ipc.dir/IpcMessage.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcMessage.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/lib/ipc/CMakeFiles/ipc.dir/IpcMessage.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcMessage.cpp.o -c /home/lucero/code/synergy-core/src/lib/ipc/IpcMessage.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcMessage.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcMessage.cpp
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipc.dir/IpcMessage.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/ipc/IpcMessage.cpp > CMakeFiles/ipc.dir/IpcMessage.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcMessage.cpp > CMakeFiles/ipc.dir/IpcMessage.cpp.i
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipc.dir/IpcMessage.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/ipc/IpcMessage.cpp -o CMakeFiles/ipc.dir/IpcMessage.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcMessage.cpp -o CMakeFiles/ipc.dir/IpcMessage.cpp.s
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcServer.cpp.o: src/lib/ipc/CMakeFiles/ipc.dir/flags.make
-src/lib/ipc/CMakeFiles/ipc.dir/IpcServer.cpp.o: ../src/lib/ipc/IpcServer.cpp
+src/lib/ipc/CMakeFiles/ipc.dir/IpcServer.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/lib/ipc/CMakeFiles/ipc.dir/IpcServer.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcServer.cpp.o -c /home/lucero/code/synergy-core/src/lib/ipc/IpcServer.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcServer.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServer.cpp
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipc.dir/IpcServer.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/ipc/IpcServer.cpp > CMakeFiles/ipc.dir/IpcServer.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServer.cpp > CMakeFiles/ipc.dir/IpcServer.cpp.i
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipc.dir/IpcServer.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/ipc/IpcServer.cpp -o CMakeFiles/ipc.dir/IpcServer.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServer.cpp -o CMakeFiles/ipc.dir/IpcServer.cpp.s
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcServerProxy.cpp.o: src/lib/ipc/CMakeFiles/ipc.dir/flags.make
-src/lib/ipc/CMakeFiles/ipc.dir/IpcServerProxy.cpp.o: ../src/lib/ipc/IpcServerProxy.cpp
+src/lib/ipc/CMakeFiles/ipc.dir/IpcServerProxy.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServerProxy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/lib/ipc/CMakeFiles/ipc.dir/IpcServerProxy.cpp.o"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcServerProxy.cpp.o -c /home/lucero/code/synergy-core/src/lib/ipc/IpcServerProxy.cpp
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipc.dir/IpcServerProxy.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServerProxy.cpp
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcServerProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipc.dir/IpcServerProxy.cpp.i"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/src/lib/ipc/IpcServerProxy.cpp > CMakeFiles/ipc.dir/IpcServerProxy.cpp.i
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServerProxy.cpp > CMakeFiles/ipc.dir/IpcServerProxy.cpp.i
 
 src/lib/ipc/CMakeFiles/ipc.dir/IpcServerProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipc.dir/IpcServerProxy.cpp.s"
-	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/src/lib/ipc/IpcServerProxy.cpp -o CMakeFiles/ipc.dir/IpcServerProxy.cpp.s
+	cd /home/lucero/code/synergy-core/build/src/lib/ipc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/ipc/IpcServerProxy.cpp -o CMakeFiles/ipc.dir/IpcServerProxy.cpp.s
 
 # Object files for target ipc
 ipc_OBJECTS = \
@@ -184,6 +184,6 @@ src/lib/ipc/CMakeFiles/ipc.dir/clean:
 .PHONY : src/lib/ipc/CMakeFiles/ipc.dir/clean
 
 src/lib/ipc/CMakeFiles/ipc.dir/depend:
-	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core /home/lucero/code/synergy-core/src/lib/ipc /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/ipc /home/lucero/code/synergy-core/build/src/lib/ipc/CMakeFiles/ipc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucero/code/synergy-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucero/code/synergy-core/source-code-git /home/lucero/code/synergy-core/source-code-git/src/lib/ipc /home/lucero/code/synergy-core/build /home/lucero/code/synergy-core/build/src/lib/ipc /home/lucero/code/synergy-core/build/src/lib/ipc/CMakeFiles/ipc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/lib/ipc/CMakeFiles/ipc.dir/depend
 

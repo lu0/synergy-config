@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lucero/code/synergy-core/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp" "/home/lucero/code/synergy-core/build/src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o"
-  "/home/lucero/code/synergy-core/src/cmd/synergys/synergys.cpp" "/home/lucero/code/synergy-core/build/src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/XWindowsServerTaskBarReceiver.cpp" "/home/lucero/code/synergy-core/build/src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/cmd/synergys/synergys.cpp" "/home/lucero/code/synergy-core/build/src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,7 +13,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "HAVE_CONFIG_H"
   "NDEBUG"
-  "SYNERGY_BUILD_DATE=\"20200829\""
+  "SYNERGY_BUILD_DATE=\"20200907\""
   "SYNERGY_BUILD_NUMBER=1"
   "SYNERGY_REVISION=\"0badc0de\""
   "SYNERGY_VERSION=\"1.12.0\""
@@ -24,9 +24,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src/./lib"
+  "/home/lucero/code/synergy-core/source-code-git/src/./lib"
   "src/lib"
-  "../ext/googletest/googletest/include"
+  "/home/lucero/code/synergy-core/source-code-git/ext/googletest/googletest/include"
   )
 
 # Targets to which this target links.
