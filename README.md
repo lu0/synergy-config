@@ -58,6 +58,10 @@ xrandr --output HDMI-1 --mode 1920x1080
 ```zsh
 sudo ln -srf schedule-on-off.sh /usr/bin/
 ```
+Paste this in ```/usr/share/sddm/scripts/Xsetup```
+```zsh
+/usr/bin/schedule-on-off.sh
+```
 
 <!-- ```zsh
 HDMIPORT=$(xrandr | grep " connected " | grep "HDMI" | awk '{print $1}')
