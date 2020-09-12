@@ -37,12 +37,14 @@ Run synergy as **Client**
 ```zsh
 synergyc <serverIP>     # add -f option for verbose
 ```
-
+### Autostart
 Make Synergy start before login (if using [SDDM](https://github.com/lu0/sddm-chili))
 ```zsh
 sudo sh -c 'echo "" >> /usr/share/sddm/scripts/Xsetup' 
 sudo sh -c 'echo "/usr/bin/synergyc <serverIP>" >> /usr/share/sddm/scripts/Xsetup' 
 ```
+
+### Disable internal monitor
 Paste this in ```/usr/share/sddm/scripts/Xsetup``` to display SDDM in external monitor by default
 ```zsh
 xrandr --output eDP-1 --off
@@ -50,6 +52,11 @@ xrandr --output eDP-1 --off
 Or paste this if you want SDDM on both screens but the HDMI one has the wrong resolution
 ```zsh
 xrandr --output HDMI-1 --mode 1920x1080
+```
+
+### Automatic Shutdown-WakeUp Schedule
+```zsh
+sudo ln -srf schedule-on-off.sh /usr/bin/
 ```
 
 <!-- ```zsh
