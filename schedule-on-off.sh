@@ -8,7 +8,7 @@ sudo shutdown -P 23:00
 
 # Set date and time for wakeup alarm
 DATE=$(date -d '+1 day' +"%Y%m%d")  # Tomorrow, YYYMMDD
-TIME=0700                           # 7:00 am,     HHMM
+TIME=0655                           # 6:55 am,     HHMM
 
 # Convert to epoch date
 WAKETIME=$(date -d "$DATE $TIME" +%s)   # Check with: date -d @$WAKETIME
