@@ -62,6 +62,17 @@ Paste this in ```/usr/share/sddm/scripts/Xsetup```
 ```zsh
 /usr/bin/schedule-on-off.sh
 ```
+Prevent sleep when lid is closed during SDDM
+```zsh
+sudo sh -c "echo 'HandleLidSwitch=ignore' >> /etc/systemd/logind.conf"
+```
+Autologin
+```zsh
+cat autologin                   # Change User and desktop
+sudo sh -c "cat autologin >> /etc/sddm.conf"
+```
+<!-- CHECK IF PREVIOUS THING WORKED v: -->
+
 
 <!-- ```zsh
 HDMIPORT=$(xrandr | grep " connected " | grep "HDMI" | awk '{print $1}')
