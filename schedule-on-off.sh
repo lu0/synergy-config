@@ -3,8 +3,8 @@
 # Schedule shutdown and wakeup times
 # ACPI wakeup
 
-# Shutdown pc at 11:00 pm
-sudo shutdown -P 23:00
+# Shutdown pc at 11:30 pm
+sudo shutdown -P 23:30
 
 # Set date and time for wakeup alarm
 DATE=$(date -d '+1 day' +"%Y%m%d")  # Tomorrow, YYYMMDD
