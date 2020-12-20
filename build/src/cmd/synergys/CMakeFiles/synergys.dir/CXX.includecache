@@ -617,7 +617,21 @@ ctime
 -
 EditionType.h
 /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
+SerialKeyType.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
+SerialKeyEdition.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
 gtest/gtest_prod.h
+-
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+string
+-
+EditionType.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
+string
 -
 
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
@@ -769,6 +783,8 @@ map
 -
 
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerArgs.h
+memory
+-
 ArgsBase.h
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 shared/SerialKey.h

@@ -559,6 +559,8 @@ src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/syn
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
@@ -655,6 +657,8 @@ src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/syn
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
@@ -755,6 +759,8 @@ src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/syn
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.h
 src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
@@ -856,6 +862,8 @@ src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
 src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
@@ -906,6 +914,8 @@ src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-cor
 src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
 src/lib/server/CMakeFiles/server.dir/Config.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
@@ -997,6 +1007,8 @@ src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synerg
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
 src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
@@ -1171,6 +1183,8 @@ src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-cor
 src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.h
 src/lib/server/CMakeFiles/server.dir/Server.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h

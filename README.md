@@ -85,11 +85,22 @@ user_name ALL=(ALL) NOPSSWD:/usr/bin/killall -9 synergyc
 ``` -->
 
 ## Building
-Rebuild Synergy if you need to or if the submodule has new commits
+Rebuild Synergy if you need to or if the submodule has new commits. The binaries are symlinked, you don't need to repeat the previous steps :)
 ```zsh
 mv build/ build-previous/
 mkdir build && cd build/
 cmake ../source-code-git/
 make
 ```
+If the build is unsuccessful, you may need the following libraries:
+```zsh
+sudo apt-get install qttools5-dev-tools
+sudo apt-get install qttools5-dev
+```
 
+If still unsuccessful, go to a working commit:
+```zsh
+cd source-code-git/
+git checkout af63aab1
+```
+<!-- commit detached at af63aab1 -->

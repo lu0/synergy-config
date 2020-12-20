@@ -831,6 +831,8 @@ src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /home/lucero/code/syn
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.h
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 src/gui/CMakeFiles/synergy.dir/src/ActivationDialog.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMutex
@@ -1231,6 +1233,12 @@ src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-co
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ProcessorArch.h
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/QSynergyApplication.h
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/QUtility.h
+src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/SslCertificate.h
+src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/base/String.h
+src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/common/common.h
+src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/common/stdpost.h
+src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/common/stdpre.h
+src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/common/stdstring.h
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
@@ -1543,6 +1551,7 @@ src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /usr/include/x86_64-linux-gn
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+src/gui/CMakeFiles/synergy.dir/src/AppConfig.cpp.o: src/lib/config.h
 
 src/gui/CMakeFiles/synergy.dir/src/BaseConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/BaseConfig.cpp
 src/gui/CMakeFiles/synergy.dir/src/BaseConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/BaseConfig.h
@@ -1643,6 +1652,8 @@ src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /home/lucero/code/syner
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.h
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
 src/gui/CMakeFiles/synergy.dir/src/BonjourWindows.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
@@ -3655,9 +3666,12 @@ src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /home/lucero/code/syner
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/LicenseManager.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -3666,6 +3680,7 @@ src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-lin
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
+src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
@@ -3718,6 +3733,7 @@ src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-lin
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
+src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
 src/gui/CMakeFiles/synergy.dir/src/LicenseManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
@@ -3767,6 +3783,8 @@ src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /home/lucero/code/synergy-c
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/common/stdstring.h
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 src/gui/CMakeFiles/synergy.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
@@ -4603,6 +4621,8 @@ src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /home/lucero/code/
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.h
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 src/gui/CMakeFiles/synergy.dir/src/QSynergyApplication.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
@@ -6576,6 +6596,8 @@ src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /home/lucero/code/synergy
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.h
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMutex
 src/gui/CMakeFiles/synergy.dir/src/ServerConfig.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -7327,6 +7349,8 @@ src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /home/lucero/code/syner
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/common/stdstring.h
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 src/gui/CMakeFiles/synergy.dir/src/SettingsDialog.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -7761,6 +7785,8 @@ src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /home/lucero/code/synergy-
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/VersionChecker.h
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 src/gui/CMakeFiles/synergy.dir/src/SetupWizard.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
@@ -8648,6 +8674,8 @@ src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /home/lucero/code/synergy-cor
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfService.h
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 src/gui/CMakeFiles/synergy.dir/src/Zeroconf.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMutex
@@ -9063,6 +9091,8 @@ src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /home/lucero/code/syne
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/ZeroconfService.h
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
 src/gui/CMakeFiles/synergy.dir/src/ZeroconfService.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
@@ -9707,6 +9737,8 @@ src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /home/lucero/code/synergy-core/so
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/gui/src/main.cpp
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 src/gui/CMakeFiles/synergy.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
@@ -10209,6 +10241,8 @@ src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /home/luc
 src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/common/stdstring.h
 src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 src/gui/CMakeFiles/synergy.dir/synergy_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags

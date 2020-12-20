@@ -767,6 +767,8 @@ string
 -
 list
 -
+map
+-
 
 /home/lucero/code/synergy-core/source-code-git/src/lib/platform/OSXClipboard.h
 synergy/IClipboard.h
@@ -939,7 +941,21 @@ ctime
 -
 EditionType.h
 /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
+SerialKeyType.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
+SerialKeyEdition.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
 gtest/gtest_prod.h
+-
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+string
+-
+EditionType.h
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
+
+/home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
+string
 -
 
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.cpp
@@ -1567,6 +1583,10 @@ common/stdvector.h
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/common/stdvector.h
 
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ProtocolUtil.cpp
+array
+-
+iterator
+-
 synergy/ProtocolUtil.h
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/synergy/ProtocolUtil.h
 io/IStream.h
@@ -1709,6 +1729,8 @@ ServerArgs.h
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerArgs.h
 
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ServerArgs.h
+memory
+-
 ArgsBase.h
 /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 shared/SerialKey.h

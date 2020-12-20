@@ -1,5 +1,5 @@
 Name: synergy
-Version: 1.12.0
+Version: 1.13.0
 Summary: Keyboard and mouse sharing solution
 Group: Applications/Productivity
 URL: https://symless.com/synergy
@@ -7,7 +7,7 @@ Source: https://symless.com/synergy/downloads
 Vendor: Symless
 Packager: Symless <engineering@symless.com>
 License: GPLv2
-Release: 1.stable.0badc0de%{?dist}
+Release: 1.rc2.0badc0de%{?dist}
 
 %description
 Synergy allows you to share one mouse and keyboard between multiple computers.

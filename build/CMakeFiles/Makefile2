@@ -711,12 +711,12 @@ src/lib/ipc/CMakeFiles/ipc.dir/clean:
 src/lib/mt/CMakeFiles/mt.dir/all:
 	$(MAKE) -f src/lib/mt/CMakeFiles/mt.dir/build.make src/lib/mt/CMakeFiles/mt.dir/depend
 	$(MAKE) -f src/lib/mt/CMakeFiles/mt.dir/build.make src/lib/mt/CMakeFiles/mt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=20,21 "Built target mt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=20 "Built target mt"
 .PHONY : src/lib/mt/CMakeFiles/mt.dir/all
 
 # Build rule for subdir invocation for target.
 src/lib/mt/CMakeFiles/mt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/lib/mt/CMakeFiles/mt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 0
 .PHONY : src/lib/mt/CMakeFiles/mt.dir/rule
@@ -739,7 +739,7 @@ src/lib/net/CMakeFiles/net.dir/all: src/lib/io/CMakeFiles/io.dir/all
 src/lib/net/CMakeFiles/net.dir/all: src/lib/mt/CMakeFiles/mt.dir/all
 	$(MAKE) -f src/lib/net/CMakeFiles/net.dir/build.make src/lib/net/CMakeFiles/net.dir/depend
 	$(MAKE) -f src/lib/net/CMakeFiles/net.dir/build.make src/lib/net/CMakeFiles/net.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=22,23,24 "Built target net"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=21,22,23,24 "Built target net"
 .PHONY : src/lib/net/CMakeFiles/net.dir/all
 
 # Build rule for subdir invocation for target.
@@ -826,7 +826,7 @@ src/lib/synergy/CMakeFiles/synlib.dir/all: src/lib/net/CMakeFiles/net.dir/all
 src/lib/synergy/CMakeFiles/synlib.dir/all: src/lib/shared/CMakeFiles/shared.dir/all
 	$(MAKE) -f src/lib/synergy/CMakeFiles/synlib.dir/build.make src/lib/synergy/CMakeFiles/synlib.dir/depend
 	$(MAKE) -f src/lib/synergy/CMakeFiles/synlib.dir/build.make src/lib/synergy/CMakeFiles/synlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=69,70,71,72,73,74,75,76,77,78,79,80 "Built target synlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=68,69,70,71,72,73,74,75,76,77,78,79 "Built target synlib"
 .PHONY : src/lib/synergy/CMakeFiles/synlib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -889,12 +889,12 @@ src/cmd/synergyc/CMakeFiles/synergyc.dir/all: src/lib/net/CMakeFiles/net.dir/all
 src/cmd/synergyc/CMakeFiles/synergyc.dir/all: src/lib/shared/CMakeFiles/shared.dir/all
 	$(MAKE) -f src/cmd/synergyc/CMakeFiles/synergyc.dir/build.make src/cmd/synergyc/CMakeFiles/synergyc.dir/depend
 	$(MAKE) -f src/cmd/synergyc/CMakeFiles/synergyc.dir/build.make src/cmd/synergyc/CMakeFiles/synergyc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num= "Built target synergyc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=66 "Built target synergyc"
 .PHONY : src/cmd/synergyc/CMakeFiles/synergyc.dir/all
 
 # Build rule for subdir invocation for target.
 src/cmd/synergyc/CMakeFiles/synergyc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 43
 	$(MAKE) -f CMakeFiles/Makefile2 src/cmd/synergyc/CMakeFiles/synergyc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 0
 .PHONY : src/cmd/synergyc/CMakeFiles/synergyc.dir/rule
@@ -923,7 +923,7 @@ src/cmd/synergys/CMakeFiles/synergys.dir/all: src/lib/net/CMakeFiles/net.dir/all
 src/cmd/synergys/CMakeFiles/synergys.dir/all: src/lib/shared/CMakeFiles/shared.dir/all
 	$(MAKE) -f src/cmd/synergys/CMakeFiles/synergys.dir/build.make src/cmd/synergys/CMakeFiles/synergys.dir/depend
 	$(MAKE) -f src/cmd/synergys/CMakeFiles/synergys.dir/build.make src/cmd/synergys/CMakeFiles/synergys.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=68 "Built target synergys"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=67 "Built target synergys"
 .PHONY : src/cmd/synergys/CMakeFiles/synergys.dir/all
 
 # Build rule for subdir invocation for target.
@@ -957,7 +957,7 @@ src/cmd/syntool/CMakeFiles/syntool.dir/all: src/lib/net/CMakeFiles/net.dir/all
 src/cmd/syntool/CMakeFiles/syntool.dir/all: src/lib/shared/CMakeFiles/shared.dir/all
 	$(MAKE) -f src/cmd/syntool/CMakeFiles/syntool.dir/build.make src/cmd/syntool/CMakeFiles/syntool.dir/depend
 	$(MAKE) -f src/cmd/syntool/CMakeFiles/syntool.dir/build.make src/cmd/syntool/CMakeFiles/syntool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=81 "Built target syntool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=80 "Built target syntool"
 .PHONY : src/cmd/syntool/CMakeFiles/syntool.dir/all
 
 # Build rule for subdir invocation for target.
@@ -991,12 +991,12 @@ src/cmd/synergyd/CMakeFiles/synergyd.dir/all: src/lib/net/CMakeFiles/net.dir/all
 src/cmd/synergyd/CMakeFiles/synergyd.dir/all: src/lib/shared/CMakeFiles/shared.dir/all
 	$(MAKE) -f src/cmd/synergyd/CMakeFiles/synergyd.dir/build.make src/cmd/synergyd/CMakeFiles/synergyd.dir/depend
 	$(MAKE) -f src/cmd/synergyd/CMakeFiles/synergyd.dir/build.make src/cmd/synergyd/CMakeFiles/synergyd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=67 "Built target synergyd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num= "Built target synergyd"
 .PHONY : src/cmd/synergyd/CMakeFiles/synergyd.dir/all
 
 # Build rule for subdir invocation for target.
 src/cmd/synergyd/CMakeFiles/synergyd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 src/cmd/synergyd/CMakeFiles/synergyd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 0
 .PHONY : src/cmd/synergyd/CMakeFiles/synergyd.dir/rule
@@ -1027,7 +1027,7 @@ src/gui/CMakeFiles/synergy.dir/all: src/gui/CMakeFiles/synergy_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 src/gui/CMakeFiles/synergy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 src/gui/CMakeFiles/synergy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 0
 .PHONY : src/gui/CMakeFiles/synergy.dir/rule
@@ -1049,12 +1049,12 @@ src/gui/CMakeFiles/synergy.dir/clean:
 src/gui/CMakeFiles/translations.dir/all:
 	$(MAKE) -f src/gui/CMakeFiles/translations.dir/build.make src/gui/CMakeFiles/translations.dir/depend
 	$(MAKE) -f src/gui/CMakeFiles/translations.dir/build.make src/gui/CMakeFiles/translations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=82,83,84,85,86,87,88,89,90,91,92,93,94,95 "Built target translations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target translations"
 .PHONY : src/gui/CMakeFiles/translations.dir/all
 
 # Build rule for subdir invocation for target.
 src/gui/CMakeFiles/translations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 src/gui/CMakeFiles/translations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 0
 .PHONY : src/gui/CMakeFiles/translations.dir/rule
@@ -1076,12 +1076,12 @@ src/gui/CMakeFiles/translations.dir/clean:
 src/gui/CMakeFiles/synergy_autogen.dir/all: src/lib/shared/CMakeFiles/shared.dir/all
 	$(MAKE) -f src/gui/CMakeFiles/synergy_autogen.dir/build.make src/gui/CMakeFiles/synergy_autogen.dir/depend
 	$(MAKE) -f src/gui/CMakeFiles/synergy_autogen.dir/build.make src/gui/CMakeFiles/synergy_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=66 "Built target synergy_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num= "Built target synergy_autogen"
 .PHONY : src/gui/CMakeFiles/synergy_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 src/gui/CMakeFiles/synergy_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 src/gui/CMakeFiles/synergy_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 0
 .PHONY : src/gui/CMakeFiles/synergy_autogen.dir/rule
@@ -1202,12 +1202,12 @@ src/test/unittests/CMakeFiles/unittests.dir/all: src/test/CMakeFiles/gmock.dir/a
 src/test/unittests/CMakeFiles/unittests.dir/all: src/test/CMakeFiles/gtest.dir/all
 	$(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/depend
 	$(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=96,97,98,99,100 "Built target unittests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target unittests"
 .PHONY : src/test/unittests/CMakeFiles/unittests.dir/all
 
 # Build rule for subdir invocation for target.
 src/test/unittests/CMakeFiles/unittests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 src/test/unittests/CMakeFiles/unittests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucero/code/synergy-core/build/CMakeFiles 0
 .PHONY : src/test/unittests/CMakeFiles/unittests.dir/rule

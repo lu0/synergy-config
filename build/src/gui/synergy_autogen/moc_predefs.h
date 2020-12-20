@@ -126,7 +126,7 @@
 #define __cpp_raw_strings 200710
 #define __INT_FAST32_MAX__ 0x7fffffffffffffffL
 #define __DBL_HAS_INFINITY__ 1
-#define SYNERGY_VERSION "1.12.0"
+#define SYNERGY_VERSION "1.13.0"
 #define __HAVE_SPECULATION_SAFE_VALUE 1
 #define __DEC32_MIN_EXP__ (-94)
 #define __INTPTR_WIDTH__ 64
@@ -296,7 +296,7 @@
 #define __INT_FAST64_MAX__ 0x7fffffffffffffffL
 #define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
 #define __FLT_DIG__ 6
-#define SYNERGY_BUILD_DATE "20200907"
+#define SYNERGY_BUILD_DATE "20201220"
 #define __FLT64X_MAX_EXP__ 16384
 #define __UINT_FAST64_TYPE__ long unsigned int
 #define __INT_MAX__ 0x7fffffff
@@ -315,7 +315,7 @@
 #define __SIZEOF_SHORT__ 2
 #define __SSE__ 1
 #define __LDBL_MIN_EXP__ (-16381)
-#define SYNERGY_VERSION_STRING "1.12.0-stable"
+#define SYNERGY_VERSION_STRING "1.13.0-rc2"
 #define __FLT64_MAX__ 1.79769313486231570814527423731704357e+308F64
 #define __WINT_WIDTH__ 32
 #define __INT_LEAST8_MAX__ 0x7f
@@ -390,7 +390,7 @@
 #define __SSE_MATH__ 1
 #define __SIZEOF_LONG_LONG__ 8
 #define SYNERGY_BUILD_NUMBER 1
-#define SYNERGY_VERSION_STAGE "stable"
+#define SYNERGY_VERSION_STAGE "rc2"
 #define __cpp_user_defined_literals 200809
 #define __FLT128_DECIMAL_DIG__ 36
 #define __GCC_ATOMIC_LLONG_LOCK_FREE 2

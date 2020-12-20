@@ -279,6 +279,33 @@ ipc/IpcLogOutputterTests.cpp.s:
 	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/ipc/IpcLogOutputterTests.cpp.s
 .PHONY : ipc/IpcLogOutputterTests.cpp.s
 
+shared/SerialKeyEditionTests.o: shared/SerialKeyEditionTests.cpp.o
+
+.PHONY : shared/SerialKeyEditionTests.o
+
+# target to build an object file
+shared/SerialKeyEditionTests.cpp.o:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.o
+.PHONY : shared/SerialKeyEditionTests.cpp.o
+
+shared/SerialKeyEditionTests.i: shared/SerialKeyEditionTests.cpp.i
+
+.PHONY : shared/SerialKeyEditionTests.i
+
+# target to preprocess a source file
+shared/SerialKeyEditionTests.cpp.i:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.i
+.PHONY : shared/SerialKeyEditionTests.cpp.i
+
+shared/SerialKeyEditionTests.s: shared/SerialKeyEditionTests.cpp.s
+
+.PHONY : shared/SerialKeyEditionTests.s
+
+# target to generate assembly for a file
+shared/SerialKeyEditionTests.cpp.s:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.s
+.PHONY : shared/SerialKeyEditionTests.cpp.s
+
 shared/SerialKeyTests.o: shared/SerialKeyTests.cpp.o
 
 .PHONY : shared/SerialKeyTests.o
@@ -305,6 +332,33 @@ shared/SerialKeyTests.s: shared/SerialKeyTests.cpp.s
 shared/SerialKeyTests.cpp.s:
 	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.s
 .PHONY : shared/SerialKeyTests.cpp.s
+
+shared/SerialKeyTypeTests.o: shared/SerialKeyTypeTests.cpp.o
+
+.PHONY : shared/SerialKeyTypeTests.o
+
+# target to build an object file
+shared/SerialKeyTypeTests.cpp.o:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.o
+.PHONY : shared/SerialKeyTypeTests.cpp.o
+
+shared/SerialKeyTypeTests.i: shared/SerialKeyTypeTests.cpp.i
+
+.PHONY : shared/SerialKeyTypeTests.i
+
+# target to preprocess a source file
+shared/SerialKeyTypeTests.cpp.i:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.i
+.PHONY : shared/SerialKeyTypeTests.cpp.i
+
+shared/SerialKeyTypeTests.s: shared/SerialKeyTypeTests.cpp.s
+
+.PHONY : shared/SerialKeyTypeTests.s
+
+# target to generate assembly for a file
+shared/SerialKeyTypeTests.cpp.s:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.s
+.PHONY : shared/SerialKeyTypeTests.cpp.s
 
 synergy/ArgParserTests.o: synergy/ArgParserTests.cpp.o
 
@@ -522,6 +576,60 @@ synergy/KeyStateTests.cpp.s:
 	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.s
 .PHONY : synergy/KeyStateTests.cpp.s
 
+synergy/ProtocolUtilTests.o: synergy/ProtocolUtilTests.cpp.o
+
+.PHONY : synergy/ProtocolUtilTests.o
+
+# target to build an object file
+synergy/ProtocolUtilTests.cpp.o:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.o
+.PHONY : synergy/ProtocolUtilTests.cpp.o
+
+synergy/ProtocolUtilTests.i: synergy/ProtocolUtilTests.cpp.i
+
+.PHONY : synergy/ProtocolUtilTests.i
+
+# target to preprocess a source file
+synergy/ProtocolUtilTests.cpp.i:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.i
+.PHONY : synergy/ProtocolUtilTests.cpp.i
+
+synergy/ProtocolUtilTests.s: synergy/ProtocolUtilTests.cpp.s
+
+.PHONY : synergy/ProtocolUtilTests.s
+
+# target to generate assembly for a file
+synergy/ProtocolUtilTests.cpp.s:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.s
+.PHONY : synergy/ProtocolUtilTests.cpp.s
+
+synergy/ServerAppTests.o: synergy/ServerAppTests.cpp.o
+
+.PHONY : synergy/ServerAppTests.o
+
+# target to build an object file
+synergy/ServerAppTests.cpp.o:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.o
+.PHONY : synergy/ServerAppTests.cpp.o
+
+synergy/ServerAppTests.i: synergy/ServerAppTests.cpp.i
+
+.PHONY : synergy/ServerAppTests.i
+
+# target to preprocess a source file
+synergy/ServerAppTests.cpp.i:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.i
+.PHONY : synergy/ServerAppTests.cpp.i
+
+synergy/ServerAppTests.s: synergy/ServerAppTests.cpp.s
+
+.PHONY : synergy/ServerAppTests.s
+
+# target to generate assembly for a file
+synergy/ServerAppTests.cpp.s:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/test/unittests/CMakeFiles/unittests.dir/build.make src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.s
+.PHONY : synergy/ServerAppTests.cpp.s
+
 synergy/ServerArgsParsingTests.o: synergy/ServerArgsParsingTests.cpp.o
 
 .PHONY : synergy/ServerArgsParsingTests.o
@@ -574,9 +682,15 @@ help:
 	@echo "... ipc/IpcLogOutputterTests.o"
 	@echo "... ipc/IpcLogOutputterTests.i"
 	@echo "... ipc/IpcLogOutputterTests.s"
+	@echo "... shared/SerialKeyEditionTests.o"
+	@echo "... shared/SerialKeyEditionTests.i"
+	@echo "... shared/SerialKeyEditionTests.s"
 	@echo "... shared/SerialKeyTests.o"
 	@echo "... shared/SerialKeyTests.i"
 	@echo "... shared/SerialKeyTests.s"
+	@echo "... shared/SerialKeyTypeTests.o"
+	@echo "... shared/SerialKeyTypeTests.i"
+	@echo "... shared/SerialKeyTypeTests.s"
 	@echo "... synergy/ArgParserTests.o"
 	@echo "... synergy/ArgParserTests.i"
 	@echo "... synergy/ArgParserTests.s"
@@ -601,6 +715,12 @@ help:
 	@echo "... synergy/KeyStateTests.o"
 	@echo "... synergy/KeyStateTests.i"
 	@echo "... synergy/KeyStateTests.s"
+	@echo "... synergy/ProtocolUtilTests.o"
+	@echo "... synergy/ProtocolUtilTests.i"
+	@echo "... synergy/ProtocolUtilTests.s"
+	@echo "... synergy/ServerAppTests.o"
+	@echo "... synergy/ServerAppTests.i"
+	@echo "... synergy/ServerAppTests.s"
 	@echo "... synergy/ServerArgsParsingTests.o"
 	@echo "... synergy/ServerArgsParsingTests.i"
 	@echo "... synergy/ServerArgsParsingTests.s"

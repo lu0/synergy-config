@@ -77,6 +77,8 @@ src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /h
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.h
 src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
@@ -182,6 +184,8 @@ src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/syner
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.h
 src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h

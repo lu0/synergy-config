@@ -560,6 +560,8 @@ src/lib/server/CMakeFiles/server.dir/ClientProxy1_4.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
@@ -656,6 +658,8 @@ src/lib/server/CMakeFiles/server.dir/ClientProxy1_5.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
@@ -756,6 +760,8 @@ src/lib/server/CMakeFiles/server.dir/ClientProxy1_6.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
@@ -857,6 +863,8 @@ src/lib/server/CMakeFiles/server.dir/ClientProxyUnknown.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
@@ -907,6 +915,8 @@ src/lib/server/CMakeFiles/server.dir/Config.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
@@ -998,6 +1008,8 @@ src/lib/server/CMakeFiles/server.dir/InputFilter.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
@@ -1172,6 +1184,8 @@ src/lib/server/CMakeFiles/server.dir/Server.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Chunk.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/Clipboard.h

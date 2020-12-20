@@ -198,6 +198,60 @@ SerialKey.cpp.s:
 	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/lib/shared/CMakeFiles/shared.dir/build.make src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.s
 .PHONY : SerialKey.cpp.s
 
+SerialKeyEdition.o: SerialKeyEdition.cpp.o
+
+.PHONY : SerialKeyEdition.o
+
+# target to build an object file
+SerialKeyEdition.cpp.o:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/lib/shared/CMakeFiles/shared.dir/build.make src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.o
+.PHONY : SerialKeyEdition.cpp.o
+
+SerialKeyEdition.i: SerialKeyEdition.cpp.i
+
+.PHONY : SerialKeyEdition.i
+
+# target to preprocess a source file
+SerialKeyEdition.cpp.i:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/lib/shared/CMakeFiles/shared.dir/build.make src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.i
+.PHONY : SerialKeyEdition.cpp.i
+
+SerialKeyEdition.s: SerialKeyEdition.cpp.s
+
+.PHONY : SerialKeyEdition.s
+
+# target to generate assembly for a file
+SerialKeyEdition.cpp.s:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/lib/shared/CMakeFiles/shared.dir/build.make src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.s
+.PHONY : SerialKeyEdition.cpp.s
+
+SerialKeyType.o: SerialKeyType.cpp.o
+
+.PHONY : SerialKeyType.o
+
+# target to build an object file
+SerialKeyType.cpp.o:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/lib/shared/CMakeFiles/shared.dir/build.make src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.o
+.PHONY : SerialKeyType.cpp.o
+
+SerialKeyType.i: SerialKeyType.cpp.i
+
+.PHONY : SerialKeyType.i
+
+# target to preprocess a source file
+SerialKeyType.cpp.i:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/lib/shared/CMakeFiles/shared.dir/build.make src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.i
+.PHONY : SerialKeyType.cpp.i
+
+SerialKeyType.s: SerialKeyType.cpp.s
+
+.PHONY : SerialKeyType.s
+
+# target to generate assembly for a file
+SerialKeyType.cpp.s:
+	cd /home/lucero/code/synergy-core/build && $(MAKE) -f src/lib/shared/CMakeFiles/shared.dir/build.make src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.s
+.PHONY : SerialKeyType.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,6 +268,12 @@ help:
 	@echo "... SerialKey.o"
 	@echo "... SerialKey.i"
 	@echo "... SerialKey.s"
+	@echo "... SerialKeyEdition.o"
+	@echo "... SerialKeyEdition.i"
+	@echo "... SerialKeyEdition.s"
+	@echo "... SerialKeyType.o"
+	@echo "... SerialKeyType.i"
+	@echo "... SerialKeyType.s"
 .PHONY : help
 
 

@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lucero/code/synergy-core/source-code-git/src/test/global/TestEventQueue.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/base/StringTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/base/StringTests.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/ipc/IpcLogOutputterTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/ipc/IpcLogOutputterTests.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyEditionTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTypeTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ArgParserTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ClientArgsParsingTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ClipboardChunkTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.o"
@@ -17,6 +19,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/GenericArgsParsingTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/KeyMapTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/KeyStateTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ProtocolUtilTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.o"
+  "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ServerAppTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.o"
   "/home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ServerArgsParsingTests.cpp" "/home/lucero/code/synergy-core/build/src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -25,11 +29,11 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "HAVE_CONFIG_H"
   "NDEBUG"
-  "SYNERGY_BUILD_DATE=\"20200907\""
+  "SYNERGY_BUILD_DATE=\"20201220\""
   "SYNERGY_BUILD_NUMBER=1"
   "SYNERGY_REVISION=\"0badc0de\""
-  "SYNERGY_VERSION=\"1.12.0\""
-  "SYNERGY_VERSION_STRING=\"1.12.0-stable\""
+  "SYNERGY_VERSION=\"1.13.0\""
+  "SYNERGY_VERSION_STRING=\"1.13.0-rc2\""
   "SYSAPI_UNIX=1"
   "WINAPI_XWINDOWS=1"
   )

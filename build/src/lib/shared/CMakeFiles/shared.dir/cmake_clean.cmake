@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/shared.dir/SerialKey.cpp.o"
+  "CMakeFiles/shared.dir/SerialKeyEdition.cpp.o"
+  "CMakeFiles/shared.dir/SerialKeyType.cpp.o"
   "libshared.a"
   "libshared.pdb"
 )

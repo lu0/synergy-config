@@ -5,4 +5,13 @@ src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.o: /home/lucero/code/synergy-
 src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.cpp
 src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
+
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.cpp
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.cpp
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 

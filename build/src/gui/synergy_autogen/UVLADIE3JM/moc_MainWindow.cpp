@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[48];
-    char stringdata0[773];
+    QByteArrayData data[46];
+    char stringdata0[777];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -37,56 +37,54 @@ QT_MOC_LITERAL(2, 23, 0), // ""
 QT_MOC_LITERAL(3, 24, 10), // "setEdition"
 QT_MOC_LITERAL(4, 35, 7), // "Edition"
 QT_MOC_LITERAL(5, 43, 7), // "edition"
-QT_MOC_LITERAL(6, 51, 10), // "beginTrial"
-QT_MOC_LITERAL(7, 62, 10), // "isExpiring"
-QT_MOC_LITERAL(8, 73, 8), // "endTrial"
-QT_MOC_LITERAL(9, 82, 9), // "isExpired"
-QT_MOC_LITERAL(10, 92, 12), // "appendLogRaw"
-QT_MOC_LITERAL(11, 105, 4), // "text"
-QT_MOC_LITERAL(12, 110, 13), // "appendLogInfo"
-QT_MOC_LITERAL(13, 124, 14), // "appendLogDebug"
-QT_MOC_LITERAL(14, 139, 14), // "appendLogError"
-QT_MOC_LITERAL(15, 154, 12), // "startSynergy"
-QT_MOC_LITERAL(16, 167, 10), // "retryStart"
-QT_MOC_LITERAL(17, 178, 10), // "sslToggled"
-QT_MOC_LITERAL(18, 189, 7), // "enabled"
-QT_MOC_LITERAL(19, 197, 25), // "on_m_pGroupClient_toggled"
-QT_MOC_LITERAL(20, 223, 2), // "on"
-QT_MOC_LITERAL(21, 226, 25), // "on_m_pGroupServer_toggled"
-QT_MOC_LITERAL(22, 252, 36), // "on_m_pButtonBrowseConfigFile_..."
-QT_MOC_LITERAL(23, 289, 35), // "on_m_pButtonConfigureServer_c..."
-QT_MOC_LITERAL(24, 325, 26), // "on_m_pActionSave_triggered"
-QT_MOC_LITERAL(25, 352, 27), // "on_m_pActionAbout_triggered"
-QT_MOC_LITERAL(26, 380, 26), // "on_m_pActionHelp_triggered"
-QT_MOC_LITERAL(27, 407, 30), // "on_m_pActionSettings_triggered"
-QT_MOC_LITERAL(28, 438, 24), // "on_m_pActivate_triggered"
-QT_MOC_LITERAL(29, 463, 15), // "synergyFinished"
-QT_MOC_LITERAL(30, 479, 8), // "exitCode"
-QT_MOC_LITERAL(31, 488, 20), // "QProcess::ExitStatus"
-QT_MOC_LITERAL(32, 509, 13), // "trayActivated"
-QT_MOC_LITERAL(33, 523, 33), // "QSystemTrayIcon::ActivationRe..."
-QT_MOC_LITERAL(34, 557, 6), // "reason"
-QT_MOC_LITERAL(35, 564, 11), // "stopSynergy"
-QT_MOC_LITERAL(36, 576, 9), // "logOutput"
-QT_MOC_LITERAL(37, 586, 8), // "logError"
-QT_MOC_LITERAL(38, 595, 11), // "updateFound"
-QT_MOC_LITERAL(39, 607, 7), // "version"
-QT_MOC_LITERAL(40, 615, 12), // "saveSettings"
-QT_MOC_LITERAL(41, 628, 15), // "zeroConfToggled"
-QT_MOC_LITERAL(42, 644, 25), // "on_m_pButtonApply_clicked"
-QT_MOC_LITERAL(43, 670, 14), // "on_windowShown"
-QT_MOC_LITERAL(44, 685, 35), // "on_m_pLabelAutoConfig_linkAct..."
-QT_MOC_LITERAL(45, 721, 4), // "link"
-QT_MOC_LITERAL(46, 726, 41), // "on_m_pComboServerList_current..."
-QT_MOC_LITERAL(47, 768, 4) // "arg1"
+QT_MOC_LITERAL(6, 51, 14), // "InvalidLicense"
+QT_MOC_LITERAL(7, 66, 17), // "showLicenseNotice"
+QT_MOC_LITERAL(8, 84, 7), // "message"
+QT_MOC_LITERAL(9, 92, 12), // "appendLogRaw"
+QT_MOC_LITERAL(10, 105, 4), // "text"
+QT_MOC_LITERAL(11, 110, 13), // "appendLogInfo"
+QT_MOC_LITERAL(12, 124, 14), // "appendLogDebug"
+QT_MOC_LITERAL(13, 139, 14), // "appendLogError"
+QT_MOC_LITERAL(14, 154, 12), // "startSynergy"
+QT_MOC_LITERAL(15, 167, 10), // "retryStart"
+QT_MOC_LITERAL(16, 178, 22), // "updateLocalFingerprint"
+QT_MOC_LITERAL(17, 201, 25), // "on_m_pGroupClient_toggled"
+QT_MOC_LITERAL(18, 227, 2), // "on"
+QT_MOC_LITERAL(19, 230, 25), // "on_m_pGroupServer_toggled"
+QT_MOC_LITERAL(20, 256, 36), // "on_m_pButtonBrowseConfigFile_..."
+QT_MOC_LITERAL(21, 293, 35), // "on_m_pButtonConfigureServer_c..."
+QT_MOC_LITERAL(22, 329, 26), // "on_m_pActionSave_triggered"
+QT_MOC_LITERAL(23, 356, 27), // "on_m_pActionAbout_triggered"
+QT_MOC_LITERAL(24, 384, 26), // "on_m_pActionHelp_triggered"
+QT_MOC_LITERAL(25, 411, 30), // "on_m_pActionSettings_triggered"
+QT_MOC_LITERAL(26, 442, 24), // "on_m_pActivate_triggered"
+QT_MOC_LITERAL(27, 467, 15), // "synergyFinished"
+QT_MOC_LITERAL(28, 483, 8), // "exitCode"
+QT_MOC_LITERAL(29, 492, 20), // "QProcess::ExitStatus"
+QT_MOC_LITERAL(30, 513, 13), // "trayActivated"
+QT_MOC_LITERAL(31, 527, 33), // "QSystemTrayIcon::ActivationRe..."
+QT_MOC_LITERAL(32, 561, 6), // "reason"
+QT_MOC_LITERAL(33, 568, 11), // "stopSynergy"
+QT_MOC_LITERAL(34, 580, 9), // "logOutput"
+QT_MOC_LITERAL(35, 590, 8), // "logError"
+QT_MOC_LITERAL(36, 599, 11), // "updateFound"
+QT_MOC_LITERAL(37, 611, 7), // "version"
+QT_MOC_LITERAL(38, 619, 12), // "saveSettings"
+QT_MOC_LITERAL(39, 632, 15), // "zeroConfToggled"
+QT_MOC_LITERAL(40, 648, 25), // "on_m_pButtonApply_clicked"
+QT_MOC_LITERAL(41, 674, 14), // "on_windowShown"
+QT_MOC_LITERAL(42, 689, 35), // "on_m_pLabelAutoConfig_linkAct..."
+QT_MOC_LITERAL(43, 725, 4), // "link"
+QT_MOC_LITERAL(44, 730, 41), // "on_m_pComboServerList_current..."
+QT_MOC_LITERAL(45, 772, 4) // "arg1"
 
     },
     "MainWindow\0windowShown\0\0setEdition\0"
-    "Edition\0edition\0beginTrial\0isExpiring\0"
-    "endTrial\0isExpired\0appendLogRaw\0text\0"
-    "appendLogInfo\0appendLogDebug\0"
+    "Edition\0edition\0InvalidLicense\0"
+    "showLicenseNotice\0message\0appendLogRaw\0"
+    "text\0appendLogInfo\0appendLogDebug\0"
     "appendLogError\0startSynergy\0retryStart\0"
-    "sslToggled\0enabled\0on_m_pGroupClient_toggled\0"
+    "updateLocalFingerprint\0on_m_pGroupClient_toggled\0"
     "on\0on_m_pGroupServer_toggled\0"
     "on_m_pButtonBrowseConfigFile_clicked\0"
     "on_m_pButtonConfigureServer_clicked\0"
@@ -124,53 +122,53 @@ static const uint qt_meta_data_MainWindow[] = {
 
  // slots: name, argc, parameters, tag, flags
        3,    1,  175,    2, 0x0a /* Public */,
-       6,    1,  178,    2, 0x0a /* Public */,
-       8,    1,  181,    2, 0x0a /* Public */,
-      10,    1,  184,    2, 0x0a /* Public */,
-      12,    1,  187,    2, 0x0a /* Public */,
-      13,    1,  190,    2, 0x0a /* Public */,
-      14,    1,  193,    2, 0x0a /* Public */,
-      15,    0,  196,    2, 0x0a /* Public */,
-      16,    0,  197,    2, 0x0a /* Public */,
-      17,    1,  198,    2, 0x09 /* Protected */,
-      19,    1,  201,    2, 0x09 /* Protected */,
-      21,    1,  204,    2, 0x09 /* Protected */,
-      22,    0,  207,    2, 0x09 /* Protected */,
-      23,    0,  208,    2, 0x09 /* Protected */,
-      24,    0,  209,    2, 0x09 /* Protected */,
-      25,    0,  210,    2, 0x09 /* Protected */,
-      26,    0,  211,    2, 0x09 /* Protected */,
-      27,    0,  212,    2, 0x09 /* Protected */,
-      28,    0,  213,    2, 0x09 /* Protected */,
-      29,    2,  214,    2, 0x09 /* Protected */,
-      32,    1,  219,    2, 0x09 /* Protected */,
-      35,    0,  222,    2, 0x09 /* Protected */,
-      36,    0,  223,    2, 0x09 /* Protected */,
-      37,    0,  224,    2, 0x09 /* Protected */,
-      38,    1,  225,    2, 0x09 /* Protected */,
-      40,    0,  228,    2, 0x09 /* Protected */,
-      41,    0,  229,    2, 0x09 /* Protected */,
-      42,    0,  230,    2, 0x08 /* Private */,
-      43,    0,  231,    2, 0x08 /* Private */,
-      44,    1,  232,    2, 0x08 /* Private */,
-      46,    1,  235,    2, 0x08 /* Private */,
+       6,    0,  178,    2, 0x0a /* Public */,
+       7,    1,  179,    2, 0x0a /* Public */,
+       9,    1,  182,    2, 0x0a /* Public */,
+      11,    1,  185,    2, 0x0a /* Public */,
+      12,    1,  188,    2, 0x0a /* Public */,
+      13,    1,  191,    2, 0x0a /* Public */,
+      14,    0,  194,    2, 0x0a /* Public */,
+      15,    0,  195,    2, 0x0a /* Public */,
+      16,    0,  196,    2, 0x09 /* Protected */,
+      17,    1,  197,    2, 0x09 /* Protected */,
+      19,    1,  200,    2, 0x09 /* Protected */,
+      20,    0,  203,    2, 0x09 /* Protected */,
+      21,    0,  204,    2, 0x09 /* Protected */,
+      22,    0,  205,    2, 0x09 /* Protected */,
+      23,    0,  206,    2, 0x09 /* Protected */,
+      24,    0,  207,    2, 0x09 /* Protected */,
+      25,    0,  208,    2, 0x09 /* Protected */,
+      26,    0,  209,    2, 0x09 /* Protected */,
+      27,    2,  210,    2, 0x09 /* Protected */,
+      30,    1,  215,    2, 0x09 /* Protected */,
+      33,    0,  218,    2, 0x09 /* Protected */,
+      34,    0,  219,    2, 0x09 /* Protected */,
+      35,    0,  220,    2, 0x09 /* Protected */,
+      36,    1,  221,    2, 0x09 /* Protected */,
+      38,    0,  224,    2, 0x09 /* Protected */,
+      39,    0,  225,    2, 0x09 /* Protected */,
+      40,    0,  226,    2, 0x08 /* Private */,
+      41,    0,  227,    2, 0x08 /* Private */,
+      42,    1,  228,    2, 0x08 /* Private */,
+      44,    1,  231,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 4,    5,
-    QMetaType::Void, QMetaType::Bool,    7,
-    QMetaType::Void, QMetaType::Bool,    9,
-    QMetaType::Void, QMetaType::QString,   11,
-    QMetaType::Void, QMetaType::QString,   11,
-    QMetaType::Void, QMetaType::QString,   11,
-    QMetaType::Void, QMetaType::QString,   11,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    8,
+    QMetaType::Void, QMetaType::QString,   10,
+    QMetaType::Void, QMetaType::QString,   10,
+    QMetaType::Void, QMetaType::QString,   10,
+    QMetaType::Void, QMetaType::QString,   10,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::Bool,   18,
-    QMetaType::Void, QMetaType::Bool,   20,
-    QMetaType::Void, QMetaType::Bool,   20,
+    QMetaType::Void, QMetaType::Bool,   18,
     QMetaType::Bool,
     QMetaType::Void,
     QMetaType::Bool,
@@ -178,18 +176,18 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Int, 0x80000000 | 31,   30,    2,
-    QMetaType::Void, 0x80000000 | 33,   34,
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 29,   28,    2,
+    QMetaType::Void, 0x80000000 | 31,   32,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   39,
+    QMetaType::Void, QMetaType::QString,   37,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   43,
     QMetaType::Void, QMetaType::QString,   45,
-    QMetaType::Void, QMetaType::QString,   47,
 
        0        // eod
 };
@@ -202,15 +200,15 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->windowShown(); break;
         case 1: _t->setEdition((*reinterpret_cast< Edition(*)>(_a[1]))); break;
-        case 2: _t->beginTrial((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 3: _t->endTrial((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 2: _t->InvalidLicense(); break;
+        case 3: _t->showLicenseNotice((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 4: _t->appendLogRaw((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 5: _t->appendLogInfo((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 6: _t->appendLogDebug((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 7: _t->appendLogError((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 8: _t->startSynergy(); break;
         case 9: _t->retryStart(); break;
-        case 10: _t->sslToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 10: _t->updateLocalFingerprint(); break;
         case 11: _t->on_m_pGroupClient_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 12: _t->on_m_pGroupServer_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 13: { bool _r = _t->on_m_pButtonBrowseConfigFile_clicked();

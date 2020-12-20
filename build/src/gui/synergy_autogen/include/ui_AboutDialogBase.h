@@ -24,10 +24,6 @@ class Ui_AboutDialogBase
 {
 public:
     QGridLayout *gridLayout;
-    QLabel *label_3;
-    QSpacerItem *spacerItem;
-    QLabel *label_2;
-    QSpacerItem *spacer;
     QHBoxLayout *horizontalLayout;
     QLabel *label;
     QLabel *m_pLabelSynergyVersion;
@@ -37,6 +33,10 @@ public:
     QLabel *m_pLabelBuildDate;
     QSpacerItem *horizontalSpacer_2;
     QPushButton *buttonOk;
+    QLabel *label_3;
+    QSpacerItem *spacerItem;
+    QSpacerItem *spacer;
+    QLabel *label_2;
 
     void setupUi(QDialog *AboutDialogBase)
     {
@@ -55,29 +55,6 @@ public:
         AboutDialogBase->setModal(true);
         gridLayout = new QGridLayout(AboutDialogBase);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        label_3 = new QLabel(AboutDialogBase);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-        sizePolicy.setHeightForWidth(label_3->sizePolicy().hasHeightForWidth());
-        label_3->setSizePolicy(sizePolicy);
-        label_3->setMargin(1);
-
-        gridLayout->addWidget(label_3, 2, 1, 1, 2);
-
-        spacerItem = new QSpacerItem(20, 100, QSizePolicy::Minimum, QSizePolicy::Preferred);
-
-        gridLayout->addItem(spacerItem, 3, 1, 1, 2);
-
-        label_2 = new QLabel(AboutDialogBase);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setPixmap(QPixmap(QString::fromUtf8(":/res/image/about.png")));
-        label_2->setMargin(0);
-
-        gridLayout->addWidget(label_2, 0, 1, 1, 1);
-
-        spacer = new QSpacerItem(20, 5, QSizePolicy::Minimum, QSizePolicy::Fixed);
-
-        gridLayout->addItem(spacer, 1, 1, 1, 2);
-
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         label = new QLabel(AboutDialogBase);
@@ -133,6 +110,34 @@ public:
 
         gridLayout->addLayout(horizontalLayout_2, 6, 1, 1, 1);
 
+        label_3 = new QLabel(AboutDialogBase);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        sizePolicy.setHeightForWidth(label_3->sizePolicy().hasHeightForWidth());
+        label_3->setSizePolicy(sizePolicy);
+        label_3->setMargin(1);
+
+        gridLayout->addWidget(label_3, 2, 1, 1, 2);
+
+        spacerItem = new QSpacerItem(20, 100, QSizePolicy::Minimum, QSizePolicy::Preferred);
+
+        gridLayout->addItem(spacerItem, 3, 1, 1, 2);
+
+        spacer = new QSpacerItem(20, 5, QSizePolicy::Minimum, QSizePolicy::Fixed);
+
+        gridLayout->addItem(spacer, 1, 1, 1, 2);
+
+        label_2 = new QLabel(AboutDialogBase);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        sizePolicy.setHeightForWidth(label_2->sizePolicy().hasHeightForWidth());
+        label_2->setSizePolicy(sizePolicy);
+        label_2->setMaximumSize(QSize(200, 50));
+        label_2->setText(QString::fromUtf8(""));
+        label_2->setPixmap(QPixmap(QString::fromUtf8(":/res/image/about.png")));
+        label_2->setScaledContents(true);
+        label_2->setMargin(0);
+
+        gridLayout->addWidget(label_2, 0, 1, 1, 1);
+
 
         retranslateUi(AboutDialogBase);
         QObject::connect(buttonOk, SIGNAL(clicked()), AboutDialogBase, SLOT(accept()));
@@ -143,13 +148,12 @@ public:
     void retranslateUi(QDialog *AboutDialogBase)
     {
         AboutDialogBase->setWindowTitle(QApplication::translate("AboutDialogBase", "About Synergy", nullptr));
-        label_3->setText(QString());
-        label_2->setText(QString());
         label->setText(QApplication::translate("AboutDialogBase", "Version:", nullptr));
         m_pLabelSynergyVersion->setText(QApplication::translate("AboutDialogBase", "Unknown", nullptr));
         label_5->setText(QApplication::translate("AboutDialogBase", "Build Date: ", nullptr));
         m_pLabelBuildDate->setText(QApplication::translate("AboutDialogBase", "Unknown", nullptr));
         buttonOk->setText(QApplication::translate("AboutDialogBase", "&Ok", nullptr));
+        label_3->setText(QString());
     } // retranslateUi
 
 };

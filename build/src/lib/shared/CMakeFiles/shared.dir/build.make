@@ -70,17 +70,47 @@ src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shared.dir/SerialKey.cpp.s"
 	cd /home/lucero/code/synergy-core/build/src/lib/shared && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.cpp -o CMakeFiles/shared.dir/SerialKey.cpp.s
 
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.o: src/lib/shared/CMakeFiles/shared.dir/flags.make
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.o"
+	cd /home/lucero/code/synergy-core/build/src/lib/shared && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shared.dir/SerialKeyEdition.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.cpp
+
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shared.dir/SerialKeyEdition.cpp.i"
+	cd /home/lucero/code/synergy-core/build/src/lib/shared && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.cpp > CMakeFiles/shared.dir/SerialKeyEdition.cpp.i
+
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shared.dir/SerialKeyEdition.cpp.s"
+	cd /home/lucero/code/synergy-core/build/src/lib/shared && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.cpp -o CMakeFiles/shared.dir/SerialKeyEdition.cpp.s
+
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.o: src/lib/shared/CMakeFiles/shared.dir/flags.make
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.o"
+	cd /home/lucero/code/synergy-core/build/src/lib/shared && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shared.dir/SerialKeyType.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.cpp
+
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shared.dir/SerialKeyType.cpp.i"
+	cd /home/lucero/code/synergy-core/build/src/lib/shared && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.cpp > CMakeFiles/shared.dir/SerialKeyType.cpp.i
+
+src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shared.dir/SerialKeyType.cpp.s"
+	cd /home/lucero/code/synergy-core/build/src/lib/shared && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.cpp -o CMakeFiles/shared.dir/SerialKeyType.cpp.s
+
 # Object files for target shared
 shared_OBJECTS = \
-"CMakeFiles/shared.dir/SerialKey.cpp.o"
+"CMakeFiles/shared.dir/SerialKey.cpp.o" \
+"CMakeFiles/shared.dir/SerialKeyEdition.cpp.o" \
+"CMakeFiles/shared.dir/SerialKeyType.cpp.o"
 
 # External object files for target shared
 shared_EXTERNAL_OBJECTS =
 
 src/lib/shared/libshared.a: src/lib/shared/CMakeFiles/shared.dir/SerialKey.cpp.o
+src/lib/shared/libshared.a: src/lib/shared/CMakeFiles/shared.dir/SerialKeyEdition.cpp.o
+src/lib/shared/libshared.a: src/lib/shared/CMakeFiles/shared.dir/SerialKeyType.cpp.o
 src/lib/shared/libshared.a: src/lib/shared/CMakeFiles/shared.dir/build.make
 src/lib/shared/libshared.a: src/lib/shared/CMakeFiles/shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libshared.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libshared.a"
 	cd /home/lucero/code/synergy-core/build/src/lib/shared && $(CMAKE_COMMAND) -P CMakeFiles/shared.dir/cmake_clean_target.cmake
 	cd /home/lucero/code/synergy-core/build/src/lib/shared && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shared.dir/link.txt --verbose=$(VERBOSE)
 

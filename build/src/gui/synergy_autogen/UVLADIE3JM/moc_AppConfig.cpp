@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_AppConfig_t {
-    QByteArrayData data[5];
-    char stringdata0[46];
+    QByteArrayData data[4];
+    char stringdata0[38];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,12 +34,10 @@ static const qt_meta_stringdata_AppConfig_t qt_meta_stringdata_AppConfig = {
 QT_MOC_LITERAL(0, 0, 9), // "AppConfig"
 QT_MOC_LITERAL(1, 10, 10), // "sslToggled"
 QT_MOC_LITERAL(2, 21, 0), // ""
-QT_MOC_LITERAL(3, 22, 7), // "enabled"
-QT_MOC_LITERAL(4, 30, 15) // "zeroConfToggled"
+QT_MOC_LITERAL(3, 22, 15) // "zeroConfToggled"
 
     },
-    "AppConfig\0sslToggled\0\0enabled\0"
-    "zeroConfToggled"
+    "AppConfig\0sslToggled\0\0zeroConfToggled"
 };
 #undef QT_MOC_LITERAL
 
@@ -57,11 +55,11 @@ static const uint qt_meta_data_AppConfig[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   24,    2, 0x06 /* Public */,
-       4,    0,   27,    2, 0x06 /* Public */,
+       1,    0,   24,    2, 0x06 /* Public */,
+       3,    0,   25,    2, 0x06 /* Public */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::Bool,    3,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -73,14 +71,14 @@ void AppConfig::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         auto *_t = static_cast<AppConfig *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->sslToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 0: _t->sslToggled(); break;
         case 1: _t->zeroConfToggled(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (AppConfig::*)(bool );
+            using _t = void (AppConfig::*)() const;
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&AppConfig::sslToggled)) {
                 *result = 0;
                 return;
@@ -94,6 +92,7 @@ void AppConfig::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
             }
         }
     }
+    Q_UNUSED(_a);
 }
 
 QT_INIT_METAOBJECT const QMetaObject AppConfig::staticMetaObject = { {
@@ -139,10 +138,9 @@ int AppConfig::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void AppConfig::sslToggled(bool _t1)
+void AppConfig::sslToggled()const
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
-    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+    QMetaObject::activate(const_cast< AppConfig *>(this), &staticMetaObject, 0, nullptr);
 }
 
 // SIGNAL 1

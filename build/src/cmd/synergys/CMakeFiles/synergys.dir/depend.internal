@@ -78,6 +78,8 @@ src/cmd/synergys/CMakeFiles/synergys.dir/XWindowsServerTaskBarReceiver.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
@@ -183,6 +185,8 @@ src/cmd/synergys/CMakeFiles/synergys.dir/synergys.cpp.o
  /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+ /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.h
  /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h

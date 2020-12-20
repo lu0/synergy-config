@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_LicenseManager_t {
-    QByteArrayData data[10];
-    char stringdata0[103];
+    QByteArrayData data[8];
+    char stringdata0[97];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -32,20 +32,18 @@ struct qt_meta_stringdata_LicenseManager_t {
 static const qt_meta_stringdata_LicenseManager_t qt_meta_stringdata_LicenseManager = {
     {
 QT_MOC_LITERAL(0, 0, 14), // "LicenseManager"
-QT_MOC_LITERAL(1, 15, 16), // "serialKeyChanged"
-QT_MOC_LITERAL(2, 32, 0), // ""
-QT_MOC_LITERAL(3, 33, 9), // "SerialKey"
-QT_MOC_LITERAL(4, 43, 14), // "editionChanged"
-QT_MOC_LITERAL(5, 58, 7), // "Edition"
-QT_MOC_LITERAL(6, 66, 10), // "beginTrial"
-QT_MOC_LITERAL(7, 77, 8), // "expiring"
-QT_MOC_LITERAL(8, 86, 8), // "endTrial"
-QT_MOC_LITERAL(9, 95, 7) // "expired"
+QT_MOC_LITERAL(1, 15, 14), // "editionChanged"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 7), // "Edition"
+QT_MOC_LITERAL(4, 39, 14), // "InvalidLicense"
+QT_MOC_LITERAL(5, 54, 17), // "showLicenseNotice"
+QT_MOC_LITERAL(6, 72, 6), // "notice"
+QT_MOC_LITERAL(7, 79, 17) // "validateSerialKey"
 
     },
-    "LicenseManager\0serialKeyChanged\0\0"
-    "SerialKey\0editionChanged\0Edition\0"
-    "beginTrial\0expiring\0endTrial\0expired"
+    "LicenseManager\0editionChanged\0\0Edition\0"
+    "InvalidLicense\0showLicenseNotice\0"
+    "notice\0validateSerialKey"
 };
 #undef QT_MOC_LITERAL
 
@@ -60,19 +58,23 @@ static const uint qt_meta_data_LicenseManager[] = {
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       4,       // signalCount
+       3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
        1,    1,   34,    2, 0x06 /* Public */,
-       4,    1,   37,    2, 0x06 /* Public */,
-       6,    1,   40,    2, 0x06 /* Public */,
-       8,    1,   43,    2, 0x06 /* Public */,
+       4,    0,   37,    2, 0x06 /* Public */,
+       5,    1,   38,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       7,    0,   41,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    2,
-    QMetaType::Void, 0x80000000 | 5,    2,
-    QMetaType::Void, QMetaType::Bool,    7,
-    QMetaType::Void, QMetaType::Bool,    9,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    6,
+
+ // slots: parameters
+    QMetaType::Void,
 
        0        // eod
 };
@@ -83,39 +85,32 @@ void LicenseManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         auto *_t = static_cast<LicenseManager *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->serialKeyChanged((*reinterpret_cast< SerialKey(*)>(_a[1]))); break;
-        case 1: _t->editionChanged((*reinterpret_cast< Edition(*)>(_a[1]))); break;
-        case 2: _t->beginTrial((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 3: _t->endTrial((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 0: _t->editionChanged((*reinterpret_cast< Edition(*)>(_a[1]))); break;
+        case 1: _t->InvalidLicense(); break;
+        case 2: _t->showLicenseNotice((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 3: _t->validateSerialKey(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (LicenseManager::*)(SerialKey ) const;
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LicenseManager::serialKeyChanged)) {
+            using _t = void (LicenseManager::*)(Edition ) const;
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LicenseManager::editionChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (LicenseManager::*)(Edition ) const;
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LicenseManager::editionChanged)) {
+            using _t = void (LicenseManager::*)() const;
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LicenseManager::InvalidLicense)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _t = void (LicenseManager::*)(bool ) const;
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LicenseManager::beginTrial)) {
+            using _t = void (LicenseManager::*)(const QString & ) const;
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LicenseManager::showLicenseNotice)) {
                 *result = 2;
-                return;
-            }
-        }
-        {
-            using _t = void (LicenseManager::*)(bool ) const;
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LicenseManager::endTrial)) {
-                *result = 3;
                 return;
             }
         }
@@ -163,31 +158,23 @@ int LicenseManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void LicenseManager::serialKeyChanged(SerialKey _t1)const
+void LicenseManager::editionChanged(Edition _t1)const
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(const_cast< LicenseManager *>(this), &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
-void LicenseManager::editionChanged(Edition _t1)const
+void LicenseManager::InvalidLicense()const
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
-    QMetaObject::activate(const_cast< LicenseManager *>(this), &staticMetaObject, 1, _a);
+    QMetaObject::activate(const_cast< LicenseManager *>(this), &staticMetaObject, 1, nullptr);
 }
 
 // SIGNAL 2
-void LicenseManager::beginTrial(bool _t1)const
+void LicenseManager::showLicenseNotice(const QString & _t1)const
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(const_cast< LicenseManager *>(this), &staticMetaObject, 2, _a);
-}
-
-// SIGNAL 3
-void LicenseManager::endTrial(bool _t1)const
-{
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
-    QMetaObject::activate(const_cast< LicenseManager *>(this), &staticMetaObject, 3, _a);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

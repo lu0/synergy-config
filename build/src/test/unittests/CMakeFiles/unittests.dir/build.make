@@ -96,9 +96,22 @@ src/test/unittests/CMakeFiles/unittests.dir/ipc/IpcLogOutputterTests.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/ipc/IpcLogOutputterTests.cpp.s"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/test/unittests/ipc/IpcLogOutputterTests.cpp -o CMakeFiles/unittests.dir/ipc/IpcLogOutputterTests.cpp.s
 
+src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
+src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyEditionTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.o"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyEditionTests.cpp
+
+src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.i"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyEditionTests.cpp > CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.i
+
+src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.s"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyEditionTests.cpp -o CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.s
+
 src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.i: cmake_force
@@ -109,9 +122,22 @@ src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.s"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTests.cpp -o CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.s
 
+src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
+src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTypeTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.o"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTypeTests.cpp
+
+src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.i"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTypeTests.cpp > CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.i
+
+src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.s"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/test/unittests/shared/SerialKeyTypeTests.cpp -o CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.s
+
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ArgParserTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ArgParserTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.i: cmake_force
@@ -124,7 +150,7 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.s: cmake_
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ClientArgsParsingTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ClientArgsParsingTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.i: cmake_force
@@ -137,7 +163,7 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.s
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ClipboardChunkTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ClipboardChunkTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.i: cmake_force
@@ -150,7 +176,7 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.s: c
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ClipboardTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/ClipboardTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ClipboardTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardTests.cpp.i: cmake_force
@@ -163,7 +189,7 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardTests.cpp.s: cmake_
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/DeprecatedArgsParsingTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/DeprecatedArgsParsingTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/DeprecatedArgsParsingTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/DeprecatedArgsParsingTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/DeprecatedArgsParsingTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/DeprecatedArgsParsingTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/DeprecatedArgsParsingTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/DeprecatedArgsParsingTests.cpp.i: cmake_force
@@ -176,7 +202,7 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/DeprecatedArgsParsingTests.c
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/GenericArgsParsingTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/GenericArgsParsingTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.i: cmake_force
@@ -189,7 +215,7 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/KeyMapTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/KeyMapTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.i: cmake_force
@@ -202,7 +228,7 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.s: cmake_for
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/KeyStateTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/KeyStateTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.i: cmake_force
@@ -213,9 +239,35 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.s"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/KeyStateTests.cpp -o CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.s
 
+src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
+src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ProtocolUtilTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.o"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ProtocolUtilTests.cpp
+
+src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.i"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ProtocolUtilTests.cpp > CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.i
+
+src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.s"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ProtocolUtilTests.cpp -o CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.s
+
+src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
+src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ServerAppTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.o"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ServerAppTests.cpp
+
+src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.i"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ServerAppTests.cpp > CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.i
+
+src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.s"
+	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ServerAppTests.cpp -o CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.s
+
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ServerArgsParsingTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/unittests/synergy/ServerArgsParsingTests.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.i: cmake_force
@@ -228,7 +280,7 @@ src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.s
 
 src/test/unittests/CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.o: src/test/unittests/CMakeFiles/unittests.dir/flags.make
 src/test/unittests/CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/test/global/TestEventQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/test/unittests/CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.o"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.o -c /home/lucero/code/synergy-core/source-code-git/src/test/global/TestEventQueue.cpp
 
 src/test/unittests/CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.i: cmake_force
@@ -244,7 +296,9 @@ unittests_OBJECTS = \
 "CMakeFiles/unittests.dir/Main.cpp.o" \
 "CMakeFiles/unittests.dir/base/StringTests.cpp.o" \
 "CMakeFiles/unittests.dir/ipc/IpcLogOutputterTests.cpp.o" \
+"CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.o" \
 "CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.o" \
+"CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.o" \
 "CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.o" \
 "CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.o" \
 "CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.o" \
@@ -253,6 +307,8 @@ unittests_OBJECTS = \
 "CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.o" \
 "CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.o" \
 "CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.o" \
+"CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.o" \
+"CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.o" \
 "CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.o" \
 "CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.o"
 
@@ -262,7 +318,9 @@ unittests_EXTERNAL_OBJECTS =
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/Main.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/base/StringTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/ipc/IpcLogOutputterTests.cpp.o
+bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyEditionTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTests.cpp.o
+bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/shared/SerialKeyTypeTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/ArgParserTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/ClientArgsParsingTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/ClipboardChunkTests.cpp.o
@@ -271,6 +329,8 @@ bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/DeprecatedArg
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/GenericArgsParsingTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyMapTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/KeyStateTests.cpp.o
+bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/ProtocolUtilTests.cpp.o
+bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerAppTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/synergy/ServerArgsParsingTests.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/__/global/TestEventQueue.cpp.o
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/build.make
@@ -302,7 +362,7 @@ bin/unittests: src/lib/net/libnet.a
 bin/unittests: src/lib/io/libio.a
 bin/unittests: src/lib/mt/libmt.a
 bin/unittests: src/test/unittests/CMakeFiles/unittests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ../../../bin/unittests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucero/code/synergy-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable ../../../bin/unittests"
 	cd /home/lucero/code/synergy-core/build/src/test/unittests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unittests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

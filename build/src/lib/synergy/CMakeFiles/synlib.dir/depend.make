@@ -182,6 +182,8 @@ src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/InputFilter.h
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.h
 src/lib/synergy/CMakeFiles/synlib.dir/ArgParser.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgParser.cpp
@@ -620,6 +622,8 @@ src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/InputFilter.h
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.h
 src/lib/synergy/CMakeFiles/synlib.dir/DaemonApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgParser.h
@@ -1446,6 +1450,8 @@ src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerApp.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgParser.h
@@ -1502,6 +1508,8 @@ src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synerg
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/InputFilter.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/DragInformation.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerArgs.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/IKeyState.h
@@ -1594,6 +1602,8 @@ src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/server/Server.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/EditionType.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKey.h
+src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyEdition.h
+src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/shared/SerialKeyType.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/App.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/AppUtil.h
 src/lib/synergy/CMakeFiles/synlib.dir/ServerTaskBarReceiver.cpp.o: /home/lucero/code/synergy-core/source-code-git/src/lib/synergy/ArgsBase.h
