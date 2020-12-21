@@ -10,7 +10,7 @@ sudo shutdown -P 23:30
 DATE=$(date -d '+1 day' +"%Y%m%d")  # Tomorrow, YYYMMDD
 TIME=0655                           # 6:55 am,     HHMM
 
-# Convert to epoch date
+# Convert it to epoch date
 WAKETIME=$(date -d "$DATE $TIME" +%s)   # Check with: date -d @$WAKETIME
 
 sudo sh -c "echo 0 > /sys/class/rtc/rtc0/wakealarm"            # Clear alarm
