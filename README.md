@@ -100,4 +100,4 @@ git checkout af63aab1
 ``` -->
 
 ## Disclaimer
-I'm not the maintainer of Synergy, nor am I affiliated with Symless in anyway way. Bugs or issues related to Synergy should be reported directly on the official [Synergy GitHub page](https://github.com/symless/synergy-core).
+I'm not the maintainer of Synergy, nor am I affiliated with Symless in any way. Bugs or issues related to Synergy should be reported directly on the official [issues page](https://github.com/symless/synergy-core/issues).
