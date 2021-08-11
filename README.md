@@ -81,6 +81,7 @@ user_name ALL=(ALL) NOPSSWD:/usr/bin/killall -9 synergyc
 ## Building
 Rebuild Synergy if you need to or if the [Synergy](https://github.com/symless/synergy-core) submodule has new commits. The binaries are symlinked, you don't need to repeat the previous step.
 ```zsh
+rm -rf build-previous/
 mv build/ build-previous/
 mkdir build && cd build/
 cmake ../source-code-git/
@@ -89,14 +90,34 @@ make
 
 If the build is unsuccessful, you may need the following libraries:
 ```zsh
-sudo apt-get install qttools5-dev-tools
-sudo apt-get install qttools5-dev
+sudo apt install -y \
+  qtcreator \
+  qtbase5-dev \
+  qttools5-dev-tools \
+  qttools5-dev \
+  cmake \
+  make \
+  g++ \
+  xorg-dev \
+  libssl-dev \
+  libx11-dev \
+  libsodium-dev \
+  libgl1-mesa-glx \
+  libegl1-mesa \
+  libcurl4-openssl-dev \
+  libavahi-compat-libdnssd-dev \
+  qtdeclarative5-dev \
+  libqt5svg5-dev \
+  libsystemd-dev \
+  libnotify-dev \
+  libgdk-pixbuf2.0-dev \
+  libglib2.0-dev
 ```
 
 <!-- If still unsuccessful, go to a working commit:
 ```zsh
 cd source-code-git/
-git checkout af63aab1
+git checkout 28dcd342 # snapshot 1.14.1.30
 ``` -->
 
 ## Disclaimer
