@@ -25,3 +25,4 @@ src/setup/win32/synergy.suo
 /CMakeLists.txt.*
 /doxygen/
 build-previous/
+build/

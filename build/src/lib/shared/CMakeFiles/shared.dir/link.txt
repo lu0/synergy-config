@@ -1,2 +1,0 @@
-/usr/bin/ar qc libshared.a  CMakeFiles/shared.dir/SerialKey.cpp.o CMakeFiles/shared.dir/SerialKeyEdition.cpp.o CMakeFiles/shared.dir/SerialKeyType.cpp.o
-/usr/bin/ranlib libshared.a
