@@ -16,13 +16,10 @@ cd ~/code/synergy-core
 sudo ln -srf build/bin/synergy* /usr/bin/
 ```
 
-Run Synergy GUI on both laptops, so you can see **Client**'s and **Server**'s **name/IP**.
+Run Synergy GUI on both laptops, so you can see **Client**'s and **Server**'s **name**.
 ```zsh
 synergy
 ```
-*It make take a while to open as on some Destop Environments the System Tray for Synergy is not available*
-<br />
-<br />
 Modify `~/code/synergy-core/synergy.conf` to your needs. Then link it to your Home folder.
 ```zsh
 ln -srf synergy.conf ~/.synergy.conf
@@ -30,18 +27,18 @@ ln -srf synergy.conf ~/.synergy.conf
 
 Run synergy as **Server** on your primary PC (the one with the keyboard you're going to use).
 ```zsh
-synergys -f
+synergy-core --server -f -a <address> -c ~/.synergy.conf
 ```
 
 Run synergy as a **Client** on the other PC.
 ```zsh
-synergyc -f <serverIP>
+synergy-core --client -f <server-address>
 ```
 ### Autostart (SDDM display manager)
-Run Synergy at startup (if using [SDDM](https://github.com/lu0/sddm-chili))
+Run Synergy as client at startup (if using [SDDM](https://github.com/lu0/sddm-chili))
 ```zsh
 sudo sh -c 'echo "" >> /usr/share/sddm/scripts/Xsetup' 
-sudo sh -c 'echo "/usr/bin/synergyc <serverIP>" >> /usr/share/sddm/scripts/Xsetup' 
+sudo sh -c 'echo "/usr/bin/synergy-core --client <serverIP>" >> /usr/share/sddm/scripts/Xsetup' 
 ```
 
 ### Disable internal monitor
@@ -49,7 +46,7 @@ Paste this in `/usr/share/sddm/scripts/Xsetup` of your **2nd computer**, this wi
 ```zsh
 xrandr --output eDP-1 --off
 ```
-Or paste this if you want SDDM on both screens but the HDMI one has the wrong resolution (my 2nd computer is HD, but my TV is FHD).
+Or paste this if you want SDDM on both screens but the HDMI one has the wrong resolution (my 2nd computer is HD, but my monitor is FHD).
 ```zsh
 xrandr --output HDMI-1 --mode 1920x1080
 ```
@@ -117,7 +114,7 @@ sudo apt install -y \
 <!-- If still unsuccessful, go to a working commit:
 ```zsh
 cd source-code-git/
-git checkout 28dcd342 # snapshot 1.14.1.30
+git checkout 0bd448d5 # v2.0.0 
 ``` -->
 
 ## Disclaimer
